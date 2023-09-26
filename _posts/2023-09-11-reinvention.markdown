@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reinvention"
-date:   2023-09-08 17:39:03 +0530
+date:   2023-09-11 17:39:03 +0530
 categories: short story
 ---
 He was a loner, had no friends, always being bullied by everyone. He would go to sleep wishing he was someone else. Someone smarter, stronger, more attractive, and he felt all of these things would make him successful. He hated how mundane his life felt, the job bored him, his skills seemed mediocre. Everyday it seemed to him he is wasting his potential, trapped in a body and a mind that did not suit him.
