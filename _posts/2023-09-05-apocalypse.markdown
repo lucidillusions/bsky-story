@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Apocalypse"
-date:   2023-09-02 17:39:03 +0530
+date:   2023-09-05 17:39:03 +0530
 categories: short story
 ---
 We tried everything, but it was imminent. The leaders were old, and instead of wisdom were full of ego. There was no way to calm the situation down.
