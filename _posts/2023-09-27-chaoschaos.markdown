@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chaos Chaos"
-date:   2023-09-27 17:39:03 +0530
+date:   2023-09-27 10:39:03 +0530
 categories: short story
 ---
 
