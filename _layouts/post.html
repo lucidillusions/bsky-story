@@ -9,3 +9,17 @@ layout: default
 >
 
 {{ content }}
+
+<div class="post-navigation">
+  <div class="prev">
+    {% if page.previous %}
+      <a href="{{ page.previous.url | prepend: site.baseurl }}">Previous: {{ page.previous.title }}</a>
+    {% endif %}
+  </div>
+
+  <div class="next">
+    {% if page.next %}
+      <a href="{{ page.next.url | prepend: site.baseurl }}">Next: {{ page.next.title }}</a>
+    {% endif %}
+  </div>
+</div>
