@@ -61,6 +61,15 @@ time {
   margin: 0 auto;
 }
 
+.post-navigation {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev, .next {
+  width: 48%; /* Adjust as needed */
+}
 
 
 /* Aside */
