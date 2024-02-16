@@ -6,15 +6,15 @@ categories: short story
 ---
 
 
-"Rain hammered against the shattered window, echoing the devastation that had ripped through their world moments earlier. Anya strained to hear the rhythmic beeping cutting through the dust-filled air. Each beep shattered her already fractured hope.
+> "Rain hammered against the shattered window, echoing the devastation that had ripped through their world moments earlier. Anya strained to hear the rhythmic beeping cutting through the dust-filled air. Each beep shattered her already fractured hope.
 
-One, two, three... thirty... too fast, too close. This wasn't the dying device's irregular whine; it was the calculated countdown of something sinister. Another bomb, poised to wreak havoc on the ravaged city.
+> One, two, three... thirty... too fast, too close. This wasn't the dying device's irregular whine; it was the calculated countdown of something sinister. Another bomb, poised to wreak havoc on the ravaged city.
 
-Anya glanced at Damien, pinned beneath the rubble, his chest rising and falling. Relief washed over her, brief and sharp. He was alive. But for how long? The blast had taken their comms, their escape route, and their sense of security. Trapped and vulnerable, they awaited the inevitable.
+> Anya glanced at Damien, pinned beneath the rubble, his chest rising and falling. Relief washed over her, brief and sharp. He was alive. But for how long? The blast had taken their comms, their escape route, and their sense of security. Trapped and vulnerable, they awaited the inevitable.
 
-Her gaze fell to her mangled leg, panic gnawing at her resolve. But she wouldn't give up. Not yet. Not while Damien breathed, not while there was still a sliver of hope.
+> Her gaze fell to her mangled leg, panic gnawing at her resolve. But she wouldn't give up. Not yet. Not while Damien breathed, not while there was still a sliver of hope.
 
-The beeps quickened, matching the frantic thudding of her heart. Three minutes give or take. Three precious minutes to defy fate."
+> The beeps quickened, matching the frantic thudding of her heart. Three minutes give or take. Three precious minutes to defy fate."
 
 --- --- --- 
 
