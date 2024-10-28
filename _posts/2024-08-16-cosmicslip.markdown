@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Curious Case of Dr. Alkhadran's Circus"
+title:  "The Cosmic Slip"
 date:   2024-08-16 18:39:03 +0530
 categories: deathclock
 ---
