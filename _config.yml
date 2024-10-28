@@ -18,7 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
 #title: Story
 #email: gmail@lucidillusions.in
 #description: >- # this means to ignore newlines until "baseurl:"
@@ -31,13 +30,8 @@
 # Build settings
 #theme: minima
 #markdown: kramdown
-#plugins:
-#  - jekyll-feed
-
-
-
-
-
+plugins:
+  - jekyll-feed
 
 title: Short Stories
 email: gmail@lucidillusions.in
@@ -46,17 +40,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lucidillusions_
-instagram_username:  lucidillusions.in
+instagram_username: lucidillusions.in
 
 # Build settings
 sass:
   sass_dir: _sass
-include: ['_pages']
+include: ["_pages"]
 kramdown:
   input: GFM
-
-
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
