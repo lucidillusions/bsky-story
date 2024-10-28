@@ -27,7 +27,6 @@ She whispered to the rain, her voice lost in the downpour, "Thank you for rememb
 
 And as the city drank its first true rain, Evelyn's memories flowed like rivulets, carving new channels in her soul. She vowed to preserve the petrichor, to pass it down to the next generation. For in that fleeting moment, amidst eldritch magic and forgotten words, she found solace—a fragile hope that Xericus might yet thrive, nourished by both rain and memory. 
 
-
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3kxv6d2gotn2d" data-bluesky-cid="bafyreif3zmyn6lcz3rs53jtwbdwdd3y2qgaa6g56wbcaw727tob2h3yyti"><p lang="en">Petrichor. 
 
 cc: @cookieduh.xyz 

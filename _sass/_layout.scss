@@ -3,7 +3,7 @@ body {
   color: $font-color;
   font-family: $font-style;
   font-size: 1.1em;
-  line-height: 1.2;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -36,20 +36,46 @@ a:hover {
   color: $link-hover-color;
   text-decoration: underline;
 }
+/*
 header {
-  background-image: url('/assets/images/header_image2.png');
-  background-size:auto;
-                            /* background: $header; */
-  padding: 0px 15px;        /* 0px 15px; */
+  background-image: url('/assets/images/header.jpeg');
+  background-size: auto;
+  padding: 0px 15px;
   text-align: center;
-  margin: 30px 0 0;         /* 50px 0 0;*/
-  height: 20vh;             /* 50vh; */
+  margin: 30px 0 0;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+*/
+
+img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+h1 {
+  font-size: 2m; /* Adjust the font size as needed */
+  margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 80%; /* Adjust for smaller screens */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Adjust the font size for smaller screens */
+  }
+}
+
+
+
 main {
   padding: 0 15px;
+//  text-align: center;
   max-width: $content-width;
   margin: 0 auto;
 }
@@ -59,6 +85,25 @@ time {
 .container {
   max-width: $content-width;
   margin: 0 auto;
+  padding-bottom: 50px; /* Add padding at the bottom of the container */
+}
+.contact-content {
+  margin-bottom: 50px; /* Add bottom margin to create padding at the bottom */
+}
+.contained-image {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Optional: Center the image horizontally */
+}
+.responsive-image {
+  max-width: 100%;
+  width: 100%;
+  max-width: 600px; /* Adjust this to your desired maximum width */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Optional: Center the image horizontally */
 }
 
 .post-navigation {
@@ -68,9 +113,13 @@ time {
 }
 
 .prev, .next {
-  width: 48%; /* Adjust as needed */
+  width: 30%; /* Adjust as needed */
 }
 
+.instagram-media {
+   max-width: 25%;
+   margin: 0 auto;
+}
 
 /* Aside */
 
@@ -83,34 +132,63 @@ aside {
   z-index: 2;
   border-bottom: 1px solid lighten($light, 30%);
   box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1);
+
   nav {
     float: left;
     max-width: 800px;
     margin: 0 auto;
+
     ul {
       margin: 0;
       padding: 0;
       list-style: none;
+
       li {
         float: left;
         position: relative;
+
         a {
           text-decoration: none;
           display: block;
           padding: 15px;
           font-family: 'Muli', sans-serif;
-          line-height: 20px;
+          line-height: 40px;
           margin-bottom: -1px;
           box-shadow: 0;
+
           &:hover,
           &:active {
-            background: $header;
+            background: #ffffff;
             text-decoration: none;
-            color: $main;
+            color: inherit;
           }
         }
       }
+
+      /* Add styles for the logo */
+      .logo {
+        float: left; /* Align the logo to the left */
+        margin-right: 20px; /* Adjust the margin as needed */
+        margin-top: 0px; /* Add margin to separate the logo from the navigation */
+
+        a {
+          display: block; /* Make the anchor a block-level element to cover the entire logo */
+
+          /* Remove hover effect on the logo */
+          &:hover {
+            background: none;
+            color: inherit;
+          }
+        }
+
+        img {
+          max-width: 50px; /* Set the maximum width of the logo */
+          height: auto; /* Maintain the aspect ratio */
+          vertical-align: middle; /* Align the logo vertically in the middle with the text */
+        }
+      }
     }
+
     &:after {
       content: '';
       display: table;
@@ -118,7 +196,10 @@ aside {
     }
   }
 }
+
+
 footer {
+  border-top: 1px solid #ccc;
   text-align: center;
-  padding: 40px;
+  padding-top: 10px;
 }

@@ -2,12 +2,18 @@
   <div class="container">
     <nav>
       <ul>
-        {% for page in site.pages %}
-          {% if page.title %}
-            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-        <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+				<!-- Logo -->
+      <li class="logo">
+				<a href="{{ "/" | prepend: site.baseurl }}">
+        	<img src="/assets/images/logo.png" alt="Logo">
+				</a>
+			</li>
+      {% for page in site.pages %}
+        {% if page.title %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+      <li><a href="{{ "/" | prepend: site.baseurl }}">Short Stories</a></li>
       </ul>
     </nav>
   </div>
