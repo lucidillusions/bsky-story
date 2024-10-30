@@ -33,7 +33,7 @@
 plugins:
   - jekyll-feed
 
-title: Short Stories
+title: Short Stories by Lucid Illusions
 email: gmail@lucidillusions.in
 description: >- # this means to ignore newlines until "baseurl:"
   This is a blog compiling all the stories from the prompts received on bluesky.
