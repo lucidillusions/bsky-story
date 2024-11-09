@@ -3,15 +3,21 @@ layout: default
 ---
 
 {% for post in site.posts %}
-		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 {% endfor %}
 
+<style>
+    span {
+        display: none;
+    }
+</style>
+
 <span class="h-card">
-    <a href="https://ss.lucidillusions.in/" class="u-url u-uid"> 
+    <a href="https://ss.lucidillusions.in/" class="u-url u-uid">
         Short Stories by Lucid Illusions
     </a>
-    <span class="p-name">Short Stories by Lucid Illusions</span> 
+    <span class="p-name">Short Stories by Lucid Illusions</span>
     <img class="u-photo" src="assets/images/Logo_Bsky_SS.png" />
     <p class="p-note">
         A federated account for the website which will compile most short
