@@ -188,6 +188,10 @@ aside {
                     vertical-align: middle; /* Align the logo vertically in the middle with the text */
                 }
             }
+            .header-spacer {
+                height: 20px; /* Adjust the height for the desired padding */
+                width: 100%; /* Make it take the full width */
+            }
         }
 
         &:after {
