@@ -24,6 +24,12 @@
     rel="stylesheet"
     type="text/css"
   />
+
+  ...
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include analytics.html %}
+    {% endif %}
+
 </head>
 
 
@@ -33,30 +39,33 @@
     <nav>
       <ul>
 				<!-- Logo -->
-      <li class="logo">
-				<a href="/">
-        	<img src="/assets/images/logo.png" alt="Logo">
-				</a>
-			</li>
-      
+        <li class="logo">
+            <a href="/">
+           	    <img src="/assets/images/logo.png" alt="Logo">
+            </a>
+        </li>
         
-      
+            
         
-      
+            
         
-      
+            
         
-      
-      <li><a href="/">Short Stories</a></li>
+            
+        
+
+        <li>
+            <a href="/">Short Stories</a>
+        </li>
+
+        <li>
+            <a href="https://ko-fi.com/s/d33c50d04d"> Buy E-book</a>
+        </li>
+
       </ul>
     </nav>
   </div>
 </aside>
-
-<header>
-  <!-- Make the site title a link to the home page -->
-  <h1><a href="/">Short Stories</a></h1>
-</header>
 
         <main>
             <article><h2>Skydiving to Oblivion</h2>

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>
-    Short Stories
+    Short Stories by Lucid Illusions
   </title>
 
   <link rel="stylesheet" href="/css/main.css">
@@ -24,6 +24,12 @@
     rel="stylesheet"
     type="text/css"
   />
+
+  ...
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include analytics.html %}
+    {% endif %}
+
 </head>
 
 
@@ -33,51 +39,54 @@
     <nav>
       <ul>
 				<!-- Logo -->
-      <li class="logo">
-				<a href="/">
-        	<img src="/assets/images/logo.png" alt="Logo">
-				</a>
-			</li>
-      
+        <li class="logo">
+            <a href="/">
+           	    <img src="/assets/images/logo.png" alt="Logo">
+            </a>
+        </li>
         
-      
+            
         
-      
+            
         
-      
+            
         
-      
-      <li><a href="/">Short Stories</a></li>
+            
+        
+
+        <li>
+            <a href="/">Short Stories</a>
+        </li>
+
+        <li>
+            <a href="https://ko-fi.com/s/d33c50d04d"> Buy E-book</a>
+        </li>
+
       </ul>
     </nav>
   </div>
 </aside>
 
-<header>
-  <!-- Make the site title a link to the home page -->
-  <h1><a href="/">Short Stories</a></h1>
-</header>
-
         <main>
             <article><style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+    .container {
+        margin: 10px auto;
+        max-width: 600px;
+        text-align: center;
+    }
+    h1 {
+        margin: 30px 0;
+        font-size: 4em;
+        line-height: 1;
+        letter-spacing: -1px;
+    }
 </style>
 
 <div class="container">
-  <<h2><<b>404</b></h2>
+    <h2><b>Looks like you are lost.</b></h2>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+    <p><strong>Page not found :(</strong></p>
+    <p>The requested page could not be found.</p>
 </div>
 </article>
             <footer>

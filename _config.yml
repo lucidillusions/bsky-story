@@ -41,7 +41,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ss.lucidillusions.in" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lucidillusions_
 instagram_username: lucidillusions.in
-google_analytics: "G-61GWSJVEWN"
+google_analytics: G-61GWSJVEWN
 # Build settings
 sass:
   sass_dir: _sass
