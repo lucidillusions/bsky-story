@@ -9,28 +9,20 @@ In the heart of the desolate city of Xericus, where the sun's relentless gaze ha
 
 The city's survival depended on a forbidden art—the Rain-weavers. These enigmatic figures, cloaked in tattered robes, gathered at the edge of the city each dawn. With ancient chants and cryptic gestures, they wove illusions of raindrops, conjuring mirages that shimmered in the air. The townsfolk watched, desperate for relief, as the ephemeral droplets evaporated before touching the ground.
 
-Among them was Evelyn, the oldest resident. Her memory stretched back to the last true rain, when she was a child.  But as the years passed, the memory faded, replaced by the sterile illusion of Rain-weaver magic.
+Among them was Evelyn, the oldest resident. Her memory stretched back to the last true rain, when she was a child. But as the years passed, the memory faded, replaced by the sterile illusion of Rain-weaver magic.
 
-One sweltering afternoon, as the sun blazed mercilessly, Evelyn shuffled to the city's edge. The Rain-weavers were at work, their hands weaving invisible threads. But today felt different. Dark clouds gathered overhead, and the air crackled with anticipation. The townspeople whispered, their voices trembling. They'd only read about clouds, and thunderstorm, and never seen one. They weren't sure if this was a new illusion the Rain-weavers had created.
+One sweltering afternoon, as the sun blazed mercilessly, Evelyn shuffled to the city's edge. The Rain-weavers were at work, their hands weaving invisible threads. But today felt different. Dark clouds gathered overhead, and the air crackled with anticipation. The townspeople whispered, their voices trembling. They'd only read about clouds and thunderstorms, and never seen one. They weren't sure if this was a new illusion the Rain-weavers had created.
 
 Then it happened—the first genuine raindrop in eight decades. It splashed onto Evelyn's wrinkled hand, and she gasped. The sensation was both alien and familiar—the cool touch of water, and instantly she was hit with the earthy fragrance. Tears welled in her eyes as she remembered her childhood, playing in puddles, laughing with friends.
 
 Evelyn sat herself on a weathered bench, raindrops patterning her thin shawl.
 
-She closed her eyes, allowing the memories to flood back. She recalled her mother's voice, singing lullabies during storms, and her father's laughter as they danced in the rain. 
+She closed her eyes, allowing the memories to flood back. She recalled her mother's voice, singing lullabies during storms, and her father's laughter as they danced in the rain.
 
 Beside her, a Rain-weaver faltered. The illusion wavered, revealing the truth —the sky wept genuine tears. The townspeople rejoiced, but Evelyn remained still.
 
 Petrichor—the word echoed in her mind, resurrected from oblivion.
 
-She whispered to the rain, her voice lost in the downpour, "Thank you for remembering my favorite word." The intoxicating scent of wet earth seeped into her very bones.
+She whispered to the rain, her voice lost in the downpour, "Thank you for remembering my favourite word." The intoxicating scent of wet earth seeped into her very bones.
 
-And as the city drank its first true rain, Evelyn's memories flowed like rivulets, carving new channels in her soul. She vowed to preserve the petrichor, to pass it down to the next generation. For in that fleeting moment, amidst eldritch magic and forgotten words, she found solace—a fragile hope that Xericus might yet thrive, nourished by both rain and memory. 
-
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3kxv6d2gotn2d" data-bluesky-cid="bafyreif3zmyn6lcz3rs53jtwbdwdd3y2qgaa6g56wbcaw727tob2h3yyti"><p lang="en">Petrichor. 
-
-cc: @cookieduh.xyz 
-
-#ShortStory  
-
-If you&#x27;d like to read it on web, here you go: ss.lucidillusions.in/short/story/...<br><br><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kxv6d2gotn2d?ref_src=embed">[image or embed]</a></p>&mdash; The 🟦 Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kxv6d2gotn2d?ref_src=embed">Jul 22, 2024 at 10:36 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+And as the city drank its first true rain, Evelyn's memories flowed like rivulets, carving new channels in her soul. She vowed to preserve the petrichor, to pass it down to the next generation. For in that fleeting moment, amidst eldritch magic and forgotten words, she found solace—a fragile hope that Xericus might yet thrive, nourished by both rain and memory.
