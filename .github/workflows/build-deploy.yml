@@ -17,7 +17,8 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x' # Use your Ruby version, e.g., '3.2' or '3.3'
+          # Change this line:
+          ruby-version: '3.3.0' # Choose a specific version like '3.3.0', '3.2.0', or '3.2.5' from the list
           bundler-cache: true # Installs gems specified in Gemfile.lock
 
       - name: Cache Jekyll
@@ -26,7 +27,7 @@ jobs:
           path: |
             _site
             .jekyll-cache
-            .webmention-cache # Cache webmention data for faster builds
+            .webmention-cache
           key: ${{ runner.os }}-jekyll-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-jekyll-
@@ -36,25 +37,16 @@ jobs:
           bundle exec jekyll build
 
       - name: Send Outgoing Webmentions
-        # This step requires your webmention.io API key if you're sending from private source.
-        # If your source is public and you don't have an API key, it might skip some.
-        # Usually, webmention.io takes care of outgoing for you if you've linked the original source.
-        # For this purpose, it's generally fine if this step only processes public links.
-        # If you find it's not sending, you might need to add a WEBMENTION_API_KEY secret.
         run: |
           bundle exec jekyll webmention
         env:
-          # Optional: If you need to send webmentions that require authentication (e.g. from private pages)
-          # WEBMENTION_API_KEY: ${{ secrets.WEBMENTION_API_KEY }}
-          # For most public blog setups, this isn't strictly necessary for outgoing webmentions if webmention.io is handling it.
-          # But it's good practice for other IndieWeb features.
-          JEKYLL_ENV: production # Set Jekyll environment for production builds
+          JEKYLL_ENV: production
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4 # Recommended action for deploying _site
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _site # The directory to publish
-          publish_branch: gh-pages # The branch to publish to (match your GitHub Pages config)
-          keep_files: false # Overwrite existing files
-          # cname: ss.lucidillusions.in # Uncomment and set if you use a custom domain and want to manage CNAME here
+          publish_dir: _site
+          publish_branch: gh-pages
+          keep_files: false
+          # cname: ss.lucidillusions.in
