@@ -3,8 +3,8 @@ name: Build and Deploy Jekyll with Webmentions
 on:
   push:
     branches:
-      - main # Trigger on pushes to your main content branch (e.g., master, main)
-  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,12 +14,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Install system dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y build-essential libssl-dev
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          # Change this line:
-          ruby-version: '3.3.0' # Choose a specific version like '3.3.0', '3.2.0', or '3.2.5' from the list
-          bundler-cache: true # Installs gems specified in Gemfile.lock
+          ruby-version: '3.3.0'
+          bundler-cache: true
 
       - name: Cache Jekyll
         uses: actions/cache@v4
