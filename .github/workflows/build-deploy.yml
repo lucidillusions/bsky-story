@@ -47,7 +47,7 @@ jobs:
 
       - name: Build Jekyll site
         run: |
-          bundle exec jekyll build
+          bundle exec jekyll build --verbose
 
       - name: Send Outgoing Webmentions
         run: |
