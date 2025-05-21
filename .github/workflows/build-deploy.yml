@@ -23,15 +23,24 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3.0'
-          bundler-cache: true
+          # Temporarily disable bundler-cache to force fresh install and better debug
+          # bundler-cache: true # COMMENT OUT OR REMOVE THIS LINE
+          
+      - name: Install Ruby Gems (verbose output)
+        run: |
+          bundle install --verbose # Use --verbose for detailed error info
 
-      - name: Cache Jekyll
+      # Remove the old cache step if it was there and you want to truly force no cache.
+      # Or, keep it but ensure path and key are correct. For debugging, it's simpler to remove for now.
+      # If you keep it, make sure 'path' includes 'vendor/bundle' if you're installing into there.
+      - name: Cache Jekyll (optional during debug, can re-add later)
         uses: actions/cache@v4
         with:
           path: |
             _site
             .jekyll-cache
             .webmention-cache
+            vendor/bundle # Ensure this is included if Bundler installs gems here
           key: ${{ runner.os }}-jekyll-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-jekyll-
