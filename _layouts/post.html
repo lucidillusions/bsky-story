@@ -8,7 +8,11 @@ layout: default
     }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time
 >
 
-{{ content }} {% webmentions page.url %}
+{{ content }}
+
+<hr />
+
+{% webmentions page.url %}
 
 <div class="post-navigation">
     <div class="prev">
