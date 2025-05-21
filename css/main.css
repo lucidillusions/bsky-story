@@ -1,0 +1,277 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  margin-top: 5em;
+  color: #262626;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  color: #425469;
+  font-family: "Muli", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2.5em;
+}
+h1 a,
+h1 a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+a,
+a:visited {
+  color: #425469;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #28abe5;
+  text-decoration: underline;
+}
+
+/*
+header {
+  background-image: url('/assets/images/header.jpeg');
+  background-size: auto;
+  padding: 0px 15px;
+  text-align: center;
+  margin: 30px 0 0;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+h1 {
+  font-size: 2m; /* Adjust the font size as needed */
+  margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 80%; /* Adjust for smaller screens */
+  }
+  h1 {
+    font-size: 1.5em; /* Adjust the font size for smaller screens */
+  }
+}
+main {
+  padding: 0 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+time {
+  color: #898989;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 50px; /* Add padding at the bottom of the container */
+}
+
+.contact-content {
+  margin-bottom: 50px; /* Add bottom margin to create padding at the bottom */
+}
+
+.contained-image {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Optional: Center the image horizontally */
+}
+
+.responsive-image {
+  max-width: 100%;
+  width: 100%;
+  max-width: 600px; /* Adjust this to your desired maximum width */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Optional: Center the image horizontally */
+}
+
+.post-navigation {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev,
+.next {
+  width: 30%; /* Adjust as needed */
+}
+
+.instagram-media {
+  max-width: 25%;
+  margin: 0 auto;
+}
+
+/* Aside */
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid white;
+  box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1);
+}
+aside nav {
+  float: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+aside nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* Add styles for the logo */
+}
+aside nav ul li {
+  float: left;
+  position: relative;
+}
+aside nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  font-family: "Muli", sans-serif;
+  line-height: 40px;
+  margin-bottom: -1px;
+  box-shadow: 0;
+}
+aside nav ul li a:hover, aside nav ul li a:active {
+  background: #ffffff;
+  text-decoration: none;
+  color: inherit;
+}
+aside nav ul .logo {
+  float: left; /* Align the logo to the left */
+  margin-right: 20px; /* Adjust the margin as needed */
+  margin-top: 0px; /* Add margin to separate the logo from the navigation */
+}
+aside nav ul .logo a {
+  display: block; /* Make the anchor a block-level element to cover the entire logo */
+  /* Remove hover effect on the logo */
+}
+aside nav ul .logo a:hover {
+  background: none;
+  color: inherit;
+}
+aside nav ul .logo img {
+  width: 50px; /* Explicitly set width to the desired square size */
+  height: 50px; /* Explicitly set height to the desired square size */
+  object-fit: contain; /* Ensure the image fits within the square without distortion */
+  vertical-align: middle; /* Align the logo vertically in the middle with the text */
+}
+aside nav ul .header-spacer {
+  height: 20px; /* Adjust the height for the desired padding */
+  width: 100%; /* Make it take the full width */
+}
+aside nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+  position: relative; /* Essential for positioning the dropdown menu */
+  display: inline-block; /* Allows the dropdown to sit next to other nav items */
+}
+
+.dropdown-menu {
+  display: none; /* Hide the dropdown menu by default */
+  position: absolute; /* Position it relative to the .dropdown parent */
+  background-color: #f9f9f9; /* Light background for the dropdown */
+  min-width: 160px; /* Minimum width for the dropdown */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  z-index: 1; /* Ensure it appears above other content */
+  list-style: none; /* Remove bullet points from the list */
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu li a {
+  color: black; /* Link color within the dropdown */
+  padding: 12px 16px; /* Padding for each link */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Make the entire link area clickable */
+  text-align: left; /* Align text to the left */
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f1f1f1; /* Hover background for dropdown links */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block; /* Show the dropdown menu when the .dropdown parent is hovered */
+}
+
+/* Optional: Small down arrow for visual cue */
+.dropdown-toggle .arrow-down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-top: 5px solid black; /* Adjust color as needed */
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.dropdown:hover .dropdown-toggle .arrow-down {
+  border-top-color: #333; /* Change arrow color on hover */
+}
+
+/* Ensure text color within the dropdown toggle is consistent */
+.dropdown-toggle {
+  color: #555; /* Default header link color */
+  /* You might need to adjust this to match your existing navigation link color */
+}
+
+.dropdown:hover .dropdown-toggle {
+  color: #28abe5; /* Hover color for the dropdown toggle */
+  /* Adjust to match your existing navigation link hover color */
+}
+
+/*# sourceMappingURL=main.css.map */
