@@ -114,7 +114,11 @@
 🙃🙃🙃</p>&mdash; The 🟦 Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kyr7qa7dcs2w?ref_src=embed">Aug 3, 2024 at 2:16 AM</a></blockquote>
 <script async="" src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
 
- <div class="webmentions">
+
+
+<hr />
+
+<div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
@@ -128,11 +132,11 @@
     </div>
 </div>
 </article>
-            <footer>
+        </main>
+
+        <footer>
     <p>&copy; 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
 </footer>
-
-        </main>
 
         <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
         <script>
@@ -144,6 +148,22 @@
             });
         </script>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const menuToggle = document.querySelector(".menu-toggle");
+                const siteNav = document.querySelector(".site-nav");
+
+                if (menuToggle && siteNav) {
+                    menuToggle.addEventListener("click", function () {
+                        const isExpanded =
+                            this.getAttribute("aria-expanded") === "true" ||
+                            false;
+                        this.setAttribute("aria-expanded", !isExpanded);
+                        siteNav.classList.toggle("active");
+                    });
+                }
+            });
+        </script>
         <script src="/js/JekyllWebmentionIO.js" async></script>
 <template style="display:none" id="webmention-bookmarks"><div class="webmentions webmentions--bookmarks">
   {% if webmentions.size > 0 %}

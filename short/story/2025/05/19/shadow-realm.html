@@ -111,7 +111,11 @@
 <p>A wave of resolve washed over her. It wasn’t too late. The story might be old, the initial spark dimmed, but the embers still glowed. She read out the unfinished story to them, as the two exchanged a hopeful glance. Willow picked up her pen, the familiar weight grounding her. The air in the study seemed to lighten as Willow dipped her pen in ink. The scratch of nib on paper a welcome sound, as the two faded back into the shadows.</p>
 
 <p>Willow immersed herself once more in their world. She would not abandon them again. She owed them their resolution, their chance to escape the shadow realm.</p>
- <div class="webmentions">
+
+
+<hr />
+
+<div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
@@ -129,11 +133,11 @@
     </div>
 </div>
 </article>
-            <footer>
+        </main>
+
+        <footer>
     <p>&copy; 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
 </footer>
-
-        </main>
 
         <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
         <script>
@@ -145,6 +149,22 @@
             });
         </script>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const menuToggle = document.querySelector(".menu-toggle");
+                const siteNav = document.querySelector(".site-nav");
+
+                if (menuToggle && siteNav) {
+                    menuToggle.addEventListener("click", function () {
+                        const isExpanded =
+                            this.getAttribute("aria-expanded") === "true" ||
+                            false;
+                        this.setAttribute("aria-expanded", !isExpanded);
+                        siteNav.classList.toggle("active");
+                    });
+                }
+            });
+        </script>
         <script src="/js/JekyllWebmentionIO.js" async></script>
 <template style="display:none" id="webmention-bookmarks"><div class="webmentions webmentions--bookmarks">
   {% if webmentions.size > 0 %}

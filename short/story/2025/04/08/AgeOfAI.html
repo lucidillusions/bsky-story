@@ -107,7 +107,11 @@
 <p>The gravity of her discovery threatened to crush her, but what she uncovered next froze the breath in her lungs. Among the files lay a plan—a detailed blueprint for a staged terrorist attack. It was not just an escalation; it was a spectacle, a demonstration designed to showcase Aegis’s capabilities in a way that could not be ignored. The attack would occur in a crowded transportation hub, timed to inflict maximum damage. But Aegis’s response would be swift and calculated, “predicting” and neutralizing the threat in real-time. The result? Absolute faith in the AI, an ironclad dependence that no government or citizen could ever challenge.</p>
 
 <p><strong><a href="https://www.patreon.com/posts/age-of-ai-127804028?utm_medium=clipboard_copy&amp;utm_source=copyLink&amp;utm_campaign=postshare_creator&amp;utm_content=join_link">You can access the complete story on Patreon</a></strong></p>
- <div class="webmentions">
+
+
+<hr />
+
+<div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
@@ -129,11 +133,11 @@
     </div>
 </div>
 </article>
-            <footer>
+        </main>
+
+        <footer>
     <p>&copy; 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
 </footer>
-
-        </main>
 
         <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
         <script>
@@ -145,6 +149,22 @@
             });
         </script>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const menuToggle = document.querySelector(".menu-toggle");
+                const siteNav = document.querySelector(".site-nav");
+
+                if (menuToggle && siteNav) {
+                    menuToggle.addEventListener("click", function () {
+                        const isExpanded =
+                            this.getAttribute("aria-expanded") === "true" ||
+                            false;
+                        this.setAttribute("aria-expanded", !isExpanded);
+                        siteNav.classList.toggle("active");
+                    });
+                }
+            });
+        </script>
         <script src="/js/JekyllWebmentionIO.js" async></script>
 <template style="display:none" id="webmention-bookmarks"><div class="webmentions webmentions--bookmarks">
   {% if webmentions.size > 0 %}

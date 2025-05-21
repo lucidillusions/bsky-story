@@ -99,7 +99,11 @@
 <p>Meanwhile, Rohan worked tirelessly, refining his app, its algorithms now subtly flagging individuals based on his evolving criteria. He saw himself not as a killer, but as a cosmic gardener, pruning the weeds to allow the more harmonious elements to flourish. Each news report of another inexplicable death fueled his conviction. The universe, he believed, was finally beginning to breathe easier.</p>
 
 <p>One evening, as the lunar eclipse cast long shadows across the city, Rohan’s own app flagged a critical alignment in his chart – a potent (planetary) conjunction that, in his twisted interpretation, demanded a significant act. As he stared at his own profile, a flicker of doubt crossed his mind, quickly extinguished by the unwavering belief in his cosmic mission.</p>
- <div class="webmentions">
+
+
+<hr />
+
+<div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
@@ -121,11 +125,11 @@
     </div>
 </div>
 </article>
-            <footer>
+        </main>
+
+        <footer>
     <p>&copy; 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
 </footer>
-
-        </main>
 
         <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
         <script>
@@ -137,6 +141,22 @@
             });
         </script>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const menuToggle = document.querySelector(".menu-toggle");
+                const siteNav = document.querySelector(".site-nav");
+
+                if (menuToggle && siteNav) {
+                    menuToggle.addEventListener("click", function () {
+                        const isExpanded =
+                            this.getAttribute("aria-expanded") === "true" ||
+                            false;
+                        this.setAttribute("aria-expanded", !isExpanded);
+                        siteNav.classList.toggle("active");
+                    });
+                }
+            });
+        </script>
         <script src="/js/JekyllWebmentionIO.js" async></script>
 <template style="display:none" id="webmention-bookmarks"><div class="webmentions webmentions--bookmarks">
   {% if webmentions.size > 0 %}

@@ -116,7 +116,11 @@ The sirens started blaring, as I ordered all my subordinates to head towards the
 <p>I let go of him and backed away.</p>
 
 <p>The weight of a terrible mistake settled upon me like a suffocating shroud. I had mistakenly entered the wrong bunker, sealing my fate to die among strangers. My family, somewhere out there, their fate uncertain—alive or dead. Overwhelmed by despair, I sank to the bunker floor, burying my face in trembling hands. Uncontrollable sobs wracked my body as the world outside faced its apocalyptic demise.</p>
- <div class="webmentions">
+
+
+<hr />
+
+<div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
@@ -138,11 +142,11 @@ The sirens started blaring, as I ordered all my subordinates to head towards the
     </div>
 </div>
 </article>
-            <footer>
+        </main>
+
+        <footer>
     <p>&copy; 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
 </footer>
-
-        </main>
 
         <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
         <script>
@@ -154,6 +158,22 @@ The sirens started blaring, as I ordered all my subordinates to head towards the
             });
         </script>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const menuToggle = document.querySelector(".menu-toggle");
+                const siteNav = document.querySelector(".site-nav");
+
+                if (menuToggle && siteNav) {
+                    menuToggle.addEventListener("click", function () {
+                        const isExpanded =
+                            this.getAttribute("aria-expanded") === "true" ||
+                            false;
+                        this.setAttribute("aria-expanded", !isExpanded);
+                        siteNav.classList.toggle("active");
+                    });
+                }
+            });
+        </script>
         <script src="/js/JekyllWebmentionIO.js" async></script>
 <template style="display:none" id="webmention-bookmarks"><div class="webmentions webmentions--bookmarks">
   {% if webmentions.size > 0 %}

@@ -97,7 +97,11 @@
 <p>Time had become a meaningless concept. Had it been heartbeats or eons since his arrival? A creeping unease began to mingle with the initial awe. The beauty felt… wrong, too perfect, too consuming. From the corner of his unmoving eyes, he could see other figures seated at identical tables, their forms unnervingly still, their gazes fixed with the same vacant intensity on the horizon. Their stillness was absolute, like figures carved from stone, their features indistinct in the strange light.</p>
 
 <p>A sudden, inexplicable thirst arose, a primal urge that seemed to echo the very stillness around him. The thought of a cool drink barely formed in his mind before a tall, slender glass materialized on the table before him. It pulsed with a soft, internal luminescence, and the liquid within swirled with colors that mirrored the impossible sunset. He reached for it, his hand moving with a strange, detached obedience, and took a tentative sip. The flavor was unlike anything he had ever tasted – sweet yet metallic, familiar yet utterly alien, leaving a subtle, unsettling resonance on his tongue. It felt less like a refreshment and more like… an offering accepted.</p>
- <div class="webmentions">
+
+
+<hr />
+
+<div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
@@ -119,11 +123,11 @@
     </div>
 </div>
 </article>
-            <footer>
+        </main>
+
+        <footer>
     <p>&copy; 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
 </footer>
-
-        </main>
 
         <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
         <script>
@@ -135,6 +139,22 @@
             });
         </script>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const menuToggle = document.querySelector(".menu-toggle");
+                const siteNav = document.querySelector(".site-nav");
+
+                if (menuToggle && siteNav) {
+                    menuToggle.addEventListener("click", function () {
+                        const isExpanded =
+                            this.getAttribute("aria-expanded") === "true" ||
+                            false;
+                        this.setAttribute("aria-expanded", !isExpanded);
+                        siteNav.classList.toggle("active");
+                    });
+                }
+            });
+        </script>
         <script src="/js/JekyllWebmentionIO.js" async></script>
 <template style="display:none" id="webmention-bookmarks"><div class="webmentions webmentions--bookmarks">
   {% if webmentions.size > 0 %}
