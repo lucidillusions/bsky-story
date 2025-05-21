@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="container">
+    {% assign blog_documents = site.documents | where: "collection", "blogs" %}
+    {% assign sorted_blogs = blog_documents | sort: "date" | reverse %} {% if
+    sorted_blogs.size > 0 %} {% for blog in sorted_blogs %}
+    <div class="blog-list-item">
+        <h2>
+            <a href="{{ blog.url | prepend: site.baseurl }}"
+                >{{ blog.title }}</a
+            >
+        </h2>
+        <time
+            >{{ blog.date | date: "%b %-d, %Y" }}{% if blog.author %} • {{
+            blog.author }}{% endif %}</time
+        >
+        <p>{{ blog.excerpt | strip_html | truncatewords: 30 }}</p>
+        <a href="{{ blog.url | prepend: site.baseurl }}">Read More &rarr;</a>
+    </div>
+    {% endfor %} {% else %}
+    <p>No blog posts found yet. Check back soon!</p>
+    {% endif %}
+</div>
+
+<style>
+    /* Basic styling for blog list items - move to _sass/_layout.scss for better organization */
+    .blog-list-item {
+        margin-bottom: 2em;
+        padding-bottom: 1.5em;
+        border-bottom: 1px dashed #eee;
+    }
+
+    .blog-list-item:last-child {
+        border-bottom: none;
+    }
+
+    .blog-list-item h2 {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .blog-list-item h2 a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .blog-list-item h2 a:hover {
+        color: #28abe5;
+    }
+
+    .blog-list-item time {
+        display: block;
+        font-size: 0.9em;
+        color: #898989;
+        margin-bottom: 1em;
+    }
+</style>
