@@ -1,0 +1,17 @@
+/* _sass/_utilities.scss */
+
+/* --- Existing HR Tag Style --- */
+hr {
+    border: none; /* Remove any default border styles */
+    border-top: 1px dotted #ccc; /* 1px thin, dotted, light grey line */
+    margin: 1em 0; /* Adjust vertical spacing as needed */
+}
+
+/* --- Webmentions Section Styles (Center Align - if you want to add it here) --- */
+/*
+.webmentions {
+    max-width: 800px;
+    margin: 0 auto 3em auto;
+    padding: 0 1em;
+}
+*/

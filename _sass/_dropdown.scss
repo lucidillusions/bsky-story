@@ -1,0 +1,92 @@
+/* _sass/_dropdown.scss */
+
+/* --- Existing Dropdown Menu Styles (Desktop) --- */
+.dropdown {
+    position: relative; /* Essential for positioning the dropdown menu */
+    display: inline-block; /* Allows the dropdown to sit next to other nav items */
+}
+
+.dropdown-menu {
+    display: none; /* Hide the dropdown menu by default */
+    position: absolute; /* Position it relative to the .dropdown parent */
+    background-color: #f9f9f9; /* Light background for the dropdown */
+    min-width: 160px; /* Minimum width for the dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    z-index: 1; /* Ensure it appears above other content */
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    color: black; /* Link color within the dropdown */
+    padding: 12px 16px; /* Padding for each link */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the entire link area clickable */
+    text-align: left; /* Align text to the left */
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1; /* Hover background for dropdown links */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block; /* Show the dropdown menu when the .dropdown parent is hovered */
+}
+
+/* Optional: Small down arrow for visual cue */
+.dropdown-toggle .arrow-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 5px solid black; /* Adjust color as needed */
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.dropdown:hover .dropdown-toggle .arrow-down {
+    border-top-color: #333; /* Change arrow color on hover */
+}
+
+/* Ensure text color within the dropdown toggle is consistent */
+.dropdown-toggle {
+    color: #555; /* Default header link color */
+}
+
+.dropdown:hover .dropdown-toggle {
+    color: #28abe5; /* Hover color for the dropdown toggle */
+}
+
+/* --- Mobile Dropdown Adjustments (from the previous media query) --- */
+@media (max-width: 768px) {
+    .site-nav .dropdown {
+        display: block; /* Change from inline-block to block */
+        position: static; /* Remove absolute positioning on mobile */
+        width: 100%; /* Take full width */
+    }
+
+    .site-nav .dropdown-menu {
+        position: static; /* Remove absolute positioning */
+        display: block; /* Always show dropdown content when main menu is open */
+        background-color: transparent; /* No separate background for sub-menu */
+        box-shadow: none; /* No shadow */
+        min-width: unset; /* Remove min-width restriction */
+        padding: 0; /* Adjust padding if needed */
+        border-top: 1px dashed #ddd; /* Small separator for dropdown items */
+        margin-top: 0.5em;
+    }
+
+    .site-nav .dropdown-menu li a {
+        padding: 0.5em 0; /* Adjust padding for sub-menu links */
+        color: #666; /* Slightly different color for sub-menu links */
+        font-size: 0.9em;
+    }
+
+    /* Hide the dropdown arrow on mobile */
+    .dropdown-toggle .arrow-down {
+        display: none;
+    }
+}
