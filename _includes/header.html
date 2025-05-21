@@ -2,26 +2,29 @@
   <div class="container">
     <nav>
       <ul>
-				<!-- Logo -->
         <li class="logo">
-            <a href="{{ "/" | prepend: site.baseurl }}">
-           	    <img src="/assets/images/logo.png" alt="Logo">
-            </a>
+          <a href="{{ "/" | prepend: site.baseurl }}">
+            <img src="/assets/images/logo.png" alt="Logo">
+          </a>
         </li>
-        {% for page in site.pages %}
-            {% if page.title %}
-            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-            {% endif %}
-        {% endfor %}
 
         <li>
             <a href="{{ "/" | prepend: site.baseurl }}">Short Stories</a>
         </li>
 
         <li>
-            <a href="https://ko-fi.com/s/d33c50d04d"> Buy E-book</a>
+            <a href="{{ "/blog/" | prepend: site.baseurl }}">Blogs</a>
         </li>
 
+        {% for page in site.pages %}
+          {% if page.title and page.title != "Blog" and page.title != "Home" %} {# Exclude pages if they have explicit links above, like "Blog" #}
+            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+
+        <li>
+          <a href="https://ko-fi.com/s/d33c50d04d"> Buy E-book</a>
+        </li>
       </ul>
     </nav>
   </div>
