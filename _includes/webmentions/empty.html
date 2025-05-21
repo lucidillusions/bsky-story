@@ -1,0 +1,61 @@
+<div class="webmentions-empty-state">
+    <p>
+        It looks a little quiet here!
+        <br />
+        No webmentions have been received for this post yet.
+    </p>
+    <p>
+        Know about a mention, reply, or like?
+        <br />
+        Feel free to send one using your website!
+    </p>
+    <p class="webmentions-learn-more">
+        <a
+            href="https://indieweb.org/Webmention"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Learn more about Webmentions
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </p>
+</div>
+
+<style>
+    /* Basic styling for the empty state message */
+    .webmentions-empty-state {
+        text-align: center;
+        padding: 2em;
+        margin-top: 2em;
+        border: 1px dashed #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        color: #555;
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+
+    .webmentions-empty-state p {
+        margin-bottom: 1em; /* Add some space between paragraphs */
+    }
+
+    .webmentions-empty-state p:last-child {
+        margin-bottom: 0; /* No margin after the last paragraph */
+    }
+
+    .webmentions-empty-state .webmentions-learn-more a {
+        color: #007bff; /* A distinct link color */
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .webmentions-empty-state .webmentions-learn-more a:hover {
+        text-decoration: underline;
+    }
+
+    .webmentions-empty-state .fa-arrow-up-right-from-square {
+        margin-left: 0.3em;
+        font-size: 0.9em;
+        vertical-align: middle;
+    }
+</style>

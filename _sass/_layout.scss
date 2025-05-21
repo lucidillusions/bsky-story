@@ -183,8 +183,9 @@ aside {
                 }
 
                 img {
-                    max-width: 50px; /* Set the maximum width of the logo */
-                    height: auto; /* Maintain the aspect ratio */
+                    width: 50px; /* Explicitly set width to the desired square size */
+                    height: 50px; /* Explicitly set height to the desired square size */
+                    object-fit: contain; /* Ensure the image fits within the square without distortion */
                     vertical-align: middle; /* Align the logo vertically in the middle with the text */
                 }
             }
