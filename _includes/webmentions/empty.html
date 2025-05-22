@@ -22,40 +22,50 @@
 </div>
 
 <style>
-    /* Basic styling for the empty state message */
     .webmentions-empty-state {
         text-align: center;
-        padding: 2em;
-        margin-top: 2em;
-        border: 1px dashed #ccc;
-        border-radius: 8px;
-        background-color: #f9f9f9;
-        color: #555;
-        font-size: 1.1em;
-        line-height: 1.5;
+        padding: 2.5em; /* Slightly more padding for breathing room */
+        margin-top: 3em; /* Slightly more margin from content above */
+        border: 1px solid #e0e0e0; /* Softer, solid border */
+        border-radius: 10px; /* Slightly more rounded corners */
+        background-color: #ffffff; /* Clean white background */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* A noticeable but soft shadow */
+        color: #444; /* Slightly darker grey for better readability */
+        font-size: 1.15em; /* A touch larger text for emphasis */
+        line-height: 1.6;
+        max-width: 700px; /* Limit width for better readability on large screens */
+        margin-left: auto; /* Center the box */
+        margin-right: auto; /* Center the box */
     }
 
     .webmentions-empty-state p {
-        margin-bottom: 1em; /* Add some space between paragraphs */
+        margin-bottom: 1.2em; /* More space between paragraphs */
+    }
+
+    .webmentions-empty-state p:first-child {
+        font-weight: 600; /* Make the first line a bit bolder */
+        color: #333;
     }
 
     .webmentions-empty-state p:last-child {
-        margin-bottom: 0; /* No margin after the last paragraph */
+        margin-bottom: 0;
     }
 
     .webmentions-empty-state .webmentions-learn-more a {
-        color: #007bff; /* A distinct link color */
+        color: #007bff; /* Consistent link color */
         text-decoration: none;
         font-weight: bold;
+        transition: color 0.3s ease; /* Smooth transition for hover effect */
     }
 
     .webmentions-empty-state .webmentions-learn-more a:hover {
+        color: #0056b3; /* Darker blue on hover */
         text-decoration: underline;
     }
 
     .webmentions-empty-state .fa-arrow-up-right-from-square {
-        margin-left: 0.3em;
-        font-size: 0.9em;
+        margin-left: 0.4em;
+        font-size: 0.95em;
         vertical-align: middle;
     }
 </style>

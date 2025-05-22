@@ -1,0 +1,155 @@
+<div class="webmention">
+  <div class="webmention-author">
+    {% if webmention.author.photo %}
+      <img
+        src="{{ webmention.author.photo | escape }}"
+        alt="{{ webmention.author.name | escape }}'s avatar"
+        class="webmention-avatar"
+        loading="lazy"
+        width="48" height="48"
+      >
+    {% else %}
+      <img
+        src="/assets/images/default-avatar.png" {# IMPORTANT: Adjust this path to a default image you want to use #}
+        alt="Default avatar"
+        class="webmention-avatar webmention-avatar-fallback"
+        loading="lazy"
+        width="48" height="48"
+      >
+    {% endif %}
+    <span class="webmention-author-name">
+      {% if webmention.author.url %}
+        <a href="{{ webmention.author.url | escape }}" rel="webmention" target="_blank">{{ webmention.author.name | escape }}</a>
+      {% else %}
+        {{ webmention.author.name | escape }}
+      {% endif %}
+    </span>
+  </div>
+
+  <div class="webmention-content">
+    {% if webmention.content %}
+      {{ webmention.content }}
+    {% else %}
+      <p>
+        {% if webmention.name %}
+          {{ webmention.name }}
+        {% else %}
+          <a href="{{ webmention.url | escape }}">mentioned this post</a>
+        {% endif %}
+      </p>
+    {% endif %}
+  </div>
+
+  <div class="webmention-meta">
+    <a class="webmention-source" href="{{ webmention.url | escape }}" rel="webmention" target="_blank">
+      <time datetime="{{ webmention.published_at | date_to_xmlschema }}">
+        {{ webmention.published_at | date: "%B %d, %Y" }}
+      </time>
+    </a>
+    <span class="webmention-type">
+      — {{ webmention.type }}
+    </span>
+  </div>
+</div>
+
+<style>
+  /* Basic Styling for Webmentions */
+  .webmention {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .webmention-author {
+    flex-shrink: 0;
+    margin-right: 1em;
+    text-align: center;
+  }
+
+  .webmention-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5em;
+  }
+
+  .webmention-author-name {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+    word-break: break-word; /* Prevent long names from overflowing */
+  }
+
+  .webmention-author-name a {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  .webmention-author-name a:hover {
+    text-decoration: underline;
+  }
+
+  .webmention-content {
+    flex-grow: 1;
+  }
+
+  .webmention-content p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .webmention-content blockquote {
+    border-left: 4px solid #eee;
+    padding-left: 1em;
+    margin-left: 0;
+    font-style: italic;
+    color: #666;
+  }
+
+  .webmention-meta {
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 0.5em;
+    text-align: right;
+    flex-shrink: 0; /* Prevents meta from shrinking */
+    margin-left: 1em; /* Space between content and meta */
+  }
+
+  .webmention-source {
+    color: #888;
+    text-decoration: none;
+  }
+
+  .webmention-source:hover {
+    text-decoration: underline;
+  }
+
+  .webmention-type {
+    margin-left: 0.5em;
+    text-transform: capitalize; /* Capitalize the type (e.g., 'like', 'reply') */
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .webmention {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .webmention-author {
+      margin-right: 0;
+      margin-bottom: 1em;
+    }
+    .webmention-meta {
+      text-align: center;
+      margin-left: 0;
+      margin-top: 1em;
+    }
+  }
+</style>

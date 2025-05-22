@@ -1,37 +1,48 @@
-<aside>
-  <div class="container">
-    <nav>
-      <ul>
-        <li class="logo">
-          <a href="{{ "/" | prepend: site.baseurl }}">
+<header class="site-header">
+    <div class="wrapper">
+
+        <a class="site-title" href="{{ "/" | relative_url }}">
             <img src="/assets/images/logo.png" alt="Logo">
-          </a>
-        </li>
+        </a>
 
-        <li>
-            <a href="{{ "/" | prepend: site.baseurl }}">Short Stories</a>
-        </li>
 
-        <li>
-            <a href="{{ "/blog/" | prepend: site.baseurl }}">Blogs</a>
-        </li>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
 
-        {% for page in site.pages %}
-          {% if page.title and page.title != "Blog" and page.title != "Home" %} {# Exclude pages if they have explicit links above, like "Blog" #}
-            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
 
-        <li class="dropdown">
-            <a class="page-link dropdown-toggle" href="#">Buy E-book <span class="arrow-down"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="https://ko-fi.com/s/d33c50d04d" target="_blank" rel="noopener noreferrer">on Ko-Fi</a></li>
-                <li><a href="https://www.amazon.com/dp/B0F7HGSGCF" target="_blank" rel="noopener noreferrer">for Kindle</a></li>
-                <li><a href="https://books2read.com/b/mgB2Nq" target="_blank" rel="noopener noreferrer">Other Store</a></li>
+        <nav class="site-nav">
+            <ul class="nav-list">
+
+                <li>
+                    <a href="{{ "/" | relative_url }}">Short Stories</a>
+                </li>
+
+
+                <li>
+                    <a href="{{ "/blog/" | relative_url }}">Blogs</a>
+                </li>
+
+
+                {% for page in site.pages %}
+                    {% if page.title and page.title != "Blog" and page.title != "Home" %} {# Exclude pages if they have explicit links above, like "Blog" #}
+                        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+
+
+                <li class="dropdown">
+                    <a class="page-link dropdown-toggle" href="#">Buy E-book <span class="arrow-down"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://ko-fi.com/s/d33c50d04d" target="_blank" rel="noopener noreferrer">on Ko-Fi</a></li>
+                        <li><a href="https://www.amazon.com/dp/B0F7HGSGCF" target="_blank" rel="noopener noreferrer">for Kindle</a></li>
+                        <li><a href="https://books2read.com/b/mgB2Nq" target="_blank" rel="noopener noreferrer">Other Store</a></li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <div class="header-spacer"></div>
-</aside>
+        </nav>
+    </div>
+</header>
+
+
+<div class="header-spacer"></div>

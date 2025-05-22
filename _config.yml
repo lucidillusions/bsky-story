@@ -5,7 +5,7 @@ plugins:
 title: Short Stories by Lucid Illusions
 email: gmail@lucidillusions.in
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a blog compiling all the stories from the prompts received on bluesky.
+  This website is a collection of my short stories.
 
 url: "https://ss.lucidillusions.in"
 baseurl: ""
