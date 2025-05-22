@@ -1,0 +1,49 @@
+/* _sass/_footer.scss */
+
+footer {
+    border-top: 1px solid #e0e0e0; /* Changed from #ccc to be consistent with site-header border */
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px; /* Add some general bottom padding for the footer content itself */
+    background-color: #f8f8f8; /* Add a background for better visual separation */
+
+    p {
+        font-size: 0.9em; /* Smaller text for the footer */
+        line-height: 1.5;
+        margin: 0; /* Remove default paragraph margins */
+        color: #666; /* A slightly softer color for footer text */
+    }
+
+    a {
+        color: #007bff; /* Link color within the footer */
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #0056b3; /* Darker blue on hover */
+        text-decoration: underline;
+    }
+
+    /* Styles for Font Awesome icons in the footer */
+    .fa-brands,
+    .fa-solid {
+        margin: 0 5px; /* Spacing between icons */
+    }
+}
+
+/* --- Responsive adjustments for footer and body (for Ko-Fi overlap) --- */
+@media (max-width: 768px) {
+    /* Increase padding-bottom on the body to make space for the floating Ko-Fi button */
+    body {
+        padding-bottom: 80px; /* Adjust this value as needed to clear the Ko-Fi button */
+    }
+
+    footer {
+        padding-bottom: 80px; /* Or move the padding-bottom from body to footer here if footer is fixed at bottom */
+    }
+
+    footer p {
+        font-size: 0.8em; /* Even smaller footer text on mobile */
+    }
+}
