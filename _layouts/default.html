@@ -33,6 +33,29 @@
                         siteNav.classList.toggle("active");
                     });
                 }
+
+                // NEW JAVASCRIPT FOR POST TOGGLING
+                const toggleButtons =
+                    document.querySelectorAll(".toggle-button");
+
+                toggleButtons.forEach((button) => {
+                    button.addEventListener("click", function () {
+                        const targetId = this.getAttribute("aria-controls");
+                        const targetElement = document.getElementById(targetId);
+                        const isExpanded =
+                            this.getAttribute("aria-expanded") === "true";
+
+                        if (targetElement) {
+                            if (isExpanded) {
+                                targetElement.style.display = "none";
+                                this.setAttribute("aria-expanded", "false");
+                            } else {
+                                targetElement.style.display = "block";
+                                this.setAttribute("aria-expanded", "true");
+                            }
+                        }
+                    });
+                });
             });
         </script>
         {% webmentions_js %}
