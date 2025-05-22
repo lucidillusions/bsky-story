@@ -30,3 +30,16 @@ kramdown:
 # Webmention.io plugin configuration
 webmention:
   username: ss.lucidillusions.in
+
+# Enable comments by default for all posts (you can override this per post)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true # Set to true to enable comments on posts by default
+      # You'll also need a 'layout: post' if you're not using Minimal Mistakes' 'single'
+      # Make sure your post layout calls {{ content }} for the post body.
+
+comments:
+  provider: "custom" # This tells Jekyll you're using a custom comment system

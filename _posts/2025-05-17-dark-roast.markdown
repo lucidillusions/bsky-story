@@ -2,7 +2,9 @@
 layout: post
 title:  "The Dark Roast"
 date:   2025-05-17 22:12:03 +0530
-categories: short story
+categories: ShortStory
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lpf2fznp7s22
 ---
 
 &nbsp; The human world tasted of fleeting joys and simmering anxiety. I found a strange solace in the predictable rhythm of this small establishment, "Enjoy the Silence." The owner, Elana, who was deaf and mute, and thought the name was very funny; she definitely had a strange sense of humour, if you ask me.

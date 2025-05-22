@@ -2,7 +2,9 @@
 layout: post
 title:  "Reinvention"
 date:   2023-09-08 17:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3k74gatibpx2l
 ---
 He was a loner, had no friends, always being bullied by everyone. He would go to sleep wishing he were someone else. Someone smarter, stronger, more attractive, and he felt all of these things would make him successful. He hated how mundane his life felt, the job bored him, his skills seemed mediocre. Every day it seemed to him he was wasting his potential, trapped in a body and a mind that did not suit him.
 

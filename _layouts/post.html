@@ -2,32 +2,44 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<time
-    >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author
-    }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time
->
+<article>
+    <h2>{{ page.title }}</h2>
+    <time
+        >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{
+        page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif
+        %}</time
+    >
 
-{{ content }}
+    {{ content }}
 
-<hr />
+    <hr />
 
-{% webmentions page.url %}
+    {% if page.comments %}
+    <section class="post-comments">
+        <h3>Comments</h3>
+        {% include comments-providers/custom.html %}
+    </section>
+    {% endif %}
 
-<div class="post-navigation">
-    <div class="prev">
-        {% if page.previous %}
-        <a href="{{ page.previous.url | prepend: site.baseurl }}"
-            >Previous: {{ page.previous.title }}</a
-        >
-        {% endif %}
+    <hr />
+
+    {% webmentions page.url %}
+
+    <div class="post-navigation">
+        <div class="prev">
+            {% if page.previous %}
+            <a href="{{ page.previous.url | prepend: site.baseurl }}"
+                >Previous: {{ page.previous.title }}</a
+            >
+            {% endif %}
+        </div>
+
+        <div class="next">
+            {% if page.next %}
+            <a href="{{ page.next.url | prepend: site.baseurl }}"
+                >Next: {{ page.next.title }}</a
+            >
+            {% endif %}
+        </div>
     </div>
-
-    <div class="next">
-        {% if page.next %}
-        <a href="{{ page.next.url | prepend: site.baseurl }}"
-            >Next: {{ page.next.title }}</a
-        >
-        {% endif %}
-    </div>
-</div>
+</article>

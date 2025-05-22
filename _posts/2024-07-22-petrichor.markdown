@@ -2,7 +2,9 @@
 layout: post
 title:  "Petrichor"
 date:   2024-07-22 18:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kxv6d2gotn2d
 ---
 
 In the heart of the desolate city of Xericus, where the sun's relentless gaze had scorched the cobblestone streets for eight decades, an eerie silence hung heavy. The once bustling marketplace now lay abandoned, its stalls covered in a thick layer of dust. The townspeople moved like shadows, their eyes hollow, their souls parched.

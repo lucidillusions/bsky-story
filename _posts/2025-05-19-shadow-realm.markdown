@@ -2,7 +2,9 @@
 layout: post
 title:  "The Shadow Realm"
 date:   2025-05-19 22:12:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lpk3go6cc22v
 ---
 
 &nbsp; The old woman, Willow, traced the faded ink of the first sentence with a trembling finger. "Everyone is in a rush to reach somewhere late." It had been years since she'd last opened this notebook. Notebook full of old stories she had written as a young writer, with many abandoned ones in there. She felt a change in the energy of the room - the scent of damp earth replacing the familiar aroma of old paper.

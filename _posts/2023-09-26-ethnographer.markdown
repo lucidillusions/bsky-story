@@ -2,7 +2,9 @@
 layout: post
 title:  "Ethnographer"
 date:   2023-09-26 17:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kabzd2fexb2k
 ---
 
 Dr. Carter was an ethnographer who had spent half her life studying the cultures and rituals of various indigenous tribes around the world. She was fascinated by the diversity and complexity of human societies. Her published work explored how these indigenous tribes adapted to their environments and the challenges that came with it.

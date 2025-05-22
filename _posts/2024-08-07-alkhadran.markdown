@@ -3,6 +3,8 @@ layout: post
 title:  "The Curious Case of Dr. Alkhadran's Circus"
 date:   2024-08-07 18:39:03 +0530
 categories: deathclock
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kz5grnusmk2a
 ---
 
 Dr. Dennis Hansen, the Head of Concept & Content Development at the newly established Natural History Museum of NeoZurich Island, was a man of peculiar tastes. His office was adorned with ancient tomes, fossilised ammonites, and an Aldabra giant tortoise. The latter, affectionately named "Aldo," was his constant companion during late-night research sessions.
@@ -30,13 +32,3 @@ And so, Dr. Hansen, the biologist-turned-buffoon, met his end. His legacy? A cau
 As for Aldo, the giant tortoise? Some say he still roams the island, occasionally pausing to perform a clumsy pirouette. Perhaps he remembers Dr. Hansen —the man who dared to dream of rewilding, even if it meant becoming a clown.
 
 And so, dear reader, the next time you visit Neo-Zurich Island, spare a thought for the lost souls who once squeezed into that ill-fated clown car. Their laughter echoes through the fossil-strewn cliffs, a reminder that even in tragedy, there's a touch of whimsy.
-
-
-
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3kz5grnusmk2a" data-bluesky-cid="bafyreielvl7ufjlhazxidm6eazhee3vgw5jp2l4rbnacuvs2zo64k6k72y"><p lang="en">Hi @dennish.bsky.social ~~
-
-Thank you for for the support, and here&#x27;s a special story for you, as a thank you as well.
-
-(I think you might enjoy some of the easter eggs more than others)
-
-#ShortStory<br><br><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kz5grnusmk2a?ref_src=embed">[image or embed]</a></p>&mdash; The Spooky Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kz5grnusmk2a?ref_src=embed">Aug 7, 2024 at 10:54 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>

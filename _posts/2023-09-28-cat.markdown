@@ -2,7 +2,9 @@
 layout: post
 title:  "Cat"
 date:   2023-09-28 10:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kaglwtx5dj24
 ---
 
 Once, in a quiet town nestled between rolling hills and whispering forests, there existed an ancient force known as Cyarthluthponez, an eldritch god of unfathomable power. Unlike its ominous counterparts, Cyarthluthponez harboured no desire for chaos or destruction. It did not want to destroy the world or drive humans insane. It wanted to befriend them and learn from them. It longed for connection and understanding, a sentiment unusual for eldritch beings.

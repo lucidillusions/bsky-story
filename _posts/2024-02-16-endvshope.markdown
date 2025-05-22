@@ -2,7 +2,9 @@
 layout: post
 title:  "End vs Hope"
 date:   2024-02-16 18:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3klke7px7532q
 ---
 
 

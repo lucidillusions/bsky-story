@@ -2,7 +2,9 @@
 layout: post
 title:  "The Eternal Setting Sun"
 date:   2025-05-15 15:12:03 +0530
-categories: short story
+categories: dream
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in.threads.net.ap.brid.gy/post/3lp7trvedl432
 ---
 
 &nbsp; One minute he was in the cafe listening to the mundane sounds around him, the clinking of silverware, excited conversation on a table next to him, and the hiss of the espresso machine. Then, all of a sudden an impossible stillness descended. He was seated at a smooth, obsidian-like table on a beach that felt both familiar and utterly alien. He was looking at the most beautiful sunset, a sunset that felt divine and he just couldn't have enough of it. As he focused at the horizon, the colour of the sunset started slowly shifting towards impossible hues - it shimmered in ways no earthly sunset ever could. He looked around and noticed how there were just the right amount of cloud, and the perfect shade of grey and gold highlighting it.  Every now and then a silhouette of a bird would fly across the sun and it would cast long, distorted shadows that stretched and writhed independently of any discernible light source, before melting away in to the stillness.

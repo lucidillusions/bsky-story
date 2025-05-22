@@ -2,7 +2,9 @@
 layout: post
 title:  "When the Stars Misalign"
 date:   2025-05-03 20:12:03 +0530
-categories: short story
+categories: ShortStory
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lodbkzpw422x
 ---
 
 &nbsp; The glow of the monitor illuminated Rohan's intense gaze. Lines of code blurred into constellations on the screen, each keystroke a step closer to his grand design. "Cosmic Alignment," the app would be called. It promised personalized horoscopes with unprecedented accuracy, leveraging sophisticated algorithms and, unbeknownst to its users, their deepest secrets. Rohan, a fervent believer in the celestial dance, saw a universe teetering on imbalance. The stars whispered of disharmony, of energies misaligned.

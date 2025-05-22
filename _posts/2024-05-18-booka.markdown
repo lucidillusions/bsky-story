@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Booka"
+title:  "The Adventure of Tasha and Booka"
 date:   2024-05-18 18:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3ksrufsdirc26
 ---
 
 Once upon a time, on the edge of a bustling town, in a cosy little house, there lived a young girl named Tasha. She had no friends, but she had a pet, a very unusual pet - a cardboard box she'd named Booka. Unlike any ordinary box, Booka was magical and could transform into anything Tasha imagined. Every afternoon, the two of them would embark on the most wondrous adventures one could dream of.

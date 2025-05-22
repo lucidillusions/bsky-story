@@ -2,7 +2,9 @@
 layout: post
 title:  "Superior"
 date:   2023-08-21 17:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3k6fvyumhna2g
 ---
 When they announced his name, he was in shock. He had won the prize. The most prestigious prize in his field. The prize that recognised his brilliance, his innovation, his contribution to humanity.
 

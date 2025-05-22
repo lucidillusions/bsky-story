@@ -2,7 +2,9 @@
 layout: post
 title:  "Chaos Chaos"
 date:   2023-09-27 10:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kae6fwmpkq23
 ---
 
 I was looking through my attic for some old wires and I stumbled upon a long-forgotten collection of old boxes tucked away in the corner. As I started poking around the contents, a peculiar glass slide caught my attention. The label read, "Chaos Chaos", and next to it I saw my grandfather's initial. These relics were definitely from my grandfather's days as a biologist, a man who had vanished under mysterious circumstances. He had been famous, or rather infamous, following some of his research work that had intrigued and unsettled the scientific community.

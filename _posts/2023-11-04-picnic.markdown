@@ -2,7 +2,9 @@
 layout: post
 title:  "Picnic"
 date:   2023-11-04 13:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kded5yfcaq2b
 ---
 
 A gentle stirring roused me from sleep, a distinct feeling washed over me, whispering that today was a rare and precious day. I drew back the curtains, eager to unveil the outside world. As I opened the windows, the air promised a subtle, refreshing chill, and soft sunbeams promised a day of unhurried leisure. The radio shared a weather forecast that perfectly matched my mood. It was clear; this was the perfect day for a picnic.

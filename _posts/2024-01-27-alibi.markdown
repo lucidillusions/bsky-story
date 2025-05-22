@@ -2,7 +2,9 @@
 layout: post
 title:  "Alibi"
 date:   2024-01-27 13:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kjvshw3ktk2t
 ---
 
 The rain beat down on the dirty window, mirroring the turmoil in John's chest. His hands, damp with sweat, clutched a creased flyer – Alibi Agency: Your Discreet Solution, Your Unwavering Proof. A desperate bid for innocence in a game he'd played and lost.

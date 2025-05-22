@@ -3,6 +3,8 @@ layout: post
 title:  "Skydiving to Oblivion"
 date:   2024-08-05 18:39:03 +0530
 categories: deathclock
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kyvk6ibxyg23
 ---
 
 Gilbertine was not an adrenaline junkie. She preferred the quiet comfort of her armchair embroidering on a weekend to the thrill of anything remotely resembling excitement. But her best friend, a whirlwind of energy and impulsiveness, had convinced her that a tandem skydive would be a "once-in-a-lifetime experience." Gilbertine had envisioned the "experience" as a leisurely picnic with Bollywood movies being projected on a big screen... not plummeting towards Earth at terminal velocity.
@@ -24,10 +26,3 @@ And then it sneezed.
 Not just any sneeze. This was a cosmic sneeze, a cataclysmic event that ripped a hole in the fabric of reality. Through this breach, a slimy, tendril-like substance oozed into our world. Tiny at first, it began to grow at an alarming rate, its appetite insatiable.
 
 And so, Gilbertine, the woman who preferred tea to turbulence, became the unwitting harbinger of cosmic doom. It was, in the grand scheme of things, a truly awful way to spend an afternoon.
-
-
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3kyvk6ibxyg23" data-bluesky-cid="bafyreiacnnl6jk4ceyvdfzlriorqbztccjhh7fbbvpqp6t6lag4272lfni"><p lang="en">Hey @gilbertine.bsky.social wrote something as a thank you for all the support ^_^
-
-(Hope you enjoy it)
-
-#ShortStory<br><br><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kyvk6ibxyg23?ref_src=embed">[image or embed]</a></p>&mdash; The Spooky Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kyvk6ibxyg23?ref_src=embed">Aug 4, 2024 at 7:34 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>

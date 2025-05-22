@@ -2,7 +2,9 @@
 layout: post
 title:  "Parking"
 date:   2023-09-06 17:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3k6snf5aysg23
 ---
 Certain workdays feel like they've been plucked straight from the depths of hell, and today happened to be one of those. It dragged on endlessly, sapping every ounce of my energy, and by the time I left, hunger gnawed at my insides. The rain, intensifying as I drove through the dark evening, made visibility a challenge. So, I made a spur-of-the-moment decision to pause for a quick bite. A swift search on my map app led me to a small dine-in place adjacent to a parking lot, and I decided to head there.
 

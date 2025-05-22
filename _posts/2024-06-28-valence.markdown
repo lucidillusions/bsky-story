@@ -2,7 +2,9 @@
 layout: post
 title:  "Valence"
 date:   2024-06-28 18:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kvysdnarmb2c
 ---
 
 Right then, let's delve into this chilling tale of scientific discovery and cosmic horror. Here's the proofread version with consistent verb tenses and British English spellings, along with explanations for the changes:

@@ -3,6 +3,8 @@ layout: post
 title:  "The Cosmic Slip"
 date:   2024-08-16 18:39:03 +0530
 categories: deathclock
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kzt76nvshl2i
 ---
 
 It was a rainy Tuesday afternoon when Conor stepped into the cavernous store. The fluorescent lights buzzed overhead, illuminating towering shelves stacked with industrial-sized ketchup bottles, family packs of toilet paper, and enough frozen pizza to feed a small army. Conor’s mission: to stock up on essentials for the impending apocalypse (or at least the next snowstorm).
@@ -22,8 +24,3 @@ He had one chance. Conor reached into his pocket and pulled out his Costco membe
 And just like that, Conor ceased to exist. His atoms scattered across dimensions, his consciousness folded into a Möbius strip of despair. The eldritch horrors debated whether to rate his slip on Yelp.
 
 As for the puddle of pee pee, it remained, a testament to the absurdity of existence. Costco management put up a caution sign: “Slippery When Eldritch.” And somewhere in the multiverse, Conor’s ghost muttered, “At least I got my money’s worth.”
-
-
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3kzt76nvshl2i" data-bluesky-cid="bafyreifjuskdtmshsp2ftakcggimbjmvnhzjnxjqcp2flln7z6lu5t7bhu"><p lang="en">@conorvoice.com thank you for the support and here&#x27;s a special story for you :)
-
-#ShortStory #Eldritch #Horror adjacent.<br><br><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kzt76nvshl2i?ref_src=embed">[image or embed]</a></p>&mdash; The Spooky Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kzt76nvshl2i?ref_src=embed">Aug 16, 2024 at 2:37 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>

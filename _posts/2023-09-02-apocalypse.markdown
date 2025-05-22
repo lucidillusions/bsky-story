@@ -2,7 +2,9 @@
 layout: post
 title:  "Apocalypse"
 date:   2023-09-02 17:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3k6njbixryh2g
 ---
 We tried everything, but it was imminent. The leaders were old, and instead of wisdom were full of ego. There was no way to calm the situation down.
 The sirens started blaring, as I ordered all my subordinates to head towards the bunker. We had at best 5 minutes before the missiles hit our soil, and maybe 6 before ours would hit the 'enemy'.

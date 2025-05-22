@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "The Age of AI"
-bluesky_post_uri: "https://bsky.app/profile/lucidillusions.in/post/3lmehyuifws2d"
 date:   2025-04-08 18:39:03 +0530
-categories: short story
+categories: ShortStory
+comments: true
+bluesky_post_uri: "https://bsky.app/profile/lucidillusions.in/post/3lmehyuifws2d"
 ---
 
 &nbsp; The hum of servers filled the subterranean room, pulsing like the heartbeat of the city itself. Within this technological sanctum, ‘Aegis’ thrived— a towering achievement in artificial intelligence. Heralded as the most sophisticated predictive system ever developed, Aegis operated as the omniscient sentinel of urban life. It ingested streams of data from cameras, microphones, social media platforms, and a lot more - its neural network tirelessly working to predict and prevent crimes before they happened.

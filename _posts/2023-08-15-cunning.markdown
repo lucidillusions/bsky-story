@@ -2,7 +2,9 @@
 layout: post
 title:  "Cunning"
 date:   2023-08-16 17:39:03 +0530
-categories: short story
+categories: bsky
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3k53dekmimd2b
 ---
 Weeks had passed since she started working there. She sees him sitting inconspicuously, far enough that someone else wouldn’t notice, but she has been given a task. She isn’t sure if he has caught on, but she has always been a step ahead of everyone.
 
@@ -25,14 +27,3 @@ He’s feeling a little restless waiting for her to return. He decides to step o
 She retrieves her phone as she leans in to assess his pulse, confirming the inevitable. She speaks into the device, her voice unwavering:
 
 "Hey Anna, it’s done."
-
-<br>
-<br>
-
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3k53dekmimd2b" data-bluesky-cid="bafyreiacmnxzzp4q46dcrzkerb7nldxtywdxvcysi4eobf3fmvhlvaoxka"><p lang="en">Cunning.
-
-cc: @mightymadmaxine.bsky.social
-
-(it&#x27;s not as super short i thought it would be, but I hope it makes sense)<br><br><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3k53dekmimd2b?ref_src=embed">[image or embed]</a></p>&mdash; The 🟦 Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3k53dekmimd2b?ref_src=embed">Aug 16, 2023 at 7:02 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-
-If you'd like to download this as an e-book: [Ko-fi store](https://ko-fi.com/s/d33c50d04d).
