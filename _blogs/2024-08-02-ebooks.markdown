@@ -4,6 +4,8 @@ title:  "E-book and the Next set of stories"
 date:   2024-08-02 18:39:03 +0530
 author: Lucid Illusions
 categories: blog
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kyr7qa7dcs2w
 ---
 
 These short stories, started a year back in August of 2023, when I first asked Bluesky users to share a prompt. While my original idea was to write 100-200 word stories, some of the stories were way longer. I don't think I ever managed to write something that short.

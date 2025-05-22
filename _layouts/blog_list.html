@@ -7,11 +7,11 @@ layout: default
     {% assign sorted_blogs = blog_documents | sort: "date" | reverse %} {% if
     sorted_blogs.size > 0 %} {% for blog in sorted_blogs %}
     <div class="blog-list-item">
-        <h2>
+        <h3>
             <a href="{{ blog.url | prepend: site.baseurl }}"
                 >{{ blog.title }}</a
             >
-        </h2>
+        </h3>
         <time
             >{{ blog.date | date: "%b %-d, %Y" }}{% if blog.author %} • {{
             blog.author }}{% endif %}</time
