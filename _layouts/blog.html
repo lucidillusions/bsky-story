@@ -28,17 +28,25 @@ layout: default
     <div class="post-navigation">
         <div class="prev">
             {% if page.previous %}
-            <a href="{{ page.previous.url | prepend: site.baseurl }}"
-                >Previous: {{ page.previous.title }}</a
+            <a
+                href="{{ page.previous.url | prepend: site.baseurl }}"
+                title="Previous: {{ page.previous.title }}"
             >
+                <i class="fa-solid fa-circle-chevron-left"></i>
+                {{ page.previous.title }}
+            </a>
             {% endif %}
         </div>
 
         <div class="next">
             {% if page.next %}
-            <a href="{{ page.next.url | prepend: site.baseurl }}"
-                >Next: {{ page.next.title }}</a
+            <a
+                href="{{ page.next.url | prepend: site.baseurl }}"
+                title="Next: {{ page.next.title }}"
             >
+                {{ page.next.title }}
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </a>
             {% endif %}
         </div>
     </div>
