@@ -4,8 +4,8 @@ title:  "How has May shaped up"
 date:   2025-05-22 18:39:03 +0530
 author: Lucid Illusions
 categories: blog
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kyr7qa7dcs2w
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lprlax5enk2k
 ---
 We are a little over three weeks in May, and less than a week from my Birthday. It has been a spectrum of weird to interesting month. Weird because after a long time no active new assignments panned out, but I managed to write a whole lot of things.
 
