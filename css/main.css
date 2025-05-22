@@ -206,12 +206,6 @@ aside nav:after {
   clear: both;
 }
 
-footer {
-  border-top: 1px solid #ccc;
-  text-align: center;
-  padding-top: 10px;
-}
-
 /* _sass/_header.scss */
 /* --- Header Base Styles --- */
 .site-header {
@@ -413,6 +407,162 @@ hr {
     padding: 0 1em;
 }
 */
+/* _sass/_footer.scss */
+footer {
+  border-top: 1px solid #e0e0e0; /* Changed from #ccc to be consistent with site-header border */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px; /* Add some general bottom padding for the footer content itself */
+  background-color: #f8f8f8; /* Add a background for better visual separation */
+  /* Styles for Font Awesome icons in the footer */
+}
+footer p {
+  font-size: 0.9em; /* Smaller text for the footer */
+  line-height: 1.5;
+  margin: 0; /* Remove default paragraph margins */
+  color: #666; /* A slightly softer color for footer text */
+}
+footer a {
+  color: #007bff; /* Link color within the footer */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+footer .fa-brands,
+footer .fa-solid {
+  margin: 0 5px; /* Spacing between icons */
+}
+
+/* --- Responsive adjustments for footer and body (for Ko-Fi overlap) --- */
+@media (max-width: 768px) {
+  /* Increase padding-bottom on the body to make space for the floating Ko-Fi button */
+  body {
+    padding-bottom: 80px; /* Adjust this value as needed to clear the Ko-Fi button */
+  }
+  footer {
+    padding-bottom: 80px; /* Or move the padding-bottom from body to footer here if footer is fixed at bottom */
+  }
+  footer p {
+    font-size: 0.8em; /* Even smaller footer text on mobile */
+  }
+}
+/* Basic Styling for Webmentions */
+.webmention {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.webmention-author {
+  flex-shrink: 0;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.webmention-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+}
+
+.webmention-author-name {
+  display: block;
+  font-weight: bold;
+  font-size: 0.9em;
+  word-break: break-word; /* Prevent long names from overflowing */
+}
+
+.webmention-author-name a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.webmention-author-name a:hover {
+  text-decoration: underline;
+}
+
+.webmention-content {
+  flex-grow: 1;
+  font-style: italic; /* <--- ADD THIS LINE to make content italic */
+}
+
+.webmention-content p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-style: inherit; /* Ensure paragraphs inherit italic style from parent */
+}
+
+.webmention-content blockquote {
+  border-left: 4px solid #eee;
+  padding-left: 1em;
+  margin-left: 0;
+  font-style: normal; /* <--- ADD THIS LINE to make blockquotes NOT italic */
+  color: #666;
+}
+
+.webmention-meta {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 0.5em;
+  text-align: right;
+  flex-shrink: 0; /* Prevents meta from shrinking */
+  margin-left: 1em; /* Space between content and meta */
+  font-style: italic; /* <--- ADD THIS LINE to make metadata italic */
+}
+
+.webmention-source {
+  color: #888;
+  text-decoration: none;
+  font-style: normal; /* <--- ADD THIS LINE to make source link NOT italic */
+}
+
+.webmention-source:hover {
+  text-decoration: underline;
+}
+
+.webmention-type {
+  margin-left: 0.5em;
+  text-transform: capitalize; /* Capitalize the type (e.g., 'like', 'reply') */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .webmention {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .webmention-author {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+  .webmention-meta {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 1em;
+  }
+}
+/* Style for the 'No webmentions were found.' message */
+.webmentions__not-found {
+  font-style: italic; /* <--- ADD THIS LINE */
+  text-align: center; /* Center the text */
+  padding: 2em; /* Add some padding around the text */
+  color: #666; /* Adjust color if needed */
+  margin: 2em 0; /* Add margin above/below */
+  border: 1px dashed #ccc; /* Optional: subtle border */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
 /* You can add any global styles directly here if they don't fit into partials */
 
 /*# sourceMappingURL=main.css.map */
