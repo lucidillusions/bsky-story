@@ -14,6 +14,20 @@
     rel="canonical"
     href="https://ss.lucidillusions.in/deathclock/2024/08/07/alkhadran.html"
   />
+
+   <link rel="stylesheet" href="/assets/node_modules/bluesky-comments/dist/bluesky-comments.css">
+
+
+   <script type="importmap">
+     {
+       "imports": {
+         "react": "https://esm.sh/stable/react@18.2.0/es2022/react.mjs",
+         "react-dom": "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+       }
+     }
+    </script>
+
+
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600"
     rel="stylesheet"
@@ -95,12 +109,13 @@
 <div class="header-spacer"></div>
 
         <main>
-            <article><h2>The Curious Case of Dr. Alkhadran's Circus</h2>
-<time
-    >Aug 7, 2024</time
->
+            <article><article>
+    <h2>The Curious Case of Dr. Alkhadran's Circus</h2>
+    <time
+        >Aug 7, 2024</time
+    >
 
-<p>Dr. Dennis Hansen, the Head of Concept &amp; Content Development at the newly established Natural History Museum of NeoZurich Island, was a man of peculiar tastes. His office was adorned with ancient tomes, fossilised ammonites, and an Aldabra giant tortoise. The latter, affectionately named “Aldo,” was his constant companion during late-night research sessions.</p>
+    <p>Dr. Dennis Hansen, the Head of Concept &amp; Content Development at the newly established Natural History Museum of NeoZurich Island, was a man of peculiar tastes. His office was adorned with ancient tomes, fossilised ammonites, and an Aldabra giant tortoise. The latter, affectionately named “Aldo,” was his constant companion during late-night research sessions.</p>
 
 <p>Dr. Hansen had a secret passion: rewilding. He dreamed of reintroducing long-extinct creatures to their natural habitats. His eyes sparkled when he spoke of woolly mammoths roaming the Swiss Alps or pterosaurs gliding over Lake Zurich. But his most fervent desire was to see Aldabra tortoises once again lumbering across the island’s lush landscapes.</p>
 
@@ -126,40 +141,83 @@
 
 <p>And so, dear reader, the next time you visit Neo-Zurich Island, spare a thought for the lost souls who once squeezed into that ill-fated clown car. Their laughter echoes through the fossil-strewn cliffs, a reminder that even in tragedy, there’s a touch of whimsy.</p>
 
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3kz5grnusmk2a" data-bluesky-cid="bafyreielvl7ufjlhazxidm6eazhee3vgw5jp2l4rbnacuvs2zo64k6k72y"><p lang="en">Hi @dennish.bsky.social ~~
 
-Thank you for for the support, and here&#x27;s a special story for you, as a thank you as well.
+    <hr />
 
-(I think you might enjoy some of the easter eggs more than others)
+    
+    <section class="post-comments">
+        <h3>Comments</h3>
+        <div id="page__comments" style="min-height: 100px">
+    <div id="loading">Loading comments...</div>
+</div>
 
-#ShortStory<br /><br /><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kz5grnusmk2a?ref_src=embed">[image or embed]</a></p>&mdash; The Spooky Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kz5grnusmk2a?ref_src=embed">Aug 7, 2024 at 10:54 PM</a></blockquote>
-<script async="" src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+<script type="module">
+    try {
+        const modules = await Promise.all([
+            // React and ReactDOM are fetched from a CDN (esm.sh)
+            import("https://esm.sh/stable/react@18.2.0/es2022/react.mjs"),
+            import(
+                "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+            ),
+            // bluesky-comments is loaded from your local assets/node_modules
+            import(
+                '/assets/node_modules/bluesky-comments/dist/bluesky-comments.es.js'
+            ),
+        ]);
 
+        const [React, ReactDOM, BlueskyCommentsModule] = modules;
+        const BlueskyComments = BlueskyCommentsModule.BlueskyComments;
 
+        const container = document.getElementById("page__comments");
+        // The URI for the BlueSky post, pulled from your post's front matter
+        const uri = "https://bsky.app/profile/lucidillusions.in/post/3kz5grnusmk2a";
 
-<hr />
+        if (container) {
+            const root = ReactDOM.createRoot(container);
+            const element = React.createElement(BlueskyComments, {
+                uri,
+                // !!! IMPORTANT: REPLACE YOUR.USERNAME.HERE.bsky.social with your actual BlueSky handle !!!
+                author: "lucidillusions.in",
+                showLogin: true,
+                onLoad: () => document.getElementById("loading")?.remove(),
+            });
 
-<div class="webmentions">
+            root.render(element);
+        }
+    } catch (error) {
+        console.error("Error loading comments:", error);
+        document.getElementById("page__comments").innerHTML =
+            `<div style="color: red;">Unable to load comments. Please try again later.</div>`;
+    }
+</script>
+
+    </section>
+    
+
+    <hr />
+
+    <div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
-<div class="post-navigation">
-    <div class="prev">
-        
-        <a href="/deathclock/2024/08/05/skydiving.html"
-            >Previous: Skydiving to Oblivion</a
-        >
-        
-    </div>
+    <div class="post-navigation">
+        <div class="prev">
+            
+            <a href="/deathclock/2024/08/05/skydiving.html"
+                >Previous: Skydiving to Oblivion</a
+            >
+            
+        </div>
 
-    <div class="next">
-        
-        <a href="/deathclock/2024/08/16/cosmicslip.html"
-            >Next: The Cosmic Slip</a
-        >
-        
+        <div class="next">
+            
+            <a href="/deathclock/2024/08/16/cosmicslip.html"
+                >Next: The Cosmic Slip</a
+            >
+            
+        </div>
     </div>
-</div>
+</article>
 </article>
         </main>
 

@@ -14,6 +14,20 @@
     rel="canonical"
     href="https://ss.lucidillusions.in/deathclock/2024/08/24/BitcoinBlitz.html"
   />
+
+   <link rel="stylesheet" href="/assets/node_modules/bluesky-comments/dist/bluesky-comments.css">
+
+
+   <script type="importmap">
+     {
+       "imports": {
+         "react": "https://esm.sh/stable/react@18.2.0/es2022/react.mjs",
+         "react-dom": "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+       }
+     }
+    </script>
+
+
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600"
     rel="stylesheet"
@@ -95,12 +109,13 @@
 <div class="header-spacer"></div>
 
         <main>
-            <article><h2>Bitcoin Blitz</h2>
-<time
-    >Aug 24, 2024</time
->
+            <article><article>
+    <h2>Bitcoin Blitz</h2>
+    <time
+        >Aug 24, 2024</time
+    >
 
-<p>Shreyan was a young man, enjoying his simple life, which also involved occasionally touching grass. He was a software engineer, content with his modest apartment and the gentle rhythm of his days.</p>
+    <p>Shreyan was a young man, enjoying his simple life, which also involved occasionally touching grass. He was a software engineer, content with his modest apartment and the gentle rhythm of his days.</p>
 
 <p>One day he posted
 “hi guys send some bitcoin to my wallet just for fun 🤗”</p>
@@ -126,38 +141,83 @@ No explanation, no warning, just a windfall that defied logic. But the universe,
 
 <p>He fell. Fell through a void of blackness, a space devoid of time and gravity. And as the world spun into oblivion, a final thought crossed his mind: perhaps the universe had not been so generous after all.</p>
 
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3l2hgoj3jf72c" data-bluesky-cid="bafyreiaht7ryiseuqyxxupfav2makoj4obofe5mkwglb5poyljz3mnusxu"><p lang="en">Here you go @shreyanjain.net ^_^
 
-you have been included~~~
+    <hr />
 
-#ShortStory #LetThereBeDeath<br /><br /><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3l2hgoj3jf72c?ref_src=embed">[image or embed]</a></p>&mdash; The Spooky Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3l2hgoj3jf72c?ref_src=embed">Aug 24, 2024 at 3:44 PM</a></blockquote>
-<script async="" src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+    
+    <section class="post-comments">
+        <h3>Comments</h3>
+        <div id="page__comments" style="min-height: 100px">
+    <div id="loading">Loading comments...</div>
+</div>
 
+<script type="module">
+    try {
+        const modules = await Promise.all([
+            // React and ReactDOM are fetched from a CDN (esm.sh)
+            import("https://esm.sh/stable/react@18.2.0/es2022/react.mjs"),
+            import(
+                "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+            ),
+            // bluesky-comments is loaded from your local assets/node_modules
+            import(
+                '/assets/node_modules/bluesky-comments/dist/bluesky-comments.es.js'
+            ),
+        ]);
 
+        const [React, ReactDOM, BlueskyCommentsModule] = modules;
+        const BlueskyComments = BlueskyCommentsModule.BlueskyComments;
 
-<hr />
+        const container = document.getElementById("page__comments");
+        // The URI for the BlueSky post, pulled from your post's front matter
+        const uri = "https://bsky.app/profile/lucidillusions.in/post/3l2hgoj3jf72c";
 
-<div class="webmentions">
+        if (container) {
+            const root = ReactDOM.createRoot(container);
+            const element = React.createElement(BlueskyComments, {
+                uri,
+                // !!! IMPORTANT: REPLACE YOUR.USERNAME.HERE.bsky.social with your actual BlueSky handle !!!
+                author: "lucidillusions.in",
+                showLogin: true,
+                onLoad: () => document.getElementById("loading")?.remove(),
+            });
+
+            root.render(element);
+        }
+    } catch (error) {
+        console.error("Error loading comments:", error);
+        document.getElementById("page__comments").innerHTML =
+            `<div style="color: red;">Unable to load comments. Please try again later.</div>`;
+    }
+</script>
+
+    </section>
+    
+
+    <hr />
+
+    <div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
-<div class="post-navigation">
-    <div class="prev">
-        
-        <a href="/deathclock/2024/08/16/cosmicslip.html"
-            >Previous: The Cosmic Slip</a
-        >
-        
-    </div>
+    <div class="post-navigation">
+        <div class="prev">
+            
+            <a href="/deathclock/2024/08/16/cosmicslip.html"
+                >Previous: The Cosmic Slip</a
+            >
+            
+        </div>
 
-    <div class="next">
-        
-        <a href="/short/story/2025/04/08/AgeOfAI.html"
-            >Next: The Age of AI</a
-        >
-        
+        <div class="next">
+            
+            <a href="/shortstory/2025/04/08/AgeOfAI.html"
+                >Next: The Age of AI</a
+            >
+            
+        </div>
     </div>
-</div>
+</article>
 </article>
         </main>
 

@@ -14,6 +14,20 @@
     rel="canonical"
     href="https://ss.lucidillusions.in/deathclock/2025/05/02/flood.html"
   />
+
+   <link rel="stylesheet" href="/assets/node_modules/bluesky-comments/dist/bluesky-comments.css">
+
+
+   <script type="importmap">
+     {
+       "imports": {
+         "react": "https://esm.sh/stable/react@18.2.0/es2022/react.mjs",
+         "react-dom": "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+       }
+     }
+    </script>
+
+
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600"
     rel="stylesheet"
@@ -95,12 +109,13 @@
 <div class="header-spacer"></div>
 
         <main>
-            <article><h2>The Great Molasses Flood</h2>
-<time
-    >May 2, 2025</time
->
+            <article><article>
+    <h2>The Great Molasses Flood</h2>
+    <time
+        >May 2, 2025</time
+    >
 
-<p>  Martin wasn’t your typical tech support guy. While he could troubleshoot any computer issue thrown his way, his true passion lay in the realm of the occult and supernatural. His small, cluttered office at the university was a treasure trove of ancient texts, esoteric symbols, and strange artifacts.</p>
+    <p>  Martin wasn’t your typical tech support guy. While he could troubleshoot any computer issue thrown his way, his true passion lay in the realm of the occult and supernatural. His small, cluttered office at the university was a treasure trove of ancient texts, esoteric symbols, and strange artifacts.</p>
 
 <p>One day, while browsing through an obscure online forum, Martin stumbled upon a cryptic message. It spoke of a hidden symbol, buried deep within the university’s archives. Intrigued, Martin set out to find it. After days of searching, he discovered a dusty, leather-bound tome in the basement of the library. Within its pages, he found the symbol - a strange, swirling glyph that seemed to pulse with an otherworldly energy. As Martin studied the symbol, he felt a strange connection to it. It was as if it was calling out to him, drawing him into its power. Driven by an uncontrollable urge, he traced the symbol with his finger. A surge of energy coursed through him, and the lights in the library flickered and died.</p>
 
@@ -110,40 +125,83 @@
 
 <p>In the aftermath of the disaster, the city mourned its loss. But a few whispered tales persisted, of a strange ancient symbol, and of a man who had unwittingly opened a gateway to a realm beyond human comprehension. Some believed that the Great Molasses Flood was not merely a natural disaster, but a horrific glimpse into the darkness that lurked in parallel realms.</p>
 
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3lo6ipnddlk2i" data-bluesky-cid="bafyreicmcgkr3jbdltkal324lxkadjpk6rdnknkixo5b6lcebdi7zbn2ne" data-bluesky-embed-color-mode="light"><p lang="en">I&#x27;ve managed to misplace this story a bunch of times, and honestly I just ended up re-writing this from what I remembered from original idea -- and mostly a new plotline.
 
-@martinnutbeem.bsky.social hope you like this ^_^
+    <hr />
 
-ss.lucidillusions.in/short/story/...
+    
+    <section class="post-comments">
+        <h3>Comments</h3>
+        <div id="page__comments" style="min-height: 100px">
+    <div id="loading">Loading comments...</div>
+</div>
 
-#ShortStory<br /><br /><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3lo6ipnddlk2i?ref_src=embed">[image or embed]</a></p>&mdash; The Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3lo6ipnddlk2i?ref_src=embed">May 2, 2025 at 2:51 PM</a></blockquote>
-<script async="" src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+<script type="module">
+    try {
+        const modules = await Promise.all([
+            // React and ReactDOM are fetched from a CDN (esm.sh)
+            import("https://esm.sh/stable/react@18.2.0/es2022/react.mjs"),
+            import(
+                "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+            ),
+            // bluesky-comments is loaded from your local assets/node_modules
+            import(
+                '/assets/node_modules/bluesky-comments/dist/bluesky-comments.es.js'
+            ),
+        ]);
 
+        const [React, ReactDOM, BlueskyCommentsModule] = modules;
+        const BlueskyComments = BlueskyCommentsModule.BlueskyComments;
 
+        const container = document.getElementById("page__comments");
+        // The URI for the BlueSky post, pulled from your post's front matter
+        const uri = "https://bsky.app/profile/lucidillusions.in/post/3lo6ipnddlk2i";
 
-<hr />
+        if (container) {
+            const root = ReactDOM.createRoot(container);
+            const element = React.createElement(BlueskyComments, {
+                uri,
+                // !!! IMPORTANT: REPLACE YOUR.USERNAME.HERE.bsky.social with your actual BlueSky handle !!!
+                author: "lucidillusions.in",
+                showLogin: true,
+                onLoad: () => document.getElementById("loading")?.remove(),
+            });
 
-<div class="webmentions">
+            root.render(element);
+        }
+    } catch (error) {
+        console.error("Error loading comments:", error);
+        document.getElementById("page__comments").innerHTML =
+            `<div style="color: red;">Unable to load comments. Please try again later.</div>`;
+    }
+</script>
+
+    </section>
+    
+
+    <hr />
+
+    <div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
-<div class="post-navigation">
-    <div class="prev">
-        
-        <a href="/short/story/2025/04/08/AgeOfAI.html"
-            >Previous: The Age of AI</a
-        >
-        
-    </div>
+    <div class="post-navigation">
+        <div class="prev">
+            
+            <a href="/shortstory/2025/04/08/AgeOfAI.html"
+                >Previous: The Age of AI</a
+            >
+            
+        </div>
 
-    <div class="next">
-        
-        <a href="/short/story/2025/05/02/the13thcrab.html"
-            >Next: The Thirteenth Crab</a
-        >
-        
+        <div class="next">
+            
+            <a href="/shortstory/2025/05/02/the13thcrab.html"
+                >Next: The Thirteenth Crab</a
+            >
+            
+        </div>
     </div>
-</div>
+</article>
 </article>
         </main>
 

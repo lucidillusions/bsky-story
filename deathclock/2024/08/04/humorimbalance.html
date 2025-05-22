@@ -14,6 +14,20 @@
     rel="canonical"
     href="https://ss.lucidillusions.in/deathclock/2024/08/04/humorimbalance.html"
   />
+
+   <link rel="stylesheet" href="/assets/node_modules/bluesky-comments/dist/bluesky-comments.css">
+
+
+   <script type="importmap">
+     {
+       "imports": {
+         "react": "https://esm.sh/stable/react@18.2.0/es2022/react.mjs",
+         "react-dom": "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+       }
+     }
+    </script>
+
+
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600"
     rel="stylesheet"
@@ -95,12 +109,13 @@
 <div class="header-spacer"></div>
 
         <main>
-            <article><h2>Death by Laughter (or Humor Imbalance)</h2>
-<time
-    >Aug 4, 2024</time
->
+            <article><article>
+    <h2>Death by Laughter (or Humor Imbalance)</h2>
+    <time
+        >Aug 4, 2024</time
+    >
 
-<p>Trish wasn’t your average comedy club attendee. A staunch believer in the ancient Greek theory of humours, she was convinced that laughter was a direct assault on the delicate balance of her bodily fluids. She’d tried to explain this to her friends, but they’d just rolled their eyes and told her to “get a life”.</p>
+    <p>Trish wasn’t your average comedy club attendee. A staunch believer in the ancient Greek theory of humours, she was convinced that laughter was a direct assault on the delicate balance of her bodily fluids. She’d tried to explain this to her friends, but they’d just rolled their eyes and told her to “get a life”.</p>
 
 <p>One evening, determined to prove her point, Trish dragged her sceptical best friend, Gertrude, to a stand-up comedy show. The lanky comedian, Gary, regaled the audience with tales of disastrous first dates.</p>
 
@@ -114,37 +129,83 @@
 
 <p>The coroner’s report would later cite “Acute Humour Imbalance” as the cause of death. It was a medical mystery that would baffle doctors for years to come. And so, Mildred became a legend, the woman who died laughing. Or, as some would say, a victim of her own deeply held beliefs.</p>
 
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3kysf3fd66v2v" data-bluesky-cid="bafyreiff43j3hllzeiy2ewg5w7eq4i23ggo37lrypvrgs72j2qpwoqzvfi"><p lang="en">Hey
-@trishyb.bsky.social, while I still sort out the postcard situation, here&#x27;s something as a thank you for the support :)
 
-#ShortStory<br /><br /><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kysf3fd66v2v?ref_src=embed">[image or embed]</a></p>&mdash; The Spooky Doctor (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3kysf3fd66v2v?ref_src=embed">Aug 3, 2024 at 1:24 PM</a></blockquote>
-<script async="" src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+    <hr />
 
+    
+    <section class="post-comments">
+        <h3>Comments</h3>
+        <div id="page__comments" style="min-height: 100px">
+    <div id="loading">Loading comments...</div>
+</div>
 
+<script type="module">
+    try {
+        const modules = await Promise.all([
+            // React and ReactDOM are fetched from a CDN (esm.sh)
+            import("https://esm.sh/stable/react@18.2.0/es2022/react.mjs"),
+            import(
+                "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+            ),
+            // bluesky-comments is loaded from your local assets/node_modules
+            import(
+                '/assets/node_modules/bluesky-comments/dist/bluesky-comments.es.js'
+            ),
+        ]);
 
-<hr />
+        const [React, ReactDOM, BlueskyCommentsModule] = modules;
+        const BlueskyComments = BlueskyCommentsModule.BlueskyComments;
 
-<div class="webmentions">
+        const container = document.getElementById("page__comments");
+        // The URI for the BlueSky post, pulled from your post's front matter
+        const uri = "https://bsky.app/profile/lucidillusions.in/post/3kysf3fd66v2v";
+
+        if (container) {
+            const root = ReactDOM.createRoot(container);
+            const element = React.createElement(BlueskyComments, {
+                uri,
+                // !!! IMPORTANT: REPLACE YOUR.USERNAME.HERE.bsky.social with your actual BlueSky handle !!!
+                author: "lucidillusions.in",
+                showLogin: true,
+                onLoad: () => document.getElementById("loading")?.remove(),
+            });
+
+            root.render(element);
+        }
+    } catch (error) {
+        console.error("Error loading comments:", error);
+        document.getElementById("page__comments").innerHTML =
+            `<div style="color: red;">Unable to load comments. Please try again later.</div>`;
+    }
+</script>
+
+    </section>
+    
+
+    <hr />
+
+    <div class="webmentions">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 
-<div class="post-navigation">
-    <div class="prev">
-        
-        <a href="/short/story/2024/07/22/petrichor.html"
-            >Previous: Petrichor</a
-        >
-        
-    </div>
+    <div class="post-navigation">
+        <div class="prev">
+            
+            <a href="/bsky/2024/07/22/petrichor.html"
+                >Previous: Petrichor</a
+            >
+            
+        </div>
 
-    <div class="next">
-        
-        <a href="/deathclock/2024/08/05/skydiving.html"
-            >Next: Skydiving to Oblivion</a
-        >
-        
+        <div class="next">
+            
+            <a href="/deathclock/2024/08/05/skydiving.html"
+                >Next: Skydiving to Oblivion</a
+            >
+            
+        </div>
     </div>
-</div>
+</article>
 </article>
         </main>
 
