@@ -636,5 +636,17 @@ footer .fa-solid {
 }
 
 /* You can add any global styles directly here if they don't fit into partials */
+/* Basic screen reader only class */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
 
 /*# sourceMappingURL=main.css.map */
