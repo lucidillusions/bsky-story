@@ -2,23 +2,127 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-<time>{{ post.date | date: "%b %-d, %Y" }}</time>
-{% endfor %}
+<div class="archive-section">
+    <h2 class="archive-year-heading" id="heading-2025">
+        Stories from 2025
 
-<style>
-    span {
-        display: none;
-    }
-</style>
+        <button
+            class="toggle-button"
+            aria-expanded="true"
+            aria-controls="posts-2025"
+        >
+            <span class="plus-icon">+</span>
+
+            <span class="minus-icon">-</span>
+        </button>
+    </h2>
+
+    <div id="posts-2025" class="post-year-group">
+        {% assign current_year_string = "now" | date: "%Y" %} {% for post in
+        site.posts %} {% assign post_year_string = post.date | date: "%Y" %} {%
+        if post_year_string == current_year_string %}
+
+        <div class="post-list-item">
+            <h3>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+
+            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+
+            {% if post.excerpt %}
+
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+
+            {% endif %}
+        </div>
+
+        {% endif %} {% endfor %}
+    </div>
+</div>
+
+<div class="archive-section">
+    <h2 class="archive-year-heading" id="heading-2024">
+        Stories from 2024
+
+        <button
+            class="toggle-button"
+            aria-expanded="false"
+            aria-controls="posts-2024"
+        >
+            <span class="plus-icon">+</span>
+
+            <span class="minus-icon">-</span>
+        </button>
+    </h2>
+
+    <div id="posts-2024" class="post-year-group" style="display: none">
+        {% for post in site.posts %}{% assign post_year_string = post.date |
+        date: "%Y" %} {% if post_year_string == "2024" %}
+
+        <div class="post-list-item">
+            <h3>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+
+            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+
+            {% if post.excerpt %}
+
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+
+            {% endif %}
+        </div>
+
+        {% endif %} {% endfor %}
+    </div>
+</div>
+
+<div class="archive-section">
+    <h2 class="archive-year-heading" id="heading-2023">
+        Stories from 2023
+
+        <button
+            class="toggle-button"
+            aria-expanded="false"
+            aria-controls="posts-2023"
+        >
+            <span class="plus-icon">+</span>
+
+            <span class="minus-icon">-</span>
+        </button>
+    </h2>
+
+    <div id="posts-2023" class="post-year-group" style="display: none">
+        {% for post in site.posts %}{% assign post_year_string = post.date |
+        date: "%Y" %} {% if post_year_string == "2023" %}
+
+        <div class="post-list-item">
+            <h3>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+
+            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+
+            {% if post.excerpt %}
+
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+
+            {% endif %}
+        </div>
+
+        {% endif %} {% endfor %}
+    </div>
+</div>
 
 <span class="h-card">
     <a href="https://ss.lucidillusions.in/" class="u-url u-uid">
         Short Stories by Lucid Illusions
     </a>
+
     <span class="p-name">Short Stories by Lucid Illusions</span>
+
     <img class="u-photo" src="assets/images/Logo_Bsky_SS.png" />
+
     <p class="p-note">
         A federated account for the website which will compile most short
         stories that I've written
