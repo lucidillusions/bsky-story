@@ -24,12 +24,6 @@
                 </li>
 
 
-                {% for page in site.pages %}
-                    {% if page.title and page.title != "Blog" and page.title != "Home" %} {# Exclude pages if they have explicit links above, like "Blog" #}
-                        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-                    {% endif %}
-                {% endfor %}
-
 
                 <li class="dropdown">
                     <a class="page-link dropdown-toggle" href="#">Buy E-book <span class="arrow-down"></span></a>
