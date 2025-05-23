@@ -3,6 +3,7 @@ formatted box. {% endcomment %} {% if site.data.bluesky_latest_post %}
 <div class="bluesky-latest-post-box">
     <p>
         The Doctor is "{{ site.data.bluesky_latest_post.text }}" -
+
         <small>
             <a
                 href="{{ site.data.bluesky_latest_post.uri }}"
@@ -10,7 +11,7 @@ formatted box. {% endcomment %} {% if site.data.bluesky_latest_post %}
                 rel="noopener noreferrer"
             >
                 {{ site.data.bluesky_latest_post.timestamp | date: "%Y-%m-%d
-                %H:%M" }}
+                %H:%M %Z" }}
             </a>
         </small>
     </p>

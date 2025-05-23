@@ -54,3 +54,5 @@ comments:
 #  categories: false
 #  posts_limit: 10
 #  excerpt_only: true
+
+timezone: Asia/Kolkata

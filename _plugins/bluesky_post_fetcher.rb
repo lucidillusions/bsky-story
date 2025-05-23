@@ -1,5 +1,7 @@
 require 'net/http'
 require 'json'
+require 'active_support/time'
+
 
 module Jekyll
   class BlueskyPostFetcher < Generator
@@ -11,6 +13,7 @@ module Jekyll
 
     def generate(site)
       Jekyll.logger.info "Bluesky:", "Fetching latest post for #{ACTOR_DID}"
+      Time.zone = 'Asia/Kolkata'
 
       uri = URI(BLUESKY_API_URL)
       uri.query = URI.encode_www_form({
@@ -27,7 +30,12 @@ module Jekyll
           latest_post_record = data['feed'][0]['post']['record']
           post_text = latest_post_record['text']
           at_uri = data['feed'][0]['post']['uri'] # Get the 'at://' URI
-          post_timestamp = latest_post_record['createdAt']
+          utc_timestamp_str = latest_post_record['createdAt']
+
+          utc_time = Time.parse(utc_timestamp_str).utc
+          ist_time = utc_time.in_time_zone('Asia/Kolkata')
+
+          post_timestamp = ist_time
 
           # --- CRITICAL PART: CONVERT THE URI ---
           public_url = convert_at_uri_to_bsky_url(at_uri)
