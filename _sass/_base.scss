@@ -1,19 +1,34 @@
+// Your existing variables
 $content-width: 800px;
 $main: #ffffff;
 $main2: #28abe5;
-$font-style: 'Open Sans', sans-serif;
+$font-style: "Open Sans", sans-serif;
 $font-color: #262626;
 $link-color: #425469;
 $link-hover-color: #28abe5;
-$heading-font: 'Muli', sans-serif;
+$heading-font: "Muli", sans-serif;
 $heading-font-color: #425469;
 $light: #e7edf4;
 $header: #1d1425;
 
+// Add this block directly below your variables or at the very top, before other styles
+html,
+body {
+    margin: 0; // This is the crucial line to remove browser default margin
+    padding: 0; // This removes any default padding
+}
+
+// Your existing box-sizing rules
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+// Optional: You might want to add a default font family here too if not set elsewhere
+body {
+    font-family: $font-style; // Using your defined variable
+    color: $font-color; // Using your defined variable
 }

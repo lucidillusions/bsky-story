@@ -1,0 +1,38 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>{{ site.title | xml_escape }}</title>
+  <link href="{{ site.url | append: site.baseurl }}/feed.xml" rel="self"/>
+  <link href="{{ site.url | append: site.baseurl }}/" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url | append: site.baseurl }}/feed.xml</id>
+  <author>
+    <name>{{ site.author | default: site.title }}</name>
+  </author>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+
+  {%- assign all_entries = site.posts | concat: site.blogs -%}
+  {%- assign sorted_entries = all_entries | sort: "date" | reverse -%}
+  {%- assign feed_entries = sorted_entries | slice: 0, 10 -%}
+
+  {%- for post in feed_entries limit:10 -%}
+  <entry>
+    <title type="html">{{ post.title | xml_escape }}</title>
+    <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+    <id>{{ post.url | absolute_url }}</id>
+    {%- if post.author -%}
+    <author>
+      <name>{{ post.author | xml_escape }}</name>
+    </author>
+    {%- endif -%}
+    <summary type="html">{{ post.excerpt | strip_html | truncatewords: 30 | xml_escape }}</summary>
+  </entry>
+  {%- endfor -%}
+
+</feed>

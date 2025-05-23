@@ -1,0 +1,18 @@
+{% comment %} _includes/status_lucid.html Displays the latest Bluesky post in a
+formatted box. {% endcomment %} {% if site.data.bluesky_latest_post %}
+<div class="bluesky-latest-post-box">
+    <p>
+        The Doctor is "{{ site.data.bluesky_latest_post.text }}" -
+        <small>
+            <a
+                href="{{ site.data.bluesky_latest_post.uri }}"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                {{ site.data.bluesky_latest_post.timestamp | date: "%Y-%m-%d
+                %H:%M" }}
+            </a>
+        </small>
+    </p>
+</div>
+{% endif %}

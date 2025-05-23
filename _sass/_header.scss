@@ -3,7 +3,7 @@
 /* --- Header Base Styles --- */
 .site-header {
     background-color: #f8f8f8; /* Or your preferred header background */
-    padding: 1em 0;
+    padding: 0.25em 0; /* Adjust this value: make it smaller (e.g., 0.1em, 0) */
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -21,6 +21,19 @@
     font-weight: bold;
     color: #333;
     text-decoration: none;
+    // Add these lines to directly control the logo image size
+    img {
+        height: 35px; /* Experiment with this value: 30px, 40px, etc. */
+        max-width: 100%; /* Ensures it scales down on smaller screens */
+        vertical-align: middle; /* Helps align the image if there's text next to it */
+    }
+}
+
+/* Optional: If your logo image is making the header tall, constrain its height */
+.site-title img {
+    height: 40px; /* Adjust this value (e.g., 30px, 50px) to control logo size and thus header height */
+    max-width: 100%; /* Ensure it's responsive */
+    vertical-align: middle; /* Helps with alignment if there's text next to it */
 }
 
 .site-nav ul.nav-list {
@@ -59,12 +72,20 @@
 /* --- Mobile-Specific Styles (Media Query) --- */
 @media (max-width: 768px) {
     /* Adjust breakpoint as needed */
+    .site-header {
+        padding: 0.25em 0; /* Keep consistent or adjust for mobile */
+    }
+
     .site-header .wrapper {
         flex-wrap: wrap; /* Allow items to wrap */
     }
 
     .site-title {
         flex-grow: 1; /* Allow title to take up available space */
+    }
+
+    .site-title img {
+        height: 30px; /* Adjust mobile logo size if needed */
     }
 
     .menu-toggle {

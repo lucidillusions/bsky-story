@@ -1,5 +1,5 @@
 plugins:
-  - jekyll-feed
+  #  - jekyll-feed
   - jekyll-webmention_io
 
 title: Short Stories by Lucid Illusions
@@ -18,7 +18,7 @@ google_analytics: G-61GWSJVEWN
 # Build settings
 sass:
   sass_dir: _sass
-include: ["_pages"]
+include: ["_pages", "_plugins"]
 collections:
   blogs:
     output: true
@@ -43,3 +43,14 @@ defaults:
 
 comments:
   provider: "custom" # This tells Jekyll you're using a custom comment system
+
+#feed:
+#  collections:
+#    posts:
+#      path: "/feed.xml"
+#    blogs:
+#      path: "/feed.xml"
+#  tags: false
+#  categories: false
+#  posts_limit: 10
+#  excerpt_only: true
