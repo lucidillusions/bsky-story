@@ -1,8 +1,8 @@
 ---
-text: watching Castle (S03E09)
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpudubhqw52f
+text: heading to bed
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpuhqek3kw2e
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-23 19:17:53.060000000 Z
+  utc: 2025-05-23 20:27:17.036000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-24 00:47:53.060000000 Z
+  time: 2025-05-24 01:57:17.036000000 Z
