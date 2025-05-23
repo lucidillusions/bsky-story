@@ -9,7 +9,7 @@ on:
     # Adjust the cron schedule to your desired frequency.
     # For example, '0 0 * * *' for once a day at midnight UTC.
     # Note: GitHub Actions schedules can be delayed by a few minutes.
-    - cron: '0 */3 * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
     # This empty entry enables manual triggering from the GitHub Actions tab.
     # You will see a "Run workflow" button for this workflow.
