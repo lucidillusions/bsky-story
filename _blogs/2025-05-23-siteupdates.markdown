@@ -4,8 +4,8 @@ title:  "Updates to the Website"
 date:   2025-05-23 18:39:03 +0530
 author: Lucid Illusions
 categories: blog
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lprlax5enk2k
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lpubhbuvek26
 ---
 
 I've been using this site to compile my stories for a long time, and for just as long I've been meaning to learn more of Jekyll to add features and fix things. This week I had enough time to just focus on updating the website, and the first thing I did was add the blog section! I kind of like the idea of having a personal space to put brain dump (soemtimes online to keep it in sight for me) - and having a blog used to help, ages back.
