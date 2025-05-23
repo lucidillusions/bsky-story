@@ -1,0 +1,50 @@
+# .github/workflows/update_bluesky_status.yml
+
+name: Update Bluesky Status
+
+on:
+  schedule:
+    # Runs every 3 hours (e.g., 00:00, 03:00, 06:00 UTC)
+    # Adjust the cron schedule to your desired frequency.
+    # Check crontab.guru for help with cron syntax.
+    # Note: GitHub Actions schedule triggers can be delayed by a few minutes.
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    # Allows you to manually trigger the workflow from the GitHub Actions tab
+
+jobs:
+  update_data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.x' # Use a Ruby version compatible with your Jekyll setup (e.g., 3.2, 3.3)
+          bundler-cache: true # Installs gems from Gemfile.lock
+
+      - name: Run Jekyll to generate data file
+        # This command runs Jekyll in "build" mode.
+        # Your bluesky_post_fetcher.rb plugin (a Generator) runs during this process.
+        # It will update _data/bluesky_latest_post.yml if there's new data.
+        run: |
+          bundle exec jekyll build --source . --destination _site_temp # Build to a temp dir to avoid conflicts
+        env:
+          JEKYLL_ENV: production # Ensure plugins run in production mode
+
+      - name: Check for changes in _data/bluesky_latest_post.yml
+        id: git_diff
+        run: |
+          git diff --quiet _data/bluesky_latest_post.yml || echo "::set-output name=status::changed"
+
+      - name: Commit and push changes
+        if: steps.git_diff.outputs.status == 'changed'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add _data/bluesky_latest_post.yml
+          git commit -m "Automated: Update Bluesky status from latest post"
+          git push
