@@ -1,0 +1,8 @@
+---
+text: testing github actions.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpu3wqykf22g
+timestamp: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2025-05-23 16:56:07.067000000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: Asia/Kolkata
+  time: 2025-05-23 22:26:07.067000000 Z
