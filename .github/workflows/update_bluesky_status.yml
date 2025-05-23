@@ -4,10 +4,7 @@ name: Update Bluesky Status
 
 on:
   schedule:
-    # Runs every 3 hours (e.g., 00:00, 03:00, 06:00 UTC)
-    # Adjust the cron schedule to your desired frequency.
-    # Check crontab.guru for help with cron syntax.
-    # Note: GitHub Actions schedule triggers can be delayed by a few minutes.
+    # Runs every 3 hours (adjust as needed)
     - cron: '0 */3 * * *'
   workflow_dispatch:
     # Allows you to manually trigger the workflow from the GitHub Actions tab
@@ -27,24 +24,42 @@ jobs:
           bundler-cache: true # Installs gems from Gemfile.lock
 
       - name: Run Jekyll to generate data file
-        # This command runs Jekyll in "build" mode.
-        # Your bluesky_post_fetcher.rb plugin (a Generator) runs during this process.
-        # It will update _data/bluesky_latest_post.yml if there's new data.
+        # This step runs Jekyll in "build" mode.
+        # Your bluesky_post_fetcher.rb plugin (a Generator) runs during this process,
+        # and will update _data/bluesky_latest_post.yml directly in the source directory.
         run: |
           bundle exec jekyll build --source . --destination _site_temp # Build to a temp dir to avoid conflicts
         env:
           JEKYLL_ENV: production # Ensure plugins run in production mode
 
-      - name: Check for changes in _data/bluesky_latest_post.yml
-        id: git_diff
+      - name: Stage changes for commit (including potential new file)
+        # This command will add _data/bluesky_latest_post.yml to the staging area.
+        # If the file is new, it will be added. If modified, it will be staged.
+        # This prevents the 'ambiguous argument' error for git diff/commit.
         run: |
-          git diff --quiet _data/bluesky_latest_post.yml || echo "::set-output name=status::changed"
+          git add _data/bluesky_latest_post.yml
+        # Note: If the file is genuinely not created by Jekyll (e.g., plugin error),
+        # this step might still fail, but it's crucial for the next steps.
+
+      - name: Check if there are changes to commit
+        id: git_status_check # Changed ID to be more specific
+        run: |
+          # `git diff --cached --quiet` checks if there are staged changes
+          # compared to the last commit. If there are changes, it exits with a non-zero code.
+          if ! git diff --cached --quiet; then
+            echo "file_status=changed" >> $GITHUB_OUTPUT # New way to set output
+            echo "Changes detected in _data/bluesky_latest_post.yml."
+          else
+            echo "file_status=no_change" >> $GITHUB_OUTPUT # New way to set output
+            echo "No changes detected in _data/bluesky_latest_post.yml."
+          fi
+        shell: bash # Explicitly use bash for the echo redirection syntax
 
       - name: Commit and push changes
-        if: steps.git_diff.outputs.status == 'changed'
+        if: steps.git_status_check.outputs.file_status == 'changed'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add _data/bluesky_latest_post.yml
+          # The file is already staged by the 'Stage changes for commit' step
           git commit -m "Automated: Update Bluesky status from latest post"
           git push
