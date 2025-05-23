@@ -18,7 +18,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x' # Use a Ruby version compatible with your Jekyll setup (e.g., 3.2, 3.3)
+          ruby-version: '3.3.0' # Use a Ruby version compatible with your Jekyll setup (e.g., 3.2, 3.3)
           bundler-cache: true # Installs gems from Gemfile.lock
 
       - name: Debug: List files before Jekyll build
