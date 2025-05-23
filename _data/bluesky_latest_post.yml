@@ -1,8 +1,8 @@
 ---
-text: writing a blogpost about updates to the website.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpu6zbt5fs2u
+text: watching Castle (S03E09)
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpudubhqw52f
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-23 17:51:13.051000000 Z
+  utc: 2025-05-23 19:17:53.060000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-23 23:21:13.051000000 Z
+  time: 2025-05-24 00:47:53.060000000 Z
