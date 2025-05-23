@@ -1,79 +1,71 @@
 # .github/workflows/update_bluesky_status.yml
 
-name: Update Bluesky Status (Debugging)
+name: Update Bluesky Status
 
+# This workflow will run on a schedule and can also be triggered manually.
 on:
   schedule:
+    # Runs every 3 hours (e.g., 00:00, 03:00, 06:00 UTC)
+    # Adjust the cron schedule to your desired frequency.
+    # For example, '0 0 * * *' for once a day at midnight UTC.
+    # Note: GitHub Actions schedules can be delayed by a few minutes.
     - cron: '0 */3 * * *'
   workflow_dispatch:
+    # This empty entry enables manual triggering from the GitHub Actions tab.
+    # You will see a "Run workflow" button for this workflow.
 
 jobs:
   update_data:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # The type of runner that the job will execute on
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 # Action to clone your repository
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Set up Ruby environment
+        uses: ruby/setup-ruby@v1 # Action to set up Ruby
         with:
-          ruby-version: '3.3.0' # Use a Ruby version compatible with your Jekyll setup (e.g., 3.2, 3.3)
-          bundler-cache: true # Installs gems from Gemfile.lock
+          ruby-version: '3.3' # Use a Ruby version compatible with your Jekyll setup (e.g., 3.2, 3.3)
+          bundler-cache: true # Installs gems from Gemfile.lock (fastest way)
 
-      - name: Debug: List files before Jekyll build
+      - name: Run Jekyll generator to update data
+        # This command triggers Jekyll's build process.
+        # Your `_plugins/bluesky_post_fetcher.rb` (a Jekyll Generator) runs during this process.
+        # It will fetch the latest Bluesky post and update `_data/bluesky_latest_post.yml`
+        # directly in the source directory (your repository's working copy).
         run: |
-          echo "Files in current directory before build:"
-          ls -F
-          echo "Files in _data/ before build:"
-          ls -F _data/ || true # Use || true so it doesn't fail if _data is empty
-
-      - name: Run Jekyll to generate data file
-        run: |
-          bundle exec jekyll build --source . --destination _site_temp
+          bundle exec jekyll build --source . --destination _site_temp # Build to a temporary directory
         env:
-          JEKYLL_ENV: production
+          JEKYLL_ENV: production # Ensure plugins run in production mode
 
-      - name: Debug: List files after Jekyll build
-        run: |
-          echo "Files in current directory after build:"
-          ls -F
-          echo "Files in _data/ after build:"
-          ls -F _data/ || true # Use || true so it doesn't fail if _data is empty
-          echo "Files in _site_temp/ after build:"
-          ls -F _site_temp/ || true # Check temp build directory too
-
-      - name: Debug: Check content of _data/bluesky_latest_post.yml if it exists
-        run: |
-          if [ -f "_data/bluesky_latest_post.yml" ]; then
-            echo "Content of _data/bluesky_latest_post.yml:"
-            cat _data/bluesky_latest_post.yml
-          else
-            echo "_data/bluesky_latest_post.yml does NOT exist after build."
-          fi
-
-      - name: Stage changes for commit (including potential new file)
+      - name: Stage changes for commit
+        # This command adds `_data/bluesky_latest_post.yml` to Git's staging area.
+        # It handles both new files (first run) and modified files gracefully.
         run: |
           git add _data/bluesky_latest_post.yml
-        # Temporarily remove continue-on-error to force a fail here if file missing,
-        # so we get a clear error message. We expect it to fail here.
+        # `continue-on-error: true` is generally good here if the file might not exist
+        # in some edge cases (e.g., plugin failed to create it). The next step will check for actual changes.
 
       - name: Check if there are changes to commit
-        id: git_status_check
+        id: git_status_check # This ID is used to reference this step's outputs
         run: |
+          # `git diff --cached --quiet` checks if there are staged changes compared to the last commit.
+          # If it returns a non-zero exit code (meaning changes exist), then set the output.
           if ! git diff --cached --quiet; then
-            echo "file_status=changed" >> $GITHUB_OUTPUT
-            echo "Changes detected in _data/bluesky_latest_post.yml."
+            echo "file_status=changed" >> $GITHUB_OUTPUT # New method for setting outputs
+            echo "Changes detected in _data/bluesky_latest_post.yml, ready to commit."
           else
-            echo "file_status=no_change" >> $GITHUB_OUTPUT
-            echo "No changes detected in _data/bluesky_latest_post.yml."
+            echo "file_status=no_change" >> $GITHUB_OUTPUT # New method for setting outputs
+            echo "No changes detected in _data/bluesky_latest_post.yml. Skipping commit."
           fi
-        shell: bash
+        shell: bash # Ensures bash is used for `echo ... >> $GITHUB_OUTPUT` syntax
 
       - name: Commit and push changes
+        # This step only runs if the previous step detected 'changed' status.
         if: steps.git_status_check.outputs.file_status == 'changed'
         run: |
-          git config --global user.name 'github-actions[bot]'
+          git config --global user.name 'github-actions[bot]' # Identify the committer as a bot
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # The file is already staged by the "Stage changes for commit" step
           git commit -m "Automated: Update Bluesky status from latest post"
-          git push
+          git push # Pushes the commit to the repository
