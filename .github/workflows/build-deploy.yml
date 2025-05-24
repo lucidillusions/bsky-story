@@ -79,11 +79,11 @@ jobs:
           ls -la _site/bsky-story/js/ || echo "_site/bsky-story/js/ directory not found or empty (as expected)."
           echo ""
 
-      - name: Deploy to Github Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: _site
+      #- name: Deploy to Github Pages
+      #  uses: JamesIves/github-pages-deploy-action@v4
+      #  with:
+      #    branch: gh-pages
+      #    folder: _site
 
       #- name: Deploy to GitHub Pages
       #  uses: peaceiris/actions-gh-pages@v4
@@ -93,3 +93,67 @@ jobs:
       #    publish_branch: gh-pages
       #   keep_files: false
       # cname: ss.lucidillusions.in
+
+      # --- TEMPORARILY REPLACE THE JamesIves DEPLOY STEP WITH THIS BLOCK ---
+      - name: Manual Deploy to GitHub Pages (Detailed Diagnostic)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -eux # Exit immediately if a command exits with a non-zero status. Print commands and their arguments as they are executed.
+
+          # Configure Git
+          echo "--- Configuring Git ---"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global --add safe.directory /github/workspace
+
+          # Create a temporary directory for cloning the gh-pages branch
+          GIT_TEMP_DIR=$(mktemp -d)
+          echo "Temporary Git clone directory: $GIT_TEMP_DIR"
+
+          # Clone gh-pages branch. If it doesn't exist (first deploy), create an orphan branch.
+          echo "--- Cloning gh-pages branch ---"
+          if git ls-remote --heads origin gh-pages; then
+              git clone --depth=1 --single-branch --branch gh-pages https://x-oauth-basic:${GH_TOKEN}@github.com/${{ github.repository }}.git "$GIT_TEMP_DIR"
+          else
+              echo "gh-pages branch does not exist, creating an orphan branch."
+              git clone --depth=1 --single-branch --orphan gh-pages https://x-oauth-basic:${GH_TOKEN}@github.com/${{ github.repository }}.git "$GIT_TEMP_DIR"
+          fi
+
+          # Change to the temporary directory
+          cd "$GIT_TEMP_DIR"
+
+          # Clean up existing files in the temporary directory (equivalent to clean: true)
+          echo "--- Cleaning up existing files in $GIT_TEMP_DIR (gh-pages clone) ---"
+          # Ensure .git directory is not removed if it's there
+          find . -maxdepth 1 ! -name ".git" ! -name "." ! -name ".." -exec rm -rf {} +
+          ls -la # Show contents after cleaning
+
+          # Copy contents of _site to the temporary directory
+          echo "--- Copying _site contents to $GIT_TEMP_DIR ---"
+          # Use rsync with --checksum to ensure files are copied if content changed
+          rsync -av --checksum --progress --exclude .git --exclude .github --exclude .ssh /home/runner/work/bsky-story/bsky-story/_site/. "$GIT_TEMP_DIR/"
+
+          # --- CRITICAL DEBUG CHECKS ---
+          echo "--- Contents of deployment target directory AFTER rsync ---"
+          ls -lR . # List all files in the current directory (which is $GIT_TEMP_DIR)
+          echo "--- Contents of js/ directory within target after rsync ---"
+          ls -l js/ # Specifically check the js/ directory
+
+          # Add, commit, and push changes
+          echo "--- Adding files to git ---"
+          git add --all .
+          echo "--- Git Status (check for staged changes) ---"
+          git status
+
+          echo "--- Committing changes ---"
+          # The '|| true' allows the workflow to continue if there are no changes (e.g., first run)
+          git commit -m "Deploy from GitHub Actions (Manual Diagnostic - ${{ github.sha }})" || true
+
+          echo "--- Pushing changes to gh-pages branch ---"
+          git push --force origin gh-pages
+
+          # Clean up temporary directory (outside the current working directory)
+          echo "--- Cleaning up temporary Git clone directory ---"
+          cd /home/runner/work/bsky-story/bsky-story # Go back to original working dir
+          rm -rf "$GIT_TEMP_DIR"
