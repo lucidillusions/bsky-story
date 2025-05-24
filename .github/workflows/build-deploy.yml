@@ -94,8 +94,8 @@ jobs:
       #   keep_files: false
       # cname: ss.lucidillusions.in
 
-      # --- TEMPORARILY REPLACE THE JamesIves DEPLOY STEP WITH THIS BLOCK ---
-      - name: Manual Deploy to GitHub Pages (Detailed Diagnostic)
+      # --- REPLACE THE MANUAL DEPLOY STEP WITH THIS REFINED, AGGRESSIVE VERSION ---
+      - name: Manual Deploy to GitHub Pages (Aggressive Reset Diagnostic)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -107,53 +107,64 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global --add safe.directory /github/workspace
 
-          # Create a temporary directory for cloning the gh-pages branch
-          GIT_TEMP_DIR=$(mktemp -d)
-          echo "Temporary Git clone directory: $GIT_TEMP_DIR"
+          # Define deployment directory
+          DEPLOY_DIR="github-pages-deploy-temp"
+          echo "Temporary Git clone directory: $DEPLOY_DIR"
 
-          # Clone gh-pages branch. If it doesn't exist (first deploy), create an orphan branch.
+          # Clone gh-pages branch or create orphan
           echo "--- Cloning gh-pages branch ---"
-          if git ls-remote --heads origin gh-pages; then
-              git clone --depth=1 --single-branch --branch gh-pages https://x-oauth-basic:${GH_TOKEN}@github.com/${{ github.repository }}.git "$GIT_TEMP_DIR"
-          else
+          if ! git ls-remote --heads origin gh-pages | grep -q 'refs/heads/gh-pages'; then
               echo "gh-pages branch does not exist, creating an orphan branch."
-              git clone --depth=1 --single-branch --orphan gh-pages https://x-oauth-basic:${GH_TOKEN}@github.com/${{ github.repository }}.git "$GIT_TEMP_DIR"
+              git clone --depth=1 --single-branch --orphan gh-pages https://x-oauth-basic:${GH_TOKEN}@github.com/${{ github.repository }}.git "$DEPLOY_DIR"
+              cd "$DEPLOY_DIR"
+              git rm -rf . || true # Remove initial files from orphan branch if any
+              git commit --allow-empty -m "Initial empty gh-pages branch" || true
+              git push origin gh-pages
+              cd - # Go back to original working dir
           fi
 
-          # Change to the temporary directory
-          cd "$GIT_TEMP_DIR"
+          # Use git worktree for a cleaner operation
+          echo "--- Adding git worktree ---"
+          git worktree add --force --detach "$DEPLOY_DIR" gh-pages
 
-          # Clean up existing files in the temporary directory (equivalent to clean: true)
-          echo "--- Cleaning up existing files in $GIT_TEMP_DIR (gh-pages clone) ---"
-          # Ensure .git directory is not removed if it's there
-          find . -maxdepth 1 ! -name ".git" ! -name "." ! -name ".." -exec rm -rf {} +
-          ls -la # Show contents after cleaning
+          # Go into the worktree
+          cd "$DEPLOY_DIR"
 
-          # Copy contents of _site to the temporary directory
-          echo "--- Copying _site contents to $GIT_TEMP_DIR ---"
-          # Use rsync with --checksum to ensure files are copied if content changed
-          rsync -av --checksum --progress --exclude .git --exclude .github --exclude .ssh /home/runner/work/bsky-story/bsky-story/_site/. "$GIT_TEMP_DIR/"
+          # --- AGGRESSIVE CLEAN AND RESET ---
+          echo "--- Aggressively cleaning and resetting worktree ---"
+          # This command deletes all untracked files and directories, and resets tracked files
+          git clean -fdx # -f: force, -d: directories, -x: untracked files ignored by .gitignore
+          git reset --hard origin/gh-pages # Ensures worktree matches remote head exactly
 
-          # --- CRITICAL DEBUG CHECKS ---
+          # Now copy the _site contents into the cleaned worktree
+          echo "--- Copying _site contents to worktree ---"
+          rsync -av --checksum --progress /home/runner/work/bsky-story/bsky-story/_site/. "$DEPLOY_DIR/" --exclude .git --exclude .github --exclude .ssh # Exclude .git etc. from source
+
+          # --- CRITICAL DEBUG CHECKS AFTER RSYNC ---
           echo "--- Contents of deployment target directory AFTER rsync ---"
-          ls -lR . # List all files in the current directory (which is $GIT_TEMP_DIR)
+          ls -lR . # List all files in the current directory (which is $DEPLOY_DIR)
           echo "--- Contents of js/ directory within target after rsync ---"
           ls -l js/ # Specifically check the js/ directory
 
           # Add, commit, and push changes
-          echo "--- Adding files to git ---"
-          git add --all .
-          echo "--- Git Status (check for staged changes) ---"
+          echo "--- Adding files to git (forcing re-evaluation) ---"
+          git add --all --force . # Keep --force here, it might be necessary
+
+          echo "--- Git Status (final check for staged changes) ---"
           git status
 
           echo "--- Committing changes ---"
-          # The '|| true' allows the workflow to continue if there are no changes (e.g., first run)
-          git commit -m "Deploy from GitHub Actions (Manual Diagnostic - ${{ github.sha }})" || true
+          # Only commit if there are actual changes
+          if ! git diff-index --quiet HEAD; then
+              git commit -m "Deploy from GitHub Actions (Aggressive Manual - ${{ github.sha }})"
+          else
+              echo "No changes detected to commit after rsync (this should not happen now)."
+          fi
 
           echo "--- Pushing changes to gh-pages branch ---"
           git push --force origin gh-pages
 
-          # Clean up temporary directory (outside the current working directory)
-          echo "--- Cleaning up temporary Git clone directory ---"
+          # Clean up temporary directory (remove the worktree)
+          echo "--- Removing git worktree ---"
           cd /home/runner/work/bsky-story/bsky-story # Go back to original working dir
-          rm -rf "$GIT_TEMP_DIR"
+          git worktree remove --force "$DEPLOY_DIR" || true # Use || true to prevent job failure on cleanup
