@@ -1,8 +1,8 @@
 ---
-text: "#CLT Lynyrd Skynyrd - Free Bird"
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpwbrsbr7k24
+text: having rolls for dinner.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpwhgvqcyi2k
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-24 13:46:02.574000000 Z
+  utc: 2025-05-24 15:27:18.986000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-24 19:16:02.574000000 Z
+  time: 2025-05-24 20:57:18.986000000 Z
