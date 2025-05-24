@@ -22,7 +22,7 @@ jobs:
       - name: Set up Ruby environment
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x'
+          ruby-version: '3.3'
           bundler-cache: true
 
       - name: Run Jekyll generator to update data
