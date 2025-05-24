@@ -24,11 +24,17 @@ jobs:
         with:
           ruby-version: '3.3.0'
           # Temporarily disable bundler-cache to force fresh install and better debug
-          # bundler-cache: true # COMMENT OUT OR REMOVE THIS LINE
-          
+          bundler-cache: false # COMMENT OUT OR REMOVE THIS LINE
+
       - name: Install Ruby Gems (verbose output)
         run: |
-          bundle install --verbose # Use --verbose for detailed error info
+          bundle install --verbose
+
+      - name: Debug: List installed Ruby Gems
+        run: |
+          bundle list --name-only | grep jekyll-webmention_io || echo "jekyll-webmention_io not found by bundle list"
+          echo "Full bundle list:"
+          bundle list
 
       # Remove the old cache step if it was there and you want to truly force no cache.
       # Or, keep it but ensure path and key are correct. For debugging, it's simpler to remove for now.
