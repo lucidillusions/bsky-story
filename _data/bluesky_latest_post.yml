@@ -1,8 +1,8 @@
 ---
-text: having rolls for dinner.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpwhgvqcyi2k
+text: packing things.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpwienyyor2l
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-24 15:27:18.986000000 Z
+  utc: 2025-05-24 15:43:57.517000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-24 20:57:18.986000000 Z
+  time: 2025-05-24 21:13:57.517000000 Z
