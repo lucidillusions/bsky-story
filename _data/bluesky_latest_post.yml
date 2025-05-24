@@ -1,8 +1,8 @@
 ---
-text: thinking of stories to write.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpvslkb7yw2f
+text: throwing ideas at a wall...
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpvyeza5hc2e
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-24 09:14:06.152000000 Z
+  utc: 2025-05-24 10:57:49.978000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-24 14:44:06.152000000 Z
+  time: 2025-05-24 16:27:49.978000000 Z
