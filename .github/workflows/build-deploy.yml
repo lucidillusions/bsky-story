@@ -61,6 +61,9 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Workaround - create dummy dotfile in _site
+        run: echo "" > _site/.dummy_file || true
+
       - name: Debug - List contents of potential JS output directories
         run: |
           echo "Listing contents of _site/ (root of deployed site):"
