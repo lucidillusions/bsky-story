@@ -94,8 +94,8 @@ jobs:
       #   keep_files: false
       # cname: ss.lucidillusions.in
 
-      # --- REPLACE THE MANUAL DEPLOY STEP WITH THIS REFINED, AGGRESSIVE VERSION ---
-      - name: Manual Deploy to GitHub Pages (Aggressive Reset Diagnostic)
+      # --- REPLACE THE MANUAL DEPLOY STEP WITH THIS FINAL, AGGRESSIVE VERSION ---
+      - name: Manual Deploy to GitHub Pages (Final Diagnostic)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -105,40 +105,52 @@ jobs:
           echo "--- Configuring Git ---"
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global --add safe.directory /github/workspace
+          git config --global --add safe.directory /github/workspace # Ensure main repo is safe
 
-          # Define deployment directory
+          # Define deployment directory relative to the main workspace
           DEPLOY_DIR="github-pages-deploy-temp"
-          echo "Temporary Git clone directory: $DEPLOY_DIR"
+          # Ensure this directory is clean from previous runs if any
+          rm -rf "$DEPLOY_DIR"
 
-          # Clone gh-pages branch or create orphan
-          echo "--- Cloning gh-pages branch ---"
+          echo "Temporary Git worktree directory: $DEPLOY_DIR"
+
+          # --- Handle gh-pages branch creation if it doesn't exist ---
+          echo "--- Ensuring gh-pages branch exists remotely ---"
           if ! git ls-remote --heads origin gh-pages | grep -q 'refs/heads/gh-pages'; then
-              echo "gh-pages branch does not exist, creating an orphan branch."
-              git clone --depth=1 --single-branch --orphan gh-pages https://x-oauth-basic:${GH_TOKEN}@github.com/${{ github.repository }}.git "$DEPLOY_DIR"
-              cd "$DEPLOY_DIR"
-              git rm -rf . || true # Remove initial files from orphan branch if any
-              git commit --allow-empty -m "Initial empty gh-pages branch" || true
-              git push origin gh-pages
-              cd - # Go back to original working dir
+              echo "gh-pages branch does not exist remotely. Creating and pushing an empty orphan branch from main workspace."
+
+              # Temporarily switch to an orphan gh-pages branch in the main repo
+              git checkout --orphan gh-pages
+              git rm -rf . || true # Remove all files from the new orphan branch (clean it up)
+              git commit --allow-empty -m "Initial empty gh-pages branch created by workflow" # Commit an empty state
+              git push --set-upstream origin gh-pages # Push the empty branch to remote
+
+              # Switch back to the main branch in the primary workspace
+              git checkout main
+              echo "Switched back to main branch in primary workspace."
+              # Fetch the newly created gh-pages to make it a valid local ref
+              git fetch origin gh-pages
+              echo "Fetched newly created gh-pages branch."
+          else
+              echo "gh-pages branch already exists remotely."
           fi
 
-          # Use git worktree for a cleaner operation
-          echo "--- Adding git worktree ---"
+          # Use git worktree for a cleaner operation. gh-pages should now exist as a valid ref.
+          echo "--- Adding git worktree for gh-pages ---"
           git worktree add --force --detach "$DEPLOY_DIR" gh-pages
 
           # Go into the worktree
           cd "$DEPLOY_DIR"
 
-          # --- AGGRESSIVE CLEAN AND RESET ---
+          # --- AGGRESSIVE CLEAN AND RESET within the worktree ---
           echo "--- Aggressively cleaning and resetting worktree ---"
-          # This command deletes all untracked files and directories, and resets tracked files
           git clean -fdx # -f: force, -d: directories, -x: untracked files ignored by .gitignore
           git reset --hard origin/gh-pages # Ensures worktree matches remote head exactly
 
           # Now copy the _site contents into the cleaned worktree
           echo "--- Copying _site contents to worktree ---"
-          rsync -av --checksum --progress /home/runner/work/bsky-story/bsky-story/_site/. "$DEPLOY_DIR/" --exclude .git --exclude .github --exclude .ssh # Exclude .git etc. from source
+          # Source needs to be absolute, or relative from the main workspace
+          rsync -av --checksum --progress /home/runner/work/bsky-story/bsky-story/_site/. "$DEPLOY_DIR/" --exclude .git --exclude .github --exclude .ssh
 
           # --- CRITICAL DEBUG CHECKS AFTER RSYNC ---
           echo "--- Contents of deployment target directory AFTER rsync ---"
@@ -148,13 +160,12 @@ jobs:
 
           # Add, commit, and push changes
           echo "--- Adding files to git (forcing re-evaluation) ---"
-          git add --all --force . # Keep --force here, it might be necessary
+          git add --all --force . # Keep --force here
 
           echo "--- Git Status (final check for staged changes) ---"
           git status
 
           echo "--- Committing changes ---"
-          # Only commit if there are actual changes
           if ! git diff-index --quiet HEAD; then
               git commit -m "Deploy from GitHub Actions (Aggressive Manual - ${{ github.sha }})"
           else
