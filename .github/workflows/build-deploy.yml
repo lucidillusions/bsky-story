@@ -95,6 +95,7 @@ jobs:
       # cname: ss.lucidillusions.in
 
       # --- REPLACE THE MANUAL DEPLOY STEP WITH THIS FINAL, AGGRESSIVE VERSION ---
+
       - name: Manual Deploy to GitHub Pages (Final Diagnostic)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -105,12 +106,11 @@ jobs:
           echo "--- Configuring Git ---"
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global --add safe.directory /github/workspace # Ensure main repo is safe
+          git config --global --add safe.directory /github/workspace
 
           # Define deployment directory relative to the main workspace
           DEPLOY_DIR="github-pages-deploy-temp"
-          # Ensure this directory is clean from previous runs if any
-          rm -rf "$DEPLOY_DIR"
+          rm -rf "$DEPLOY_DIR" # Clean up from previous runs if any
 
           echo "Temporary Git worktree directory: $DEPLOY_DIR"
 
@@ -128,12 +128,14 @@ jobs:
               # Switch back to the main branch in the primary workspace
               git checkout main
               echo "Switched back to main branch in primary workspace."
-              # Fetch the newly created gh-pages to make it a valid local ref
-              git fetch origin gh-pages
-              echo "Fetched newly created gh-pages branch."
+              # No need for git fetch here as the next line will do it.
           else
               echo "gh-pages branch already exists remotely."
           fi
+
+          # --- FETCH gh-pages to ensure it's fully available locally ---
+          echo "--- Fetching gh-pages branch to ensure local reference is updated ---"
+          git fetch origin gh-pages
 
           # Use git worktree for a cleaner operation. gh-pages should now exist as a valid ref.
           echo "--- Adding git worktree for gh-pages ---"
@@ -144,8 +146,8 @@ jobs:
 
           # --- AGGRESSIVE CLEAN AND RESET within the worktree ---
           echo "--- Aggressively cleaning and resetting worktree ---"
-          git clean -fdx # -f: force, -d: directories, -x: untracked files ignored by .gitignore
-          git reset --hard origin/gh-pages # Ensures worktree matches remote head exactly
+          git clean -fdx
+          git reset --hard origin/gh-pages
 
           # Now copy the _site contents into the cleaned worktree
           echo "--- Copying _site contents to worktree ---"
@@ -154,13 +156,13 @@ jobs:
 
           # --- CRITICAL DEBUG CHECKS AFTER RSYNC ---
           echo "--- Contents of deployment target directory AFTER rsync ---"
-          ls -lR . # List all files in the current directory (which is $DEPLOY_DIR)
+          ls -lR .
           echo "--- Contents of js/ directory within target after rsync ---"
-          ls -l js/ # Specifically check the js/ directory
+          ls -l js/
 
           # Add, commit, and push changes
           echo "--- Adding files to git (forcing re-evaluation) ---"
-          git add --all --force . # Keep --force here
+          git add --all --force .
 
           echo "--- Git Status (final check for staged changes) ---"
           git status
@@ -177,5 +179,5 @@ jobs:
 
           # Clean up temporary directory (remove the worktree)
           echo "--- Removing git worktree ---"
-          cd /home/runner/work/bsky-story/bsky-story # Go back to original working dir
-          git worktree remove --force "$DEPLOY_DIR" || true # Use || true to prevent job failure on cleanup
+          cd /home/runner/work/bsky-story/bsky-story
+          git worktree remove --force "$DEPLOY_DIR" || true
