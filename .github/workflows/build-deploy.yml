@@ -61,12 +61,23 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Debug - List contents of _site/bsky-story/js/
+      - name: Debug - List contents of potential JS output directories
         run: |
-          echo "Listing contents of _site/bsky-story/js/: (after Jekyll build)"
-          ls -la _site/bsky-story/js/ || echo "_site/bsky-story/js/ directory not found or empty."
           echo "Listing contents of _site/ (root of deployed site):"
-          ls -la _site/
+          ls -la _site/ || true # '|| true' prevents error if _site is empty or problematic
+          echo "" # Add a blank line for readability
+
+          echo "Listing contents of _site/js/:"
+          ls -la _site/js/ || echo "_site/js/ directory not found or empty."
+          echo ""
+
+          echo "Listing contents of _site/assets/js/:"
+          ls -la _site/assets/js/ || echo "_site/assets/js/ directory not found or empty."
+          echo ""
+
+          echo "Listing contents of _site/bsky-story/js/ (just in case):"
+          ls -la _site/bsky-story/js/ || echo "_site/bsky-story/js/ directory not found or empty (as expected)."
+          echo ""
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
