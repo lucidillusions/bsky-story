@@ -1,8 +1,8 @@
 ---
-text: heading to bed
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpuhqek3kw2e
+text: awake, but at what cost?
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpv4w2ef6w2k
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-23 20:27:17.036000000 Z
+  utc: 2025-05-24 02:46:15.583000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-24 01:57:17.036000000 Z
+  time: 2025-05-24 08:16:15.583000000 Z
