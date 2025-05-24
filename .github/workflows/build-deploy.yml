@@ -61,9 +61,6 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Workaround - create dummy dotfile in _site
-        run: echo "" > _site/.dummy_file || true
-
       - name: Debug - List contents of potential JS output directories
         run: |
           echo "Listing contents of _site/ (root of deployed site):"
@@ -82,11 +79,17 @@ jobs:
           ls -la _site/bsky-story/js/ || echo "_site/bsky-story/js/ directory not found or empty (as expected)."
           echo ""
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _site
-          publish_branch: gh-pages
-          keep_files: false
-          # cname: ss.lucidillusions.in
+          branch: gh-pages
+          folder: _site
+
+      #- name: Deploy to GitHub Pages
+      #  uses: peaceiris/actions-gh-pages@v4
+      #  with:
+      #    github_token: ${{ secrets.GITHUB_TOKEN }}
+      #    publish_dir: _site
+      #    publish_branch: gh-pages
+      #   keep_files: false
+      # cname: ss.lucidillusions.in
