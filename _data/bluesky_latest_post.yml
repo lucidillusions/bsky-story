@@ -1,8 +1,8 @@
 ---
-text: resharing old posts with Tigers for Caturday
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpvqz5xg2e2f
+text: thinking of stories to write.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpvslkb7yw2f
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-24 08:45:55.529000000 Z
+  utc: 2025-05-24 09:14:06.152000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-24 14:15:55.529000000 Z
+  time: 2025-05-24 14:44:06.152000000 Z
