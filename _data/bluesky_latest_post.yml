@@ -1,8 +1,8 @@
 ---
-text: having a burger and a chocolate shake.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpyfydwabt2e
+text: ready to board the train.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpyhs2fxpa2k
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-25 10:06:35.991000000 Z
+  utc: 2025-05-25 10:38:51.604000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-25 15:36:35.991000000 Z
+  time: 2025-05-25 16:08:51.604000000 Z
