@@ -1,8 +1,8 @@
 ---
-text: having dinner
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpxygtp2qu2f
+text: on his way to the train station.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpy5kb2zmq2i
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-25 06:04:10.209000000 Z
+  utc: 2025-05-25 07:35:33.590000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-25 11:34:10.209000000 Z
+  time: 2025-05-25 13:05:33.590000000 Z
