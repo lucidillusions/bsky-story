@@ -1,9 +1,8 @@
 ---
-text: up too early, and now trying to write a weird little story based on a weird
-  little dream.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lpzvbwztyv2c
+text: almost at the station. Train is only delayed by an hour.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq2nxh5clw2i
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-26 00:13:04.141000000 Z
+  utc: 2025-05-26 07:34:35.471000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-26 05:43:04.141000000 Z
+  time: 2025-05-26 13:04:35.471000000 Z
