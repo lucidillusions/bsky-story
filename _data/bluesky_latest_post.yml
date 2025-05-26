@@ -1,9 +1,8 @@
 ---
-text: trying to fall asleep by 10:00 pm... need to be up at 4:30 am and go for a morning
-  safari.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq3kj2zpof2w
+text: up and getting ready to go into the jungle.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq4bnb23gc2w
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-26 16:05:28.079000000 Z
+  utc: 2025-05-26 22:59:28.152000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-26 21:35:28.079000000 Z
+  time: 2025-05-27 04:29:28.152000000 Z
