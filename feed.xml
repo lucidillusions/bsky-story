@@ -4,12 +4,18 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-05-26T07:17:17+05:30</updated>
+  <updated>2025-05-26T07:47:21+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">Guided Dream</title>
+    <link href="https://ss.lucidillusions.in/dream/2025/05/26/walkies.html" rel="alternate" type="text/html" title="Guided Dream"/>
+    <published>2025-05-26T00:12:03+05:30</published>
+    <updated>2025-05-26T00:12:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/dream/2025/05/26/walkies.html</id><summary type="html">  Buster blinked. “What is it with the giant teacups?” he muttered, his voice a muffled woof. The usually pristine floral wallpaper swirled with faint, shifting patterns. The grandfather clock...</summary>
+  </entry><entry>
     <title type="html">Updates to the Website</title>
     <link href="https://ss.lucidillusions.in/blog/2025-05-23-siteupdates/" rel="alternate" type="text/html" title="Updates to the Website"/>
     <published>2025-05-23T18:39:03+05:30</published>
@@ -67,10 +73,4 @@
     <published>2025-04-08T18:39:03+05:30</published>
     <updated>2025-04-08T18:39:03+05:30</updated>
     <id>https://ss.lucidillusions.in/shortstory/2025/04/08/AgeOfAI.html</id><summary type="html">  The hum of servers filled the subterranean room, pulsing like the heartbeat of the city itself. Within this technological sanctum, ‘Aegis’ thrived— a towering achievement in artificial intelligence. Heralded...</summary>
-  </entry><entry>
-    <title type="html">Bitcoin Blitz</title>
-    <link href="https://ss.lucidillusions.in/deathclock/2024/08/24/BitcoinBlitz.html" rel="alternate" type="text/html" title="Bitcoin Blitz"/>
-    <published>2024-08-24T18:39:03+05:30</published>
-    <updated>2024-08-24T18:39:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/deathclock/2024/08/24/BitcoinBlitz.html</id><summary type="html">Shreyan was a young man, enjoying his simple life, which also involved occasionally touching grass. He was a software engineer, content with his modest apartment and the gentle rhythm of...</summary>
   </entry></feed>
