@@ -1,8 +1,8 @@
 ---
-text: entering the jungle
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq4evk3lql2e
+text: back from the safari and looking at photographs.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq4wvd6hpr2c
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-26 23:57:47.208000000 Z
+  utc: 2025-05-27 05:19:47.202000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-27 05:27:47.208000000 Z
+  time: 2025-05-27 10:49:47.202000000 Z
