@@ -1,8 +1,8 @@
 ---
-text: looking at pictures of the jungle on the camera.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq5o4f4hk52q
+text: trying to sleep by 9:30, to wake up by 4:30. Another morning safari!
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq5yrhyiri2g
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-27 12:15:20.329000000 Z
+  utc: 2025-05-27 15:26:04.819000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-27 17:45:20.329000000 Z
+  time: 2025-05-27 20:56:04.819000000 Z
