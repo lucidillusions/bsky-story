@@ -1,8 +1,8 @@
 ---
-text: up and getting ready to go into the jungle.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq4bnb23gc2w
+text: entering the jungle
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq4evk3lql2e
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-26 22:59:28.152000000 Z
+  utc: 2025-05-26 23:57:47.208000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-27 04:29:28.152000000 Z
+  time: 2025-05-27 05:27:47.208000000 Z
