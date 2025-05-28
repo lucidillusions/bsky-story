@@ -1,8 +1,8 @@
 ---
-text: having something light for lunch.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq7pvemplw2k
+text: on his way to the jungle. Evening safari.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lq7ufh5lzn2c
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-28 07:52:32.374000000 Z
+  utc: 2025-05-28 09:13:05.712000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-28 13:22:32.374000000 Z
+  time: 2025-05-28 14:43:05.712000000 Z
