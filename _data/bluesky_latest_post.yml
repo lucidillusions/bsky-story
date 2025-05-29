@@ -1,8 +1,9 @@
 ---
-text: back from the jungle, and checking the picture of the jumping tiger.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqbtdzytnb2w
+text: on his way back to the hotel after the evening safari. Lots of birds, but no
+  big cats to report.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqcthlcrb62w
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-29 03:59:45.302000000 Z
+  utc: 2025-05-29 13:34:20.683000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-29 09:29:45.302000000 Z
+  time: 2025-05-29 19:04:20.683000000 Z
