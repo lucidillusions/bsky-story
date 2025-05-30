@@ -1,8 +1,8 @@
 ---
-text: sleeping
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqd5sijaul2k
+text: back from the last safari in Tadoba and off to our next destination.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqeexdar6e2e
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-29 16:39:27.110000000 Z
+  utc: 2025-05-30 04:19:59.459000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-29 22:09:27.110000000 Z
+  time: 2025-05-30 09:49:59.459000000 Z
