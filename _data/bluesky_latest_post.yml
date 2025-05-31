@@ -1,8 +1,8 @@
 ---
-text: excited for today's lunch.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqhg6mrx3t2x
+text: uploading a new blog post.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqhx3v3w4q2k
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-31 09:20:03.607000000 Z
+  utc: 2025-05-31 14:22:45.276000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-31 14:50:03.607000000 Z
+  time: 2025-05-31 19:52:45.276000000 Z
