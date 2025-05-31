@@ -4,8 +4,8 @@ title:  "Some Thoughts about AI & Writing"
 date:   2025-05-31 19:39:03 +0530
 author: Lucid Illusions
 categories: blog
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lpubhbuvek26
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lqhx6tmk6k2a
 ---
 
 
