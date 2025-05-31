@@ -4,12 +4,23 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-05-31T14:52:59+05:30</updated>
+  <updated>2025-05-31T19:44:15+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">Some Thoughts about AI &amp; Writing</title>
+    <link href="https://ss.lucidillusions.in/blog/2025-05-31-thoughts/" rel="alternate" type="text/html" title="Some Thoughts about AI &amp; Writing"/>
+    <published>2025-05-31T19:39:03+05:30</published>
+    <updated>2025-05-31T19:39:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/blog/2025-05-31-thoughts/</id><author>
+      <name>Lucid Illusions</name>
+    </author><summary type="html">
+  AI in everything, everywhere all at once.
+
+</summary>
+  </entry><entry>
     <title type="html">Guided Dream</title>
     <link href="https://ss.lucidillusions.in/dream/2025/05/26/walkies.html" rel="alternate" type="text/html" title="Guided Dream"/>
     <published>2025-05-26T00:12:03+05:30</published>
@@ -67,10 +78,4 @@
     <published>2025-05-02T14:34:03+05:30</published>
     <updated>2025-05-02T14:34:03+05:30</updated>
     <id>https://ss.lucidillusions.in/deathclock/2025/05/02/flood.html</id><summary type="html">  Martin wasn’t your typical tech support guy. While he could troubleshoot any computer issue thrown his way, his true passion lay in the realm of the occult and supernatural....</summary>
-  </entry><entry>
-    <title type="html">The Age of AI</title>
-    <link href="https://ss.lucidillusions.in/shortstory/2025/04/08/AgeOfAI.html" rel="alternate" type="text/html" title="The Age of AI"/>
-    <published>2025-04-08T18:39:03+05:30</published>
-    <updated>2025-04-08T18:39:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/shortstory/2025/04/08/AgeOfAI.html</id><summary type="html">  The hum of servers filled the subterranean room, pulsing like the heartbeat of the city itself. Within this technological sanctum, ‘Aegis’ thrived— a towering achievement in artificial intelligence. Heralded...</summary>
   </entry></feed>
