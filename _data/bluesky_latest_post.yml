@@ -1,8 +1,8 @@
 ---
-text: getting ready for the road trip. Off to the next jungle.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqjc2wammv2w
+text: sitting in the backseat, working on a new story.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqjkhrpwsk2c
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-06-01 03:11:43.034000000 Z
+  utc: 2025-06-01 05:42:04.023000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-06-01 08:41:43.034000000 Z
+  time: 2025-06-01 11:12:04.023000000 Z
