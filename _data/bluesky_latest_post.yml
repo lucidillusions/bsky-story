@@ -1,8 +1,8 @@
 ---
-text: going to bed early (10:30pm) cause morning safari in the morning (5:30am)
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqkowfdilc2k
+text: entering the jungle
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqlgux3wwf2g
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-06-01 16:34:28.440000000 Z
+  utc: 2025-06-01 23:43:10.684000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-06-01 22:04:28.440000000 Z
+  time: 2025-06-02 05:13:10.684000000 Z
