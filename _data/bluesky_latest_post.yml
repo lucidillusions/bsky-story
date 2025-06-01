@@ -1,8 +1,8 @@
 ---
-text: sleepy
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqibhftkav26
+text: getting ready for the road trip. Off to the next jungle.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqjc2wammv2w
 timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-05-31 17:28:09.339000000 Z
+  utc: 2025-06-01 03:11:43.034000000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
     name: Asia/Kolkata
-  time: 2025-05-31 22:58:09.339000000 Z
+  time: 2025-06-01 08:41:43.034000000 Z
