@@ -4,7 +4,7 @@ name: Update Bluesky Status
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -17,12 +17,12 @@ jobs:
         with:
           # --- IMPORTANT CHANGE HERE ---
           # Use your PAT for pushing, which will now trigger subsequent workflows.
-          token: ${{ secrets.JEKYLL_BOT_TOKEN }} 
+          token: ${{ secrets.JEKYLL_BOT_TOKEN }}
 
       - name: Set up Ruby environment
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: "3.3"
           bundler-cache: true
 
       - name: Run Jekyll generator to update data

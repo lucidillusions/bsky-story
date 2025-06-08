@@ -1,0 +1,50 @@
+name: Update Visitor Count from GA4
+
+on:
+  # Runs every Sunday at 00:00 UTC (midnight Sunday)
+  # You can change this to '0 0 * * *' for daily update
+  schedule:
+    - cron: "0 0 * * 0"
+  # Allow manual trigger for testing
+  workflow_dispatch:
+
+jobs:
+  update_count:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to commit changes back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Needed to push changes back to the same branch
+          persist-credentials: true
+          fetch-depth: 0 # Fetch all history for proper git operations
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r _scripts/requirements.txt
+        working-directory: ./_scripts
+
+      - name: Run script to update visitor count
+        run: python _scripts/update_visitor_count.py
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA_SERVICE_ACCOUNT_KEY: ${{ secrets.GA_SERVICE_ACCOUNT_KEY }}
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/visitor_count.json
+          git diff --staged --quiet || git commit -m "Automated: Update visitor count from GA4"
+          git push
+        # Only push if there are changes
+        # The `git diff` command checks if there are staged changes; if not, `|| git commit` is skipped.
