@@ -1,0 +1,31 @@
+---
+layout: fiftyfive_collection # Keep using the updated collection layout
+title: Fifty Five Words Story
+permalink: /fiftyfive/
+custom_copyright_start_year: 2012
+---
+
+<h2>{{ page.title }}</h2>
+<p>
+    Dive into a unique collection of micro-fiction, where every story is
+    precisely fifty-five words long. This project was started on twitter by
+    Vivek Tetuja (u/vivekisms) where he would give a prompt everyday, and users
+    would send him a story, which were compiled daily on a site. This here are
+    the stories that I wrote, sometimes I even asked friends to give me prompts
+    for me to write. If you look through these stories, you will observe various
+    challenges that I put myself through while writing these at times.
+</p>
+
+<div class="fiftyfive-posts">
+    {% assign fiftyfive_posts = site.fiftyfive | sort: "date" %} {% for post in
+    fiftyfive_posts %}
+    <div class="post-item">
+        <a href="{{ post.url | relative_url }}" class="post-title-link"
+            >{{ post.title }}</a
+        >
+        <p class="post-meta-inline">
+            Written on: {{ post.date | date: "%B %d, %Y" }}
+        </p>
+    </div>
+    {% endfor %}
+</div>

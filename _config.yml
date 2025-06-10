@@ -19,10 +19,15 @@ google_analytics: G-61GWSJVEWN
 sass:
   sass_dir: _sass
 include: ["_pages", "_plugins"]
+
 collections:
   blogs:
     output: true
+    source: _blogs
     permalink: /blog/:path/ # Define URL structure for individual blogs
+  fiftyfive:
+    output: true
+    permalink: /fiftyfive/:title/
 
 kramdown:
   input: GFM
@@ -40,6 +45,11 @@ defaults:
       comments: true # Set to true to enable comments on posts by default
       # You'll also need a 'layout: post' if you're not using Minimal Mistakes' 'single'
       # Make sure your post layout calls {{ content }} for the post body.
+  - scope: # ADD THIS NEW SCOPE FOR THE FIFTYFIVE COLLECTION
+      path: ""
+      type: "fiftyfive" # This targets all documents within the _fiftyfive collection
+    values:
+      custom_copyright_start_year: 2012
 
 comments:
   provider: "custom" # This tells Jekyll you're using a custom comment system
