@@ -68,35 +68,35 @@
 
     <body>
         <header class="site-header">
-    <div class="wrapper">
+    <div class="header-wrapper">
+        <div class="site-branding">
+            <a class="site-title" href="/">
+                <img src="/assets/images/logo.png" alt="Logo" class="site-logo">
+            </a>
+            <div class="site-description">
 
-        <a class="site-title" href="/">
-            <img src="/assets/images/logo.png" alt="Logo">
-        </a>
-
+            </div>
+        </div>
 
         <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
             <i class="fas fa-bars"></i>
         </button>
 
-
         <nav class="site-nav">
-            <ul class="nav-list">
+            <ul class="nav-links">
 
-                <li>
-                    <a href="/">Short Stories</a>
+                <li class="nav-item">
+                    <a class="page-link" href="/">Short Stories</a>
                 </li>
 
-
-                <li>
-                    <a href="/blog/">Blogs</a>
+                <li class="nav-item">
+                    <a class="page-link" href="/blog/">Blogs</a>
                 </li>
 
+                <li class="dropdown nav-item">
 
-
-                <li class="dropdown">
-                    <a class="page-link dropdown-toggle" href="#">Buy E-book <span class="arrow-down"></span></a>
-                    <ul class="dropdown-menu">
+                    <a class="page-link dropbtn" href="#" onclick="myFunction()">Buy E-book <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-content">
                         <li><a href="https://ko-fi.com/s/d33c50d04d" target="_blank" rel="noopener noreferrer">on Ko-Fi</a></li>
                         <li><a href="https://www.amazon.com/dp/B0F7HGSGCF" target="_blank" rel="noopener noreferrer">for Kindle</a></li>
                         <li><a href="https://books2read.com/b/mgB2Nq" target="_blank" rel="noopener noreferrer">Other Store</a></li>
@@ -107,23 +107,20 @@
     </div>
 </header>
 
-
-<div class="header-spacer"></div>
-
         <main>
             <article> 
 <div class="bluesky-latest-post-box">
     <p>
-        The Doctor is "adding stories from 2012 on to the website." -
+        The Doctor is "up." -
 
         <small>
             <a
-                href="https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lr7xyckjoq2f"
+                href="https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lrbzaegqah2c"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                2025-06-10
-                09:12 IST
+                2025-06-11
+                04:40 IST
             </a>
         </small>
     </p>
@@ -147,6 +144,22 @@
     </h2>
 
     <div id="posts-2025" class="post-year-group">
+           
+
+        <div class="post-list-item">
+            <h3>
+                <a href="/shortstory/2025/05/26/thirtysix.html">Thirty Six Frames</a>
+            </h3>
+
+            <time>May 26, 2025</time>
+
+            
+
+            <p>Anya clutched the vintage film camera, its cool metal a stark contrast to the humid afternoon. It had been her twelfth birthday gift, a beautiful relic from a bygone era....</p>
+
+            
+        </div>
+
            
 
         <div class="post-list-item">
@@ -295,7 +308,7 @@
     </h2>
 
     <div id="posts-2024" class="post-year-group" style="display: none">
-                         
+                           
 
         <div class="post-list-item">
             <h3>
@@ -507,7 +520,7 @@
     </h2>
 
     <div id="posts-2023" class="post-year-group" style="display: none">
-                                                 
+                                                   
 
         <div class="post-list-item">
             <h3>
@@ -741,7 +754,7 @@
     <p>&copy; 2023 - 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
 
     
-        <p>2715 souls have been to the Lost Alley.</p>
+        <p>2729 souls have been to the Lost Alley.</p>
     
 
 </footer>
@@ -756,45 +769,6 @@
             });
         </script>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const menuToggle = document.querySelector(".menu-toggle");
-                const siteNav = document.querySelector(".site-nav");
-
-                if (menuToggle && siteNav) {
-                    menuToggle.addEventListener("click", function () {
-                        const isExpanded =
-                            this.getAttribute("aria-expanded") === "true" ||
-                            false;
-                        this.setAttribute("aria-expanded", !isExpanded);
-                        siteNav.classList.toggle("active");
-                    });
-                }
-
-                // NEW JAVASCRIPT FOR POST TOGGLING
-                const toggleButtons =
-                    document.querySelectorAll(".toggle-button");
-
-                toggleButtons.forEach((button) => {
-                    button.addEventListener("click", function () {
-                        const targetId = this.getAttribute("aria-controls");
-                        const targetElement = document.getElementById(targetId);
-                        const isExpanded =
-                            this.getAttribute("aria-expanded") === "true";
-
-                        if (targetElement) {
-                            if (isExpanded) {
-                                targetElement.style.display = "none";
-                                this.setAttribute("aria-expanded", "false");
-                            } else {
-                                targetElement.style.display = "block";
-                                this.setAttribute("aria-expanded", "true");
-                            }
-                        }
-                    });
-                });
-            });
-        </script>
         <script src="/js/JekyllWebmentionIO.js" async></script>
 <template style="display:none" id="webmention-bookmarks"><div class="webmentions webmentions--bookmarks">
   {% if webmentions.size > 0 %}
@@ -992,5 +966,6 @@
     <p class="webmentions__not-found">No webmentions were found.</p>
   {% endif %}
 </div></template>
+        <script src="/assets/js/main.js"></script>
     </body>
 </html>
