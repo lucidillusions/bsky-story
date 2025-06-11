@@ -3,8 +3,8 @@ layout: post
 title:  "Thirty Six Frames"
 date:   2025-05-26 19:12:03 +0530
 categories: ShortStory
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lq24fezyis2l
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lrdlpi56kk2z
 ---
 
 Anya clutched the vintage film camera, its cool metal a stark contrast to the humid afternoon. It had been her twelfth birthday gift, a beautiful relic from a bygone era. A relic, because in their world, film was a forgotten technology. No one manufactured it anymore. The sleek black body and the satisfying click of the shutter were just novelties, making it a rather elegant paperweight.
