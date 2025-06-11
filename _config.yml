@@ -23,7 +23,6 @@ include: ["_pages", "_plugins"]
 collections:
   blogs:
     output: true
-    source: _blogs
     permalink: /blog/:path/ # Define URL structure for individual blogs
   fiftyfive:
     output: true
