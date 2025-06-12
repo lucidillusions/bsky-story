@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thirty Six Frames"
-date:   2025-05-26 19:12:03 +0530
+date:   2025-06-11 19:12:03 +0530
 categories: ShortStory
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lrdlpi56kk2z
