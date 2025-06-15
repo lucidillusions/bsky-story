@@ -3,6 +3,7 @@ layout: post
 title:  "The Shadow Realm"
 date:   2025-05-19 22:12:03 +0530
 categories: [bsky]
+word_count: 400
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lpk3go6cc22v
 ---

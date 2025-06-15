@@ -3,6 +3,7 @@ layout: post
 title:  "Valence"
 date:   2024-06-28 18:39:03 +0530
 categories: bsky
+word_count: 531
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kvysdnarmb2c
 ---

@@ -3,6 +3,7 @@ layout: post
 title:  "The Curious Case of Dr. Alkhadran's Circus"
 date:   2024-08-07 18:39:03 +0530
 categories: deathclock
+word_count: 595
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kz5grnusmk2a
 ---

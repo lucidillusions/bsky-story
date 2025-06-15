@@ -3,6 +3,7 @@ layout: post
 title:  "Cat"
 date:   2023-09-28 10:39:03 +0530
 categories: bsky
+word_count: 635
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kaglwtx5dj24
 ---

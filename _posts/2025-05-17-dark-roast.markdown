@@ -3,6 +3,7 @@ layout: post
 title:  "The Dark Roast"
 date:   2025-05-17 22:12:03 +0530
 categories: ShortStory
+word_count: 494
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lpf2fznp7s22
 ---

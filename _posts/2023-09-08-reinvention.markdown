@@ -3,6 +3,7 @@ layout: post
 title:  "Reinvention"
 date:   2023-09-08 17:39:03 +0530
 categories: bsky
+word_count: 440
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3k74gatibpx2l
 ---

@@ -3,6 +3,7 @@ layout: post
 title:  "Skydiving to Oblivion"
 date:   2024-08-05 18:39:03 +0530
 categories: deathclock
+word_count: 335
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kyvk6ibxyg23
 ---

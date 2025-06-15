@@ -3,6 +3,7 @@ layout: post
 title:  "The Adventure of Tasha and Booka"
 date:   2024-05-18 18:39:03 +0530
 categories: bsky
+word_count: 411
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3ksrufsdirc26
 ---

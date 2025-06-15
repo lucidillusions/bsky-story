@@ -3,6 +3,7 @@ layout: post
 title:  "The Cosmic Slip"
 date:   2024-08-16 18:39:03 +0530
 categories: deathclock
+word_count: 438
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kzt76nvshl2i
 ---

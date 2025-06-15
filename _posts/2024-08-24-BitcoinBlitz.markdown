@@ -3,6 +3,7 @@ layout: post
 title:  "Bitcoin Blitz"
 date:   2024-08-24 18:39:03 +0530
 categories: deathclock
+word_count: 364
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3l2hgoj3jf72c
 ---

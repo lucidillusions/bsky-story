@@ -3,6 +3,7 @@ layout: post
 title:  "When the Stars Misalign"
 date:   2025-05-03 20:12:03 +0530
 categories: ShortStory
+word_count: 309
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lodbkzpw422x
 ---

@@ -3,6 +3,7 @@ layout: post
 title:  "Apocalypse"
 date:   2023-09-02 17:39:03 +0530
 categories: bsky
+word_count: 470
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3k6njbixryh2g
 ---

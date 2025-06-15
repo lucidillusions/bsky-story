@@ -3,6 +3,7 @@ layout: post
 title:  "Thirty Six Frames"
 date:   2025-06-11 19:12:03 +0530
 categories: ShortStory
+word_count: 871
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lrdlpi56kk2z
 ---

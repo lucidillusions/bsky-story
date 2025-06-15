@@ -3,6 +3,7 @@ layout: post
 title:  "Ethnographer"
 date:   2023-09-26 17:39:03 +0530
 categories: bsky
+word_count: 963
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kabzd2fexb2k
 ---

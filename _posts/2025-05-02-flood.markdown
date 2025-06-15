@@ -3,6 +3,7 @@ layout: post
 title:  "The Great Molasses Flood"
 date:   2025-05-02 14:34:03 +0530
 categories: deathclock
+word_count: 505
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lo6ipnddlk2i
 ---

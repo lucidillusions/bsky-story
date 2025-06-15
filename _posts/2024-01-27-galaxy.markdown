@@ -3,6 +3,7 @@ layout: post
 title:  "Galaxy"
 date:   2024-01-27 18:39:03 +0530
 categories:categories: bsky
+word_count: 239
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kjxlzbm6gl2e
 ---

@@ -3,6 +3,7 @@ layout: post
 title:  "Petrichor"
 date:   2024-07-22 18:39:03 +0530
 categories: bsky
+word_count: 434
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kxv6d2gotn2d
 ---

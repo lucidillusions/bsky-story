@@ -3,6 +3,7 @@ layout: post
 title:  "Death by Laughter (or Humor Imbalance)"
 date:   2024-08-04 18:39:03 +0530
 categories: deathclock
+word_count: 240
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kysf3fd66v2v
 ---

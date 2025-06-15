@@ -3,6 +3,7 @@ layout: post
 title:  "The Eternal Setting Sun"
 date:   2025-05-15 15:12:03 +0530
 categories: dream
+word_count: 459
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lp7ddlfrzc2w
 ---
