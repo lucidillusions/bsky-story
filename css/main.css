@@ -106,6 +106,8 @@ main {
 
 time {
   color: #898989;
+  font-size: 0.95em;
+  display: block;
 }
 
 .container {
@@ -984,6 +986,80 @@ footer .fa-solid {
   color: #777;
   margin: 1.5em 0;
   font-style: italic;
+}
+
+.post-meta-info {
+  font-size: 0.85em;
+  color: #898989;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.post-meta-info strong {
+  font-weight: bold;
+}
+
+.index-word-count {
+  color: inherit; /* Inherits the color from its parent <time> tag */
+  font-size: 1em; /* Keep it the same size as the date for consistency */
+  white-space: nowrap; /* Prevents wrapping if space is tight, keeps it on one line */
+}
+
+.index-word-count strong {
+  font-weight: bold; /* Make the number bold */
+}
+
+/* Styling for blog-specific elements */
+.blog-list-item {
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px dashed #eee;
+  /* Styling for updated_on on blog listing page */
+}
+.blog-list-item:last-child {
+  border-bottom: none;
+}
+.blog-list-item h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.blog-list-item h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+.blog-list-item h3 a:hover {
+  color: #28abe5; /* Your theme's link hover color */
+}
+.blog-list-item time {
+  display: block;
+  font-size: 0.9em;
+  color: #898989;
+  margin-bottom: 0.5em; /* Reduced margin here */
+}
+.blog-list-item .updated-on-list {
+  font-size: 0.85em; /* Slightly smaller */
+  color: #555; /* A bit darker than the original date */
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+/* Styling for single blog post page */
+article {
+  /* Styling for updated_on on single blog post page */
+}
+article time {
+  display: block;
+  font-size: 0.9em;
+  color: #898989;
+  margin-bottom: 1em;
+}
+article .updated-on {
+  font-size: 0.85em;
+  color: #555;
+  font-style: italic;
+  margin-top: -0.8em; /* Pull it closer to the original date */
+  margin-bottom: 1em; /* Ensure space below it */
 }
 
 /* You can add any global styles directly here if they don't fit into partials */
