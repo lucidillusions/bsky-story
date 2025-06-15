@@ -2,6 +2,7 @@
 layout: blog
 title:  "Updates to the Website"
 date:   2025-05-23 18:39:03 +0530
+updated_on: 2025-06-15 15:30:00 +0530
 author: Lucid Illusions
 categories: blog
 comments: true
@@ -28,3 +29,11 @@ Now on to some of the other things I tinkered on here.
 - Another thing I noticed was their status pops up on their website, and I've managed to add that to the landing page as well. (I still need to get the automation work right, so another WIP there)
 
 Anyway, more or less it was a productive week with fixing this website, and have a bunch of other ideas that I want to incorporate here. In the meanwhile, go read some of my recent stories!
+
+-- New additions
+
+1. There has been an update on the header, I like how the new one looks and feel.
+
+2. The stories now show Word count and read time.
+
+3. Added an 'Updated on' section for blogs.
