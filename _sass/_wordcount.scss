@@ -1,0 +1,25 @@
+// _sass/_wordcount.scss
+
+// Styles for word count and reading time on individual post pages
+.post-meta-info {
+    font-size: 0.85em;
+    color: #898989;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.post-meta-info strong {
+    font-weight: bold;
+}
+
+// Styles for word count on the index/listing pages
+.index-word-count {
+    color: inherit; /* Inherits the color from its parent <time> tag */
+    font-size: 1em; /* Keep it the same size as the date for consistency */
+    white-space: nowrap; /* Prevents wrapping if space is tight, keeps it on one line */
+}
+
+.index-word-count strong {
+    font-weight: bold; /* Make the number bold */
+}

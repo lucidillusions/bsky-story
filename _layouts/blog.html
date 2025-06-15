@@ -4,13 +4,18 @@ layout: default
 
 <article>
     <h2>{{ page.title }}</h2>
-    <time
+    <time datetime="{{ page.date | date_to_xmlschema }}"
         >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{
-        page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif
-        %}</time
+        page.author }}{% endif %}</time
     >
-
-    {{ content }}
+    {% if page.updated_on %}
+    <time
+        class="updated-on"
+        datetime="{{ page.updated_on | date_to_xmlschema }}"
+    >
+        (Updated on {{ page.updated_on | date: "%b %-d, %Y" }})
+    </time>
+    {% endif %} {{ content }}
 
     <hr />
 

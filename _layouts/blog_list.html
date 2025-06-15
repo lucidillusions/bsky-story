@@ -12,6 +12,16 @@ layout: default
                 >{{ blog.title }}</a
             >
         </h3>
+
+        {% if blog.updated_on %}
+        <time
+            class="updated-on-list"
+            datetime="{{ blog.updated_on | date_to_xmlschema }}"
+        >
+            Updated on {{ blog.updated_on | date: "%b %-d, %Y" }}
+        </time>
+        {% endif %}
+
         <time
             >{{ blog.date | date: "%b %-d, %Y" }}{% if blog.author %} • {{
             blog.author }}{% endif %}</time

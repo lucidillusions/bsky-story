@@ -1,0 +1,59 @@
+/* Styling for blog-specific elements */
+
+.blog-list-item {
+    margin-bottom: 2em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px dashed #eee;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    h3 {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+                color: #28abe5; /* Your theme's link hover color */
+            }
+        }
+    }
+
+    time {
+        display: block;
+        font-size: 0.9em;
+        color: #898989;
+        margin-bottom: 0.5em; /* Reduced margin here */
+    }
+
+    /* Styling for updated_on on blog listing page */
+    .updated-on-list {
+        font-size: 0.85em; /* Slightly smaller */
+        color: #555; /* A bit darker than the original date */
+        font-style: italic;
+        margin-bottom: 0.5em; // Give it some space below itself
+    }
+}
+
+/* Styling for single blog post page */
+article {
+    time {
+        display: block;
+        font-size: 0.9em;
+        color: #898989;
+        margin-bottom: 1em; // Adjust as needed
+    }
+
+    /* Styling for updated_on on single blog post page */
+    .updated-on {
+        font-size: 0.85em;
+        color: #555;
+        font-style: italic;
+        margin-top: -0.8em; /* Pull it closer to the original date */
+        margin-bottom: 1em; /* Ensure space below it */
+    }
+}

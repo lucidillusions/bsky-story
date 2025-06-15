@@ -23,21 +23,21 @@ layout: default
         {% assign current_year_string = "now" | date: "%Y" %} {% for post in
         site.posts %} {% assign post_year_string = post.date | date: "%Y" %} {%
         if post_year_string == current_year_string %}
-
         <div class="post-list-item">
             <h3>
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
-
-            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-
+            <time>
+                {{ post.date | date: "%b %-d, %Y" }} {% if post.word_count %}
+                <span class="index-word-count">
+                    • Word Count: <strong>{{ post.word_count }}</strong></span
+                >
+                {% endif %}
+            </time>
             {% if post.excerpt %}
-
             <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-
             {% endif %}
         </div>
-
         {% endif %} {% endfor %}
     </div>
 </div>
@@ -58,23 +58,21 @@ layout: default
     </h2>
 
     <div id="posts-2024" class="post-year-group" style="display: none">
-        {% for post in site.posts %}{% assign post_year_string = post.date |
+        {% for post in site.posts %} {% assign post_year_string = post.date |
         date: "%Y" %} {% if post_year_string == "2024" %}
-
         <div class="post-list-item">
             <h3>
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
-
-            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-
-            {% if post.excerpt %}
-
+            <time>
+                {{ post.date | date: "%b %-d, %Y" }} {% if post.word_count %}
+                <span class="index-word-count">
+                    • Word Count: <strong>{{ post.word_count }}</strong></span
+                >
+                {% endif %}
+            </time>
             <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-
-            {% endif %}
         </div>
-
         {% endif %} {% endfor %}
     </div>
 </div>
@@ -95,23 +93,21 @@ layout: default
     </h2>
 
     <div id="posts-2023" class="post-year-group" style="display: none">
-        {% for post in site.posts %}{% assign post_year_string = post.date |
+        {% for post in site.posts %} {% assign post_year_string = post.date |
         date: "%Y" %} {% if post_year_string == "2023" %}
-
         <div class="post-list-item">
             <h3>
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
-
-            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-
-            {% if post.excerpt %}
-
+            <time>
+                {{ post.date | date: "%b %-d, %Y" }} {% if post.word_count %}
+                <span class="index-word-count">
+                    • Word Count: <strong>{{ post.word_count }}</strong></span
+                >
+                {% endif %}
+            </time>
             <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-
-            {% endif %}
         </div>
-
         {% endif %} {% endfor %}
     </div>
 </div>

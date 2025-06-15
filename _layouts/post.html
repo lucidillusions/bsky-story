@@ -18,6 +18,14 @@ layout: default
         page.meta }}{% endif %}
     </time>
 
+    {% if page.word_count %} {% assign reading_time = page.word_count |
+    divided_by: 200.0 | ceil %}
+    <div class="post-meta-info">
+        Word count: <strong>{{ page.word_count }} words</strong> • Reading time:
+        <strong>{{ reading_time }} min read</strong>
+    </div>
+    {% endif %}
+    <hr />
     {{ content }}
 
     <hr />
