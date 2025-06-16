@@ -4,12 +4,21 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-06-15T19:41:49+05:30</updated>
+  <updated>2025-06-16T15:09:46+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">Of Memories and Grief</title>
+    <link href="https://ss.lucidillusions.in/blog/2025-06-10-apollo/" rel="alternate" type="text/html" title="Of Memories and Grief"/>
+    <published>2025-06-15T11:39:03+05:30</published>
+    <updated>2025-06-15T11:39:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/blog/2025-06-10-apollo/</id><author>
+      <name>Lucid Illusions</name>
+    </author><summary type="html">The year hasn’t been the best one for us, and then June hit us with a grief bomb.
+</summary>
+  </entry><entry>
     <title type="html">Thirty Six Frames</title>
     <link href="https://ss.lucidillusions.in/shortstory/2025/06/11/thirtysix.html" rel="alternate" type="text/html" title="Thirty Six Frames"/>
     <published>2025-06-11T19:12:03+05:30</published>
@@ -70,10 +79,4 @@
     <published>2025-05-03T20:12:03+05:30</published>
     <updated>2025-05-03T20:12:03+05:30</updated>
     <id>https://ss.lucidillusions.in/shortstory/2025/05/03/thestarsalignment.html</id><summary type="html">  The glow of the monitor illuminated Rohan’s intense gaze. Lines of code blurred into constellations on the screen, each keystroke a step closer to his grand design. “Cosmic Alignment,”...</summary>
-  </entry><entry>
-    <title type="html">The Thirteenth Crab</title>
-    <link href="https://ss.lucidillusions.in/shortstory/2025/05/03/the13thcrab.html" rel="alternate" type="text/html" title="The Thirteenth Crab"/>
-    <published>2025-05-03T00:01:03+05:30</published>
-    <updated>2025-05-03T00:01:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/shortstory/2025/05/03/the13thcrab.html</id><summary type="html">  I closed my eyes and thought about the dream I had few months back. It was so bizarre, but I didn’t understand what the significance of thirteen was. When...</summary>
   </entry></feed>
