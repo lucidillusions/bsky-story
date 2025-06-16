@@ -1,0 +1,16 @@
+.blog-post-note {
+    font-size: 0.85em; /* Make the font smaller */
+    color: #666; /* A slightly darker gray for readability */
+    background-color: #f9f9f9; /* A light background color to make it stand out */
+    border-left: 4px solid #007bff; /* A left border for emphasis (e.g., blue) */
+    padding: 10px 15px; /* Some padding inside the note box */
+    margin: 25px 0; /* Margin above and below to separate it from content */
+    border-radius: 4px; /* Slightly rounded corners */
+    line-height: 1.5; /* Improve readability of smaller text */
+}
+
+/* Optional: If you want to style links within the note differently */
+.blog-post-note a {
+    color: #0056b3; /* Darker blue for links */
+    text-decoration: underline;
+}

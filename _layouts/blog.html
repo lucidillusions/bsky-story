@@ -15,7 +15,11 @@ layout: default
     >
         (Updated on {{ page.updated_on | date: "%b %-d, %Y" }})
     </time>
-    {% endif %} {{ content }}
+    {% endif %} {{ content }} {% if page.show_note %}
+    <div class="blog-post-note">
+        <p>{{ page.show_note }}</p>
+    </div>
+    {% endif %}
 
     <hr />
 
