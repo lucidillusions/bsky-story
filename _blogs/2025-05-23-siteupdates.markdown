@@ -2,7 +2,7 @@
 layout: blog
 title:  "Updates to the Website"
 date:   2025-05-23 18:39:03 +0530
-updated_on: 2025-06-15 15:30:00 +0530
+updated_on: 2025-06-17 15:30:00 +0530
 author: Lucid Illusions
 categories: blog
 comments: true
@@ -30,10 +30,23 @@ Now on to some of the other things I tinkered on here.
 
 Anyway, more or less it was a productive week with fixing this website, and have a bunch of other ideas that I want to incorporate here. In the meanwhile, go read some of my recent stories!
 
--- New additions
+### New additions (June 15, 2025)
 
 1. There has been an update on the header, I like how the new one looks and feel.
 
 2. The stories now show Word count and read time.
 
 3. Added an 'Updated on' section for blogs.
+
+<hr />
+### Quick Notes for Future Reference. (June 17, 2025)
+
+- GitHub action and PAT.
+1. Received an email: We noticed your personal access token (classic) <insert name> with repo and workflow scopes will expire in 7 days.
+2. Clicked on the tokens/number/regenerate link in the email.
+3. Note on the page "Submitting this form will generate a new token. Be aware that any scripts or applications using this token will need to be updated."
+4. Selected 90 days expiration
+5. Clicked on Regenerate Token button
+6. Found a new token on top (copied it)
+7. Went to settings > secrets > actions and pasted the above token to the required secret.
+8. Manually run the action.
