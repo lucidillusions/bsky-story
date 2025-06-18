@@ -1,33 +1,44 @@
 /* Basic styling for archive sections */
 .archive-section {
     margin-bottom: 2em;
-    border-bottom: 1px solid #eee; /* Light separator */
+    border-bottom: 1px solid var(--surface1-color); /* Updated to generic variable */
     padding-bottom: 1em;
+    transition: border-color 0.3s ease; /* Smooth transition */
 }
+
 .archive-year-heading {
     display: flex; /* Allows button to be on the same line */
     align-items: center;
     justify-content: space-between; /* Pushes button to the right */
     margin-bottom: 0.5em;
 }
+
 .archive-year-heading h2 {
     margin: 0; /* Remove default margin from the heading */
+    color: var(--text-color); /* Ensure heading color matches theme */
+    transition: color 0.3s ease; /* Smooth transition */
 }
 
 /* Styling for the toggle button */
 .toggle-button {
     background: none;
-    border: 1px solid #ccc;
-    color: #333;
+    border: 1px solid var(--surface1-color); /* Updated to generic variable */
+    color: var(--text-color); /* Updated to generic variable */
     font-size: 1.2em;
     cursor: pointer;
     padding: 0.2em 0.6em;
     border-radius: 5px;
     line-height: 1; /* For better vertical alignment of icons */
     margin-left: 1em; /* Space between title and button */
+    transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease,
+        color 0.3s ease; /* Smooth transition */
 }
+
 .toggle-button:hover {
-    background-color: #f0f0f0;
+    background-color: var(--surface0-color); /* Updated to generic variable */
+    color: var(--blue); /* Add a hover color from your palette */
 }
 
 /* Hide the plus icon when expanded */
@@ -40,27 +51,44 @@
     display: none;
 }
 
-/* For styling the post list items */
-.post-list-item {
+/* For styling the individual post list items within an archive year */
+.archive-post-list-item {
+    /* RENAMED from .post-list-item for clarity */
     margin-bottom: 1em;
     padding-left: 1em;
-    border-left: 2px solid #00b9fe; /* Example border */
+    border-left: 2px solid var(--blue); /* Updated to generic variable (e.g., Catppuccin blue) */
+    transition: border-color 0.3s ease; /* Smooth transition */
 }
-.post-list-item h3 {
+
+.archive-post-list-item h3 {
     margin-top: 0;
     margin-bottom: 0.2em;
 }
-.post-list-item time {
+
+.archive-post-list-item h3 a {
+    /* Ensure links within these items are also themed */
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.archive-post-list-item h3 a:hover {
+    color: var(--sapphire); /* Example hover color */
+    text-decoration: underline;
+}
+
+.archive-post-list-item time {
     display: block; /* Make time go to next line */
     font-size: 0.9em;
-    color: #666;
+    color: var(--subtext0-color); /* Updated to generic variable */
     margin-bottom: 0.5em;
+    transition: color 0.3s ease; /* Smooth transition */
 }
 
 /* Your specific span rule for h-card */
 /* Note: If this rule is ONLY for the h-card on the index, it's fine here.
-   If it applies globally or is part of a different component, consider moving it
-   to a more appropriate partial. */
+    If it applies globally or is part of a different component, consider moving it
+    to a more appropriate partial. */
 .h-card {
     display: none;
 }

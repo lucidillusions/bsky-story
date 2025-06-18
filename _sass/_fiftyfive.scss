@@ -9,15 +9,17 @@
 
     h1 {
         font-size: 2.8em; // Slightly larger for prominence
-        color: #2c3e50;
+        color: var(--sapphire); /* Updated to generic variable for headings */
         margin-bottom: 15px;
+        transition: color 0.3s ease; // Smooth transition
     }
 
     p {
         font-size: 1.15em;
         line-height: 1.7;
-        color: #555;
+        color: var(--text-color); /* Updated to generic variable */
         margin-bottom: 40px; // Spacing before the post list
+        transition: color 0.3s ease; // Smooth transition
     }
 }
 
@@ -27,9 +29,11 @@
     grid-template-columns: 1fr; /* Default to single column on small screens */
     gap: 20px; /* Adjusted gap - may need to be less if items are not boxed */
     padding: 0 15px; /* Add some horizontal padding */
+}
 
-    @media (min-width: 768px) {
-        /* On tablets and desktops (768px and up), use two columns */
+// Media query for two columns on larger screens
+@media (min-width: 768px) {
+    .fiftyfive-posts {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -42,37 +46,42 @@
     .post-title-link {
         /* Styling for the actual story title link */
         font-size: 1.5em;
-        color: #34495e;
+        color: var(--text-color); /* Updated to generic variable */
         text-decoration: none;
         display: block;
         margin-top: 0;
         margin-bottom: 1px; /* Reduced margin here to pull the date closer */
+        transition: color 0.3s ease; // Smooth transition
 
         &:hover {
             text-decoration: underline;
-            color: #2980b9;
+            color: var(--blue); /* Updated to generic variable for hover */
         }
     }
 
     .post-meta-inline {
         /* Styling for "Written on: date" */
         font-size: 0.9em;
-        color: #95a5a6;
+        color: var(--subtext0-color); /* Updated to generic variable */
         margin-top: 0; /* Ensure no extra top margin pushes it down */
         font-style: italic;
         font-weight: 300;
         display: block;
+        transition: color 0.3s ease; // Smooth transition
     }
 }
 
-// Styles for individual Fifty Five Words Story pages (no change needed here for this request)
+// Styles for individual Fifty Five Words Story pages
 .fiftyfive-single-post {
     padding: 30px 20px;
     margin: 0 auto;
     max-width: 700px; /* Optimal reading width for single posts */
-    background-color: #ffffff;
+    background-color: var(--base-color); /* Updated to generic variable */
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 5px var(--overlay0-color-shadow); /* Updated to generic variable */
+    transition:
+        background-color 0.3s ease,
+        box-shadow 0.3s ease; // Smooth transition
 
     .back-to-collection {
         text-align: left; /* Align the back link to the left */
@@ -80,14 +89,17 @@
         font-size: 1.1em; /* Make it slightly larger than body text */
 
         a {
-            color: #3498db; /* Blue color, matching your link style */
+            color: var(--blue); /* Updated to generic variable */
             text-decoration: none; /* No underline by default */
             display: inline-flex; /* Allows icon and text to sit nicely together */
             align-items: center; /* Vertically aligns icon and text */
+            transition: color 0.3s ease; // Smooth transition
 
             &:hover {
                 text-decoration: underline;
-                color: #2980b9; /* Darker blue on hover */
+                color: var(
+                    --sapphire
+                ); /* Updated to generic variable for darker blue on hover */
             }
 
             i {
@@ -99,23 +111,26 @@
 
     h1 {
         font-size: 2.2em;
-        color: #2c3e50;
+        color: var(--sapphire); /* Updated to generic variable */
         margin-bottom: 15px;
         text-align: center;
+        transition: color 0.3s ease; // Smooth transition
     }
 
     .post-meta {
         font-size: 1em;
-        color: #7f8c8d;
+        color: var(--subtext0-color); /* Updated to generic variable */
         margin-bottom: 25px;
         text-align: center;
         font-style: italic;
+        transition: color 0.3s ease; // Smooth transition
     }
 
     .post-content {
         line-height: 1.8; // Improved line spacing for readability
         font-size: 1.05em;
-        color: #333;
+        color: var(--text-color); /* Updated to generic variable */
+        transition: color 0.3s ease; // Smooth transition
 
         p {
             margin-bottom: 1em;
@@ -129,11 +144,14 @@
         }
 
         blockquote {
-            border-left: 4px solid #ccc;
+            border-left: 4px solid var(--surface1-color); /* Updated to generic variable */
             padding-left: 15px;
-            color: #777;
+            color: var(--subtext0-color); /* Updated to generic variable */
             margin: 1.5em 0;
             font-style: italic;
+            transition:
+                border-color 0.3s ease,
+                color 0.3s ease; // Smooth transition
         }
     }
 }

@@ -9,6 +9,16 @@
         </main>
 
         {% include footer.html %}
+
+        <button id="floating-theme-toggle" aria-label="Toggle dark mode">
+            <i class="fa-regular fa-sun" id="theme-icon-sun"></i>
+            <i
+                class="fa-regular fa-moon"
+                id="theme-icon-moon"
+                style="display: none"
+            ></i>
+        </button>
+
         <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
         <script>
             kofiWidgetOverlay.draw("lucidillusions", {
@@ -58,6 +68,7 @@
                 });
             });
         </script>
+        <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
         {% webmentions_js %}
     </body>
 </html>

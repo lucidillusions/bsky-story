@@ -1,0 +1,40 @@
+/* _sass/main.scss or _sass/_floating-button.scss */
+
+#floating-theme-toggle {
+    position: fixed;
+    bottom: 20px; /* Distance from bottom */
+    right: 20px; /* Distance from right */
+    background-color: var(--crust); /* Your accent color */
+    color: var(--overlay0); /* Icon color */
+    border: none;
+    border-radius: 50%; /* Make it a circle */
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    font-size: 1.5em; /* Icon size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow */
+    z-index: 999; /* Ensure it's above other content */
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+#floating-theme-toggle:hover {
+    background-color: #b4befe;
+    // background-color: var(--lavender); /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Hide on very small screens if desired (e.g., if it overlaps content) */
+@media screen and (max-width: 480px) {
+    #floating-theme-toggle {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3em;
+        bottom: 15px;
+        right: 15px;
+    }
+}

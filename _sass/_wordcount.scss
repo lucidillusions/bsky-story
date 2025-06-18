@@ -3,10 +3,11 @@
 // Styles for word count and reading time on individual post pages
 .post-meta-info {
     font-size: 0.85em;
-    color: #898989;
+    color: var(--subtext0-color); /* Updated to generic variable */
     margin-top: 5px;
     margin-bottom: 15px;
     display: block;
+    transition: color 0.3s ease; // Smooth transition
 }
 
 .post-meta-info strong {

@@ -1,16 +1,27 @@
 .blog-post-note {
     font-size: 0.85em; /* Make the font smaller */
-    color: #666; /* A slightly darker gray for readability */
-    background-color: #f9f9f9; /* A light background color to make it stand out */
-    border-left: 4px solid #007bff; /* A left border for emphasis (e.g., blue) */
+    color: var(
+        --subtext0-color
+    ); /* Updated to generic variable for slightly darker gray */
+    background-color: var(
+        --surface0-color
+    ); /* Updated to generic variable for a light background */
+    border-left: 4px solid var(--blue); /* Updated to generic variable for a prominent blue */
     padding: 10px 15px; /* Some padding inside the note box */
     margin: 25px 0; /* Margin above and below to separate it from content */
     border-radius: 4px; /* Slightly rounded corners */
     line-height: 1.5; /* Improve readability of smaller text */
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease; // Smooth transition
 }
 
 /* Optional: If you want to style links within the note differently */
 .blog-post-note a {
-    color: #0056b3; /* Darker blue for links */
+    color: var(
+        --sapphire
+    ); /* Updated to generic variable for links (using sapphire for a slightly darker blue) */
     text-decoration: underline;
+    transition: color 0.3s ease; // Smooth transition
 }

@@ -1,12 +1,16 @@
-/* Styling for blog-specific elements */
+/* _sass/_blog.scss */
+
+/* Styling for blog-specific elements (e.g., individual posts, or items in a blog list) */
 
 .blog-list-item {
     margin-bottom: 2em;
     padding-bottom: 1.5em;
-    border-bottom: 1px dashed #eee;
+    // This line creates the dotted separator between list items
+    border-bottom: 1px dashed var(--surface1-color); /* Updated to generic variable for visibility in both themes */
+    transition: border-color 0.3s ease; /* Smooth transition for the border */
 
     &:last-child {
-        border-bottom: none;
+        border-bottom: none; /* No border on the last item in the list */
     }
 
     h3 {
@@ -15,10 +19,13 @@
 
         a {
             text-decoration: none;
-            color: inherit;
+            color: inherit; // Inherit color from the h3 (which should use text-color or a heading color)
+            transition: color 0.3s ease; // Smooth transition for link color
 
             &:hover {
-                color: #28abe5; /* Your theme's link hover color */
+                color: var(
+                    --blue
+                ); /* Updated to generic variable (using 'blue' as a consistent link hover color) */
             }
         }
     }
@@ -26,34 +33,38 @@
     time {
         display: block;
         font-size: 0.9em;
-        color: #898989;
-        margin-bottom: 0.5em; /* Reduced margin here */
+        color: var(--subtext0-color); /* Updated to generic variable */
+        margin-bottom: 0.5em; /* Reduced margin here to keep dates closer to excerpt */
+        transition: color 0.3s ease; // Smooth transition for theme change
     }
 
     /* Styling for updated_on on blog listing page */
     .updated-on-list {
         font-size: 0.85em; /* Slightly smaller */
-        color: #555; /* A bit darker than the original date */
+        color: var(--green); /* Using a distinct generic color for updates */
         font-style: italic;
         margin-bottom: 0.5em; // Give it some space below itself
+        transition: color 0.3s ease; // Smooth transition for theme change
     }
 }
 
-/* Styling for single blog post page */
+/* Styling for single blog post page (assuming the main content is within <article>) */
 article {
     time {
         display: block;
         font-size: 0.9em;
-        color: #898989;
+        color: var(--subtext0-color); /* Updated to generic variable */
         margin-bottom: 1em; // Adjust as needed
+        transition: color 0.3s ease; // Smooth transition for theme change
     }
 
     /* Styling for updated_on on single blog post page */
     .updated-on {
         font-size: 0.85em;
-        color: #555;
+        color: var(--subtext1-color); /* Updated to generic variable */
         font-style: italic;
         margin-top: -0.8em; /* Pull it closer to the original date */
         margin-bottom: 1em; /* Ensure space below it */
+        transition: color 0.3s ease; // Smooth transition for theme change
     }
 }

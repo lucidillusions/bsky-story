@@ -1,27 +1,37 @@
 /* _sass/_footer.scss */
 
 footer {
-    border-top: 1px solid #e0e0e0; /* Changed from #ccc to be consistent with site-header border */
+    border-top: 1px solid var(--surface1-color); /* Updated to generic variable */
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px; /* Add some general bottom padding for the footer content itself */
-    background-color: #f8f8f8; /* Add a background for better visual separation */
+    background-color: var(
+        --mantle-color
+    ); /* Updated to generic variable for background */
+    transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease; // Smooth transition
 
     p {
         font-size: 0.9em; /* Smaller text for the footer */
         line-height: 1.5;
         margin: 0; /* Remove default paragraph margins */
-        color: #666; /* A slightly softer color for footer text */
+        color: var(
+            --subtext0-color
+        ); /* Updated to generic variable for softer text */
+        transition: color 0.3s ease; // Smooth transition
     }
 
     a {
-        color: #007bff; /* Link color within the footer */
+        color: var(--blue); /* Updated to generic variable for link color */
         text-decoration: none;
         transition: color 0.3s ease;
     }
 
     a:hover {
-        color: #0056b3; /* Darker blue on hover */
+        color: var(
+            --sapphire
+        ); /* Updated to generic variable for darker blue on hover */
         text-decoration: underline;
     }
 

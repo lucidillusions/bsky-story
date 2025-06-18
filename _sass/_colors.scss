@@ -1,0 +1,69 @@
+// _sass/_colors.scss
+// Define generic color variables and set them to Latte by default
+:root {
+    // Brand/Primary colors
+    --rosewater: var(--ctp-latte-rosewater);
+    --flamingo: var(--ctp-latte-flamingo);
+    --pink: var(--ctp-latte-pink);
+    --mauve: var(--ctp-latte-mauve);
+    --red: var(--ctp-latte-red);
+    --maroon: var(--ctp-latte-maroon);
+    --peach: var(--ctp-latte-peach);
+    --yellow: var(--ctp-latte-yellow);
+    --green: var(--ctp-latte-green);
+    --teal: var(--ctp-latte-teal);
+    --sky: var(--ctp-latte-sky);
+    --sapphire: var(--ctp-latte-sapphire);
+    --blue: var(--ctp-latte-blue);
+    --lavender: var(--ctp-latte-lavender);
+
+    // Semantic/UI colors
+    --text-color: var(--ctp-latte-text);
+    --subtext1-color: var(--ctp-latte-subtext1);
+    --subtext0-color: var(--ctp-latte-subtext0);
+    --overlay2-color: var(--ctp-latte-overlay2);
+    --overlay1-color: var(--ctp-latte-overlay1);
+    --overlay0-color: var(--ctp-latte-overlay0);
+    // Using overlay0-color directly for shadow, allowing it to inherit theme
+    --overlay0-color-shadow: var(--ctp-latte-overlay0); // Changed this line
+    --surface2-color: var(--ctp-latte-surface2);
+    --surface1-color: var(--ctp-latte-surface1);
+    --surface0-color: var(--ctp-latte-surface0);
+    --base-color: var(--ctp-latte-base);
+    --mantle-color: var(--ctp-latte-mantle);
+    --crust-color: var(--ctp-latte-crust);
+}
+
+// When the body/html has data-theme="mocha", override the generic variables
+html[data-theme="mocha"],
+body[data-theme="mocha"] {
+    --rosewater: var(--ctp-mocha-rosewater);
+    --flamingo: var(--ctp-mocha-flamingo);
+    --pink: var(--ctp-mocha-pink);
+    --mauve: var(--ctp-mocha-mauve);
+    --red: var(--ctp-mocha-red);
+    --maroon: var(--ctp-mocha-maroon);
+    --peach: var(--ctp-mocha-peach);
+    --yellow: var(--ctp-mocha-yellow);
+    --green: var(--ctp-mocha-green);
+    --teal: var(--ctp-mocha-teal);
+    --sky: var(--ctp-mocha-sky);
+    --sapphire: var(--ctp-mocha-sapphire);
+    --blue: var(--ctp-mocha-blue);
+    --lavender: var(--ctp-mocha-lavender);
+
+    --text-color: var(--ctp-mocha-text);
+    --subtext1-color: var(--ctp-mocha-subtext1);
+    --subtext0-color: var(--ctp-mocha-subtext0);
+    --overlay2-color: var(--ctp-mocha-overlay2);
+    --overlay1-color: var(--ctp-mocha-overlay1);
+    --overlay0-color: var(--ctp-mocha-overlay0);
+    // Using overlay0-color directly for shadow, allowing it to inherit theme
+    --overlay0-color-shadow: var(--ctp-mocha-overlay0); // Changed this line
+    --surface2-color: var(--ctp-mocha-surface2);
+    --surface1-color: var(--ctp-mocha-surface1);
+    --surface0-color: var(--ctp-mocha-surface0);
+    --base-color: var(--ctp-mocha-base);
+    --mantle-color: var(--ctp-mocha-mantle);
+    --crust-color: var(--ctp-mocha-crust);
+}

@@ -1,39 +1,66 @@
-// Your existing variables
-$content-width: 800px;
-$main: #ffffff;
-$main2: #28abe5;
-$font-style: "Open Sans", sans-serif;
-$font-color: #262626;
-$link-color: #425469;
-$link-hover-color: #28abe5;
-$heading-font: "Muli", sans-serif;
-$heading-font-color: #425469;
-$light: #e7edf4;
-$header: #1d1425;
-
-// This block ensures the body has no default margin/padding and sets the top padding for the fixed header.
-html,
-body {
-    margin: 0; // Removes browser default margin
-    padding: 0; // Removes any default padding
+/* Basic styling for archive sections */
+.archive-section {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #eee; /* Light separator */
+    padding-bottom: 1em;
+}
+.archive-year-heading {
+    display: flex; /* Allows button to be on the same line */
+    align-items: center;
+    justify-content: space-between; /* Pushes button to the right */
+    margin-bottom: 0.5em;
+}
+.archive-year-heading h2 {
+    margin: 0; /* Remove default margin from the heading */
 }
 
-// Apply the padding-top specifically to the body
-body {
-    padding-top: 72px; // This creates space for the fixed header
-    font-family: $font-style; // Using your defined variable
-    color: $font-color; // Using your defined variable
-    line-height: 1.6; // Keep existing line-height if desired, or add it here
-    -webkit-font-smoothing: antialiased; // Keep existing font smoothing
+/* Styling for the toggle button */
+.toggle-button {
+    background: none;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 0.2em 0.6em;
+    border-radius: 5px;
+    line-height: 1; /* For better vertical alignment of icons */
+    margin-left: 1em; /* Space between title and button */
+}
+.toggle-button:hover {
+    background-color: #f0f0f0;
 }
 
-// Your existing box-sizing rules - keep these as they are
-*,
-*::before,
-*::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+/* Hide the plus icon when expanded */
+.toggle-button[aria-expanded="true"] .plus-icon {
+    display: none;
 }
 
-// Any other base styles can follow here
+/* Hide the minus icon when collapsed */
+.toggle-button[aria-expanded="false"] .minus-icon {
+    display: none;
+}
+
+/* For styling the post list items */
+.post-list-item {
+    margin-bottom: 1em;
+    padding-left: 1em;
+    border-left: 2px solid #00b9fe; /* Example border */
+}
+.post-list-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
+.post-list-item time {
+    display: block; /* Make time go to next line */
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+/* Your specific span rule for h-card */
+/* Note: If this rule is ONLY for the h-card on the index, it's fine here.
+   If it applies globally or is part of a different component, consider moving it
+   to a more appropriate partial. */
+.h-card {
+    display: none;
+}

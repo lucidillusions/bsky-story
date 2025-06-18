@@ -20,7 +20,7 @@ permalink: /category/bsky/ # Defines the clean URL for this page
 
     {% if category_posts.size > 0 %}
     {% for post in category_posts %}
-        <div class="post-list-item">
+        <div class="archive-post-list-item">
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
             <time>{{ post.date | date: "%b %-d, %Y" }}</time>
 

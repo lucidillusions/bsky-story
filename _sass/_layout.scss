@@ -1,28 +1,43 @@
 body {
     margin: 0;
-    margin-top: 0.25em;
-    color: $font-color;
-    font-family: $font-style;
+    // margin-top: 0.25em; /* Remove this line or adjust it */
+    padding-top: 72px;
+    color: var(--text-color); /* Updated to generic variable */
+    font-family:
+        "Open Sans", sans-serif; /* Replaced with a common font, or replace with your preferred generic font variable if you define one like --body-font */
     font-size: 1.1em;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    transition:
+        color 0.3s ease,
+        background-color 0.3s ease; // Smooth transition for theme change (added background-color)
+    background-color: var(
+        --base-color
+    ); // Ensure body background also changes with theme
 }
 h1,
 h2,
 h3 {
     font-weight: 600;
-    color: $heading-font-color;
-    font-family: $heading-font;
+    color: var(
+        --text-color
+    ); /* Updated to generic variable (assuming headings share main text color) */
+    font-family:
+        "Muli", sans-serif; /* Replaced with a common font, or replace with your preferred generic heading font variable */
     line-height: 1.5;
     margin-bottom: 3px;
+    transition: color 0.3s ease; // Smooth transition for theme change
 }
 h1 {
-    color: $main;
+    color: var(
+        --sapphire
+    ); /* Updated to generic variable, using sapphire as a prominent heading color */
     font-size: 2.5em;
     a,
     a:visited {
         text-decoration: none;
-        color: $main;
+        color: var(--sapphire); /* Updated to generic variable */
+        transition: color 0.3s ease; // Smooth transition
     }
 }
 h2 {
@@ -30,12 +45,13 @@ h2 {
 }
 a,
 a:visited {
-    color: $link-color;
+    color: var(--blue); /* Updated to generic variable */
     text-decoration: underline;
     font-weight: bold;
+    transition: color 0.3s ease; // Smooth transition for theme change
 }
 a:hover {
-    color: $link-hover-color;
+    color: var(--lavender); /* Updated to generic variable (hover state) */
     text-decoration: underline;
 }
 /*
@@ -58,7 +74,7 @@ img {
 }
 
 h1 {
-    font-size: 2m; /* Adjust the font size as needed */
+    font-size: 2em; /* Adjusted '2m' to '2em' assuming it was a typo */
     margin-top: 10px; /* Adjust the top margin as needed */
 }
 
@@ -75,17 +91,17 @@ h1 {
 
 main {
     padding: 0 15px;
-    //  text-align: center;
-    max-width: $content-width;
+    max-width: 1000px; /* Replaced $content-width with a static value. If you need a variable for this, define --content-width in _colors.scss or a _variables.scss */
     margin: 0 auto;
 }
 time {
-    color: #898989;
+    color: var(--subtext0-color); /* Updated to generic variable */
     font-size: 0.95em;
     display: block;
+    transition: color 0.3s ease; // Smooth transition for theme change
 }
 .container {
-    max-width: $content-width;
+    max-width: 1000px; /* Replaced $content-width with a static value */
     margin: 0 auto;
     padding-bottom: 50px; /* Add padding at the bottom of the container */
 }
@@ -130,11 +146,15 @@ aside {
     position: fixed;
     top: 0;
     left: 0;
-    background: #fff;
+    background: var(--base-color); /* Updated to generic variable */
     width: 100%;
     z-index: 2;
-    border-bottom: 1px solid lighten($light, 30%);
-    box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1);
+    border-bottom: 1px solid var(--surface1-color); /* Updated to generic variable */
+    box-shadow: 0px 1px 1px var(--overlay0-color-shadow); /* Updated to generic variable */
+    transition:
+        background 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease; // Smooth transition
 
     nav {
         float: left;
@@ -158,12 +178,20 @@ aside {
                     line-height: 40px;
                     margin-bottom: -1px;
                     box-shadow: 0;
+                    color: inherit; // Inherit color from parent by default
+                    transition:
+                        background 0.3s ease,
+                        color 0.3s ease; // Smooth transition
 
                     &:hover,
                     &:active {
-                        background: #ffffff;
+                        background: var(
+                            --surface0-color
+                        ); /* Updated to generic variable */
                         text-decoration: none;
-                        color: inherit;
+                        color: var(
+                            --text-color
+                        ); // Ensure text color is readable on hover
                     }
                 }
             }

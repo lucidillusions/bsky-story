@@ -4,10 +4,14 @@
     align-items: flex-start;
     margin-bottom: 2em;
     padding: 1.5em;
-    border: 1px solid #eee;
+    border: 1px solid var(--surface1-color); /* Updated to generic variable */
     border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: var(--base-color); /* Updated to generic variable */
+    box-shadow: 0 2px 8px var(--overlay0-color-shadow); /* Updated to generic variable */
+    transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease; // Smooth transition
 }
 
 .webmention-author {
@@ -33,7 +37,8 @@
 
 .webmention-author-name a {
     text-decoration: none;
-    color: #007bff;
+    color: var(--blue); /* Updated to generic variable */
+    transition: color 0.3s ease; // Smooth transition
 }
 
 .webmention-author-name a:hover {
@@ -43,6 +48,8 @@
 .webmention-content {
     flex-grow: 1;
     font-style: italic; /* <--- ADD THIS LINE to make content italic */
+    color: var(--text-color); /* Added text color based on theme */
+    transition: color 0.3s ease; // Smooth transition
 }
 
 .webmention-content p {
@@ -52,27 +59,32 @@
 }
 
 .webmention-content blockquote {
-    border-left: 4px solid #eee;
+    border-left: 4px solid var(--surface1-color); /* Updated to generic variable */
     padding-left: 1em;
     margin-left: 0;
     font-style: normal; /* <--- ADD THIS LINE to make blockquotes NOT italic */
-    color: #666;
+    color: var(--subtext0-color); /* Updated to generic variable */
+    transition:
+        border-color 0.3s ease,
+        color 0.3s ease; // Smooth transition
 }
 
 .webmention-meta {
     font-size: 0.8em;
-    color: #888;
+    color: var(--subtext0-color); /* Updated to generic variable */
     margin-top: 0.5em;
     text-align: right;
     flex-shrink: 0; /* Prevents meta from shrinking */
     margin-left: 1em; /* Space between content and meta */
     font-style: italic; /* <--- ADD THIS LINE to make metadata italic */
+    transition: color 0.3s ease; // Smooth transition
 }
 
 .webmention-source {
-    color: #888;
+    color: var(--subtext0-color); /* Updated to generic variable */
     text-decoration: none;
     font-style: normal; /* <--- ADD THIS LINE to make source link NOT italic */
+    transition: color 0.3s ease; // Smooth transition
 }
 
 .webmention-source:hover {
@@ -107,8 +119,11 @@
     font-style: italic; /* <--- ADD THIS LINE */
     text-align: center; /* Center the text */
     padding: 2em; /* Add some padding around the text */
-    color: #666; /* Adjust color if needed */
+    color: var(--subtext0-color); /* Updated to generic variable */
     margin: 2em 0; /* Add margin above/below */
-    border: 1px dashed #ccc; /* Optional: subtle border */
+    border: 1px dashed var(--surface1-color); /* Optional: subtle border */
     border-radius: 5px; /* Optional: rounded corners */
+    transition:
+        color 0.3s ease,
+        border-color 0.3s ease; // Smooth transition
 }

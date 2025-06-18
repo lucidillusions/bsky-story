@@ -23,7 +23,7 @@ layout: default
         {% assign current_year_string = "now" | date: "%Y" %} {% for post in
         site.posts %} {% assign post_year_string = post.date | date: "%Y" %} {%
         if post_year_string == current_year_string %}
-        <div class="post-list-item">
+        <div class="archive-post-list-item">
             <h3>
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
@@ -60,7 +60,7 @@ layout: default
     <div id="posts-2024" class="post-year-group" style="display: none">
         {% for post in site.posts %} {% assign post_year_string = post.date |
         date: "%Y" %} {% if post_year_string == "2024" %}
-        <div class="post-list-item">
+        <div class="archive-post-list-item">
             <h3>
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
@@ -95,7 +95,7 @@ layout: default
     <div id="posts-2023" class="post-year-group" style="display: none">
         {% for post in site.posts %} {% assign post_year_string = post.date |
         date: "%Y" %} {% if post_year_string == "2023" %}
-        <div class="post-list-item">
+        <div class="archive-post-list-item">
             <h3>
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>

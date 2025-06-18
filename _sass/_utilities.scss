@@ -3,8 +3,9 @@
 /* --- Existing HR Tag Style --- */
 hr {
     border: none; /* Remove any default border styles */
-    border-top: 1px dotted #ccc; /* 1px thin, dotted, light grey line */
+    border-top: 1px dotted var(--surface1-color); /* Updated to generic variable */
     margin: 1em 0; /* Adjust vertical spacing as needed */
+    transition: border-color 0.3s ease; // Smooth transition
 }
 
 /* --- Webmentions Section Styles (Center Align - if you want to add it here) --- */
