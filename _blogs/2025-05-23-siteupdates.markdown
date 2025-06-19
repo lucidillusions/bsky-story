@@ -2,7 +2,7 @@
 layout: blog
 title:  "Updates to the Website"
 date:   2025-05-23 18:39:03 +0530
-updated_on: 2025-06-17 15:30:00 +0530
+updated_on: 2025-06-19 15:30:00 +0530
 author: Lucid Illusions
 categories: blog
 comments: true
@@ -38,7 +38,15 @@ Anyway, more or less it was a productive week with fixing this website, and have
 
 3. Added an 'Updated on' section for blogs.
 
+### New additions (June 19, 2025)
+
+1. Changed the theme to Catppuccin Latte (light mode) and Mocha (dark mode).
+
+2. Added a floating theme toggle button.
+
+3. Added image related features for the blog.
 <hr />
+
 ### Quick Notes for Future Reference. (June 17, 2025)
 
 - GitHub action and PAT.

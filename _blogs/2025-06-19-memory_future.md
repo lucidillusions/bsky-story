@@ -4,8 +4,8 @@ title:  "It's For Your Future"
 date:   2025-06-19 14:39:03 +0530
 author: Lucid Illusions
 categories: blog
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lqhx6tmk6k2a
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lrxkx7cpis2p
 ---
 
 Growing up, every time I got cash as a gift, it was deposited in my bank. I kept being told "It will help me in the future." For the first 18 years of my life, I lived with my parents, and one thing I heard repeatedly was that this money was being saved for my future. In the 80s-90s, whatever we had, I'm sure my upbringing was definitely middle class. A part of me might have internalized it too much, so I didn't think I should throw a tantrum for what I wanted. I just learned to be happy with what I had. I might ask for small things, and I generally got them, and I was content with most of it.
