@@ -1,8 +1,4 @@
 ---
-text: grieving.
-uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lqy3c7sbje2q
-timestamp: !ruby/object:ActiveSupport::TimeWithZone
-  utc: 2025-06-07 00:20:21.977000000 Z
-  zone: !ruby/object:ActiveSupport::TimeZone
-    name: Asia/Kolkata
-  time: 2025-06-07 05:50:21.977000000 Z
+text: not sure if the new update, will update this post to the status section.
+uri: https://bsky.app/profile/did:plc:dvbmys5jbj5obqcim6venar5/post/3lrwfj3ipf62l
+timestamp: '2025-06-19T07:13:08+05:30'
