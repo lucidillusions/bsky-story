@@ -7,7 +7,8 @@
 @import "colors"; // Generic theme variables, uses latte by default, mocha if data-theme="mocha"
 @import "base", "layout", "syntax-highlighting", "header", "dropdown",
     "utilities", "footer", "webmentions", "archive", "status", "fiftyfive",
-    "wordcount", "floating-button";
+    "wordcount", "floating-button", "footnote";
+@import "image-modal";
 @import "blog", "blog-post-note";
 
 /* You can add any global styles directly here if they don't fit into partials */

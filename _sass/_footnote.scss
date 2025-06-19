@@ -1,0 +1,46 @@
+/* In your CSS file (e.g., assets/css/main.scss) */
+
+/* Styles for the footnote reference in the main text */
+sup.footnote {
+    font-size: 0.8em;
+    vertical-align: super;
+    line-height: 1; /* Prevents line height issues with superscripts */
+}
+
+a.footnote {
+    text-decoration: none; /* Remove underline from footnote numbers */
+    color: var(--subtext0-color); /* Or your preferred link color */
+}
+
+/* Styles for the footnotes section at the bottom */
+.footnotes {
+    // margin-top: 2em;
+    // padding-top: 1em;
+    //    border-top: 1px solid var(--subtext0-color); /* Add a separator line */
+    font-size: 0.8em; /* Smaller font size for footnotes */
+}
+
+.footnotes ol {
+    padding-left: 1.5em; /* Indent the list */
+}
+
+.footnotes li {
+    margin-bottom: 0.5em; /* Space between individual footnotes */
+}
+
+/* Style for the backlink arrow */
+a.reversefootnote {
+    text-decoration: none;
+    color: var(--subtext0-color); /* A less prominent color */
+    font-size: 0.9em;
+    margin-left: 0.5em;
+}
+
+// /* Optional: Add brackets around the footnote number like Wikipedia */
+// a.footnote:before {
+//     content: "[";
+// }
+
+// a.footnote:after {
+//     content: "]";
+// }
