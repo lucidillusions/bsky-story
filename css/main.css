@@ -1232,6 +1232,102 @@ footer .fa-solid {
     right: 15px;
   }
 }
+/* In your CSS file (e.g., assets/css/main.scss) */
+/* Styles for the footnote reference in the main text */
+sup.footnote {
+  font-size: 0.8em;
+  vertical-align: super;
+  line-height: 1; /* Prevents line height issues with superscripts */
+}
+
+a.footnote {
+  text-decoration: none; /* Remove underline from footnote numbers */
+  color: var(--subtext0-color); /* Or your preferred link color */
+}
+
+/* Styles for the footnotes section at the bottom */
+.footnotes {
+  font-size: 0.8em; /* Smaller font size for footnotes */
+}
+
+.footnotes ol {
+  padding-left: 1.5em; /* Indent the list */
+}
+
+.footnotes li {
+  margin-bottom: 0.5em; /* Space between individual footnotes */
+}
+
+/* Style for the backlink arrow */
+a.reversefootnote {
+  text-decoration: none;
+  color: var(--subtext0-color); /* A less prominent color */
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+  backdrop-filter: blur(5px); /* Optional: blur background for modern browsers */
+  -webkit-backdrop-filter: blur(5px); /* Safari */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 80vh; /* Limit height to 80% of viewport height */
+}
+
+/* Caption of Modal Image */
+#modalCaption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px; /* Enough space for caption */
+  font-size: 1.1em;
+}
+
+/* The Close Button */
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
 /* _sass/_blog.scss */
 /* Styling for blog-specific elements (e.g., individual posts, or items in a blog list) */
 .blog-list-item {
