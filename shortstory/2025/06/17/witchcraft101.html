@@ -146,6 +146,54 @@
     <hr />
 
     
+    <section class="post-comments">
+        <h3>Online Discussions</h3>
+        <div id="page__comments" style="min-height: 100px">
+    <div id="loading">Loading comments...</div>
+</div>
+
+<script type="module">
+    try {
+        const modules = await Promise.all([
+            // React and ReactDOM are fetched from a CDN (esm.sh)
+            import("https://esm.sh/stable/react@18.2.0/es2022/react.mjs"),
+            import(
+                "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+            ),
+            // bluesky-comments is loaded from your local assets/node_modules
+            import(
+                "/assets/node_modules/bluesky-comments/dist/bluesky-comments.es.js"
+            ),
+        ]);
+
+        const [React, ReactDOM, BlueskyCommentsModule] = modules;
+        const BlueskyComments = BlueskyCommentsModule.BlueskyComments;
+
+        const container = document.getElementById("page__comments");
+        // The URI for the BlueSky post, pulled from your post's front matter
+        const uri = "https://bsky.app/profile/lucidillusions.in/post/3lrrhxuacwc2c";
+
+        if (container) {
+            const root = ReactDOM.createRoot(container);
+            const element = React.createElement(BlueskyComments, {
+                uri,
+                // !!! IMPORTANT: REPLACE YOUR.USERNAME.HERE.bsky.social with your actual BlueSky handle !!!
+                author: "lucidillusions.in",
+                showLogin: true,
+                onLoad: () => document.getElementById("loading")?.remove(),
+            });
+
+            root.render(element);
+        }
+    } catch (error) {
+        console.error("Error loading comments:", error);
+        document.getElementById("page__comments").innerHTML =
+            `<div style="color: red;">Unable to load comments. Please try again later.</div>`;
+    }
+</script>
+
+    </section>
+    
 
     <hr />
 
@@ -168,6 +216,14 @@
 
         <div class="next">
             
+            <a
+                href="/dream/2025/06/17/dream-flight.html"
+                title="Next: Flying Across"
+            >
+                Flying Across
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </a>
+            
         </div>
     </div>
 </article>
@@ -178,7 +234,7 @@
     <p>&copy; 2023 - 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
 
     
-        <p>2753 souls have been to the Lost Alley.</p>
+        <p>2767 souls have been to the Lost Alley.</p>
     
 
 </footer>
