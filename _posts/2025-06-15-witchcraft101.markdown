@@ -4,8 +4,8 @@ title:  "Witchcraft 101"
 date:   2025-06-17 08:00:03 +0530
 categories: ShortStory
 word_count: 624
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lrdlpi56kk2z
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lrrhxuacwc2c
 ---
 
 &nbsp; Sarika tapped on the Witchcraft 101 icon. The splash screen showed the iridescent logo of the new AI app that she had installed. She'd been nursing a crush on Arun from accounting for months, and a harmless love potion seemed like a fun, low-stakes way to maybe nudge things along. The app, rated 5 stars on the Play Store, with its sleek interface and a soothing voice assistant, promised an ancient art made modern and instantly available.
