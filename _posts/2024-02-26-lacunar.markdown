@@ -2,7 +2,7 @@
 layout: post
 title:  "Lacunar"
 date:   2024-02-24 18:39:03 +0530
-categories:categories: bsky
+categories: bsky
 word_count: 267
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kmd6dzxg7y2a
