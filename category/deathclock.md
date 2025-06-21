@@ -27,7 +27,14 @@ bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kyr7qa7dcs2w
         {% for post in category_posts %}
             <div class="archive-post-list-item">
                 <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-                <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+                <time>
+                    {{ post.date | date: "%b %-d, %Y" }}
+                    {% if post.word_count %}
+                    <span class="index-word-count">
+                        • Word Count: <strong>{{ post.word_count }}</strong></span
+                    >
+                    {% endif %}
+                </time>
                 {% if post.excerpt %}
                     <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
                 {% endif %}
@@ -38,7 +45,6 @@ bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3kyr7qa7dcs2w
         {% endif %}
     </div>
 
-    <hr/>
     <hr/>
 
     {% if page.comments %}
