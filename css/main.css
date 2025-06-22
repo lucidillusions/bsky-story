@@ -1173,6 +1173,39 @@ footer .fa-solid {
   transition: border-color 0.3s ease, color 0.3s ease;
 }
 
+/* This is for the index.html, under the 3 sections. */
+.fifty-word-promo {
+  background-color: var(--surface0-color); /* A subtle background, similar to your "read next" card */
+  padding: 2rem;
+  margin-top: 3rem; /* Space above this new section */
+  margin-bottom: 3rem; /* Space below this new section */
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text within the block */
+}
+.fifty-word-promo p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 1.1em;
+  color: var(--text-color);
+}
+.fifty-word-promo .button-container {
+  margin-top: 1.5rem;
+}
+.fifty-word-promo .button {
+  display: inline-block;
+  background-color: var(--highlight-color); /* Use a prominent color for the button */
+  color: var(--bg-color); /* Text color for the button */
+  padding: 0.8em 1.5em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.fifty-word-promo .button:hover {
+  background-color: var(--highlight-hover-color); /* A slightly different shade on hover */
+}
+
 .post-meta-info {
   font-size: 0.85em;
   color: var(--subtext0-color); /* Updated to generic variable */
