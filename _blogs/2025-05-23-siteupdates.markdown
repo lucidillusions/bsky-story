@@ -2,7 +2,7 @@
 layout: blog
 title:  "Updates to the Website"
 date:   2025-05-23 18:39:03 +0530
-updated_on: 2025-06-19 15:30:00 +0530
+updated_on: 2025-06-22 15:30:00 +0530
 author: Lucid Illusions
 categories: blog
 comments: true
@@ -46,6 +46,12 @@ Anyway, more or less it was a productive week with fixing this website, and have
 
 3. Added image related features for the blog.
 <hr />
+
+### New additions (June 22, 2025)
+
+1. Added a suggestion block under the story. This suggests stories with-in same category. There's also a self promotion for patreon, kofi etc.
+
+2. Added a link on landing page to promote 55 words story page.
 
 ### Quick Notes for Future Reference. (June 17, 2025)
 
