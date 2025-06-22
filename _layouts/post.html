@@ -30,6 +30,80 @@ layout: default
 
     <hr />
 
+    <!-- Start Read Next Section -->
+    {% assign current_post_categories = page.categories %} {% assign
+    suggested_posts_limit = 2 %} {% assign final_displayed_suggestions = "" |
+    split: "," %} {% comment %} Build an exclusion list: current post, prev,
+    next, and manually suggested posts {% endcomment %} {% assign
+    exclusion_list_urls = "" | split: "," %} {% assign exclusion_list_urls =
+    exclusion_list_urls | push: page.url %} {% if page.previous %} {% assign
+    exclusion_list_urls = exclusion_list_urls | push: page.previous.url %} {%
+    endif %} {% if page.next %} {% assign exclusion_list_urls =
+    exclusion_list_urls | push: page.next.url %} {% endif %} {% comment %} Add
+    manual suggestions first, ensuring they are not in the exclusion list
+    (current, prev, next) {% endcomment %} {% if page.suggested_posts %} {% for
+    suggested_post_url in page.suggested_posts %} {% assign found_post =
+    site.posts | where: "url", suggested_post_url | first %} {% if found_post %}
+    {% unless exclusion_list_urls contains found_post.url %} {% assign
+    final_displayed_suggestions = final_displayed_suggestions | push:
+    found_post.url %} {% assign exclusion_list_urls = exclusion_list_urls |
+    push: found_post.url %} {% endunless %} {% endif %} {% endfor %} {% endif %}
+    {% comment %} Determine how many more random suggestions are needed {%
+    endcomment %} {% assign remaining_suggestions_count = suggested_posts_limit
+    | minus: final_displayed_suggestions.size %} {% if
+    remaining_suggestions_count > 0 %} {% comment %} Filter random candidates:
+    1. Belongs to the same first category as the current post 2. Exclude any
+    posts already in the exclusion_list_urls (current, previous, next, manually
+    suggested) {% endcomment %} {% assign potential_random_suggestions =
+    site.posts | where_exp:"post", "post.categories contains
+    current_post_categories[0]" | shuffle %} {% for post in
+    potential_random_suggestions %} {% if final_displayed_suggestions.size <
+    suggested_posts_limit %} {% unless exclusion_list_urls contains post.url %}
+    {% assign final_displayed_suggestions = final_displayed_suggestions | push:
+    post.url %} {% assign exclusion_list_urls = exclusion_list_urls | push:
+    post.url %} {% endunless %} {% else %} {% break %} {% endif %} {% endfor %}
+    {% endif %} {% if final_displayed_suggestions.size > 0 %}
+    <section class="read-next-section">
+        <h3>You Might Also Like:</h3>
+        <ul>
+            {% for post_url in final_displayed_suggestions %} {% assign post =
+            site.posts | where: "url", post_url | first %} {% if post %}
+            <li>
+                <div class="archive-post-list-item">
+                    <div class="post-title-meta">
+                        <h4>
+                            <a href="{{ post.url | prepend: site.baseurl }}"
+                                >{{ post.title }}</a
+                            >
+                        </h4>
+                        <time>
+                            (Written on {{ post.date | date: "%b %-d, %Y" }} {%
+                            if post.word_count %} , Word Count:
+                            <strong>{{ post.word_count }}</strong>
+                            {% endif %})
+                        </time>
+                    </div>
+                    {% comment %} Excerpt is not included for brevity in
+                    suggestions, but can be added if needed. {% endcomment %}
+                </div>
+            </li>
+            {% endif %} {% endfor %}
+        </ul>
+        <p class="support-line">
+            Found something you like? Explore more of my writing on
+            <a href="https://www.patreon.com/lucidillusions/collections"
+                >Patreon</a
+            >, own a collection of my
+            <a href="https://books2read.com/b/mgB2Nq"
+                >flash fictions in this e-book</a
+            >, or consider supporting my work and
+            <a href="https://ko-fi.com/lucidillusions">buy me a coffee</a>.
+        </p>
+    </section>
+    <hr />
+    {% endif %}
+    <!-- End Read Next Section -->
+
     {% if page.comments %}
     <section class="post-comments">
         <h3>Online Discussions</h3>
