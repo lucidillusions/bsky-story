@@ -1299,6 +1299,79 @@ a.reversefootnote {
   margin-left: 0.5em;
 }
 
+/* _sass/_read-next.scss */
+.read-next-section {
+  /* Card background: Using surface0-color for a subtle shade difference */
+  background-color: var(--surface0-color);
+  padding: 1.5rem; /* A good amount of internal spacing */
+  border-radius: 0.75rem; /* Rounded corners for the card */
+  margin-top: 2rem; /* Space above the card */
+  margin-bottom: 2rem; /* Space below the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  /* Styling for the archive-post-list-item within the read-next-section */
+}
+.read-next-section h3 {
+  /* Styling for the "Read Next" title inside the card */
+  color: var(--text-color); /* Use the main text color */
+  font-size: 1.5em; /* Make the heading stand out */
+  margin-top: 0; /* Remove default top margin */
+  margin-bottom: 1rem; /* Space below the heading */
+}
+.read-next-section ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+.read-next-section li {
+  margin-bottom: 0.5rem; /* Space between list items (now containing the archive-post-list-item) */
+  line-height: 1.5; /* Improve readability */
+}
+.read-next-section .archive-post-list-item {
+  margin-bottom: 0.75rem; /* Space between each suggested item */
+  padding-bottom: 0.75rem; /* Padding at the bottom of each item */
+  border-bottom: 1px solid var(--overlay1-color); /* Subtle separator between items */
+}
+.read-next-section .archive-post-list-item:last-child {
+  border-bottom: none; /* No border for the last item */
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.read-next-section .archive-post-list-item .post-title-meta {
+  display: flex; /* Use flexbox to put title and time on the same line */
+  align-items: baseline; /* Aligns text baselines for better visual flow */
+  flex-wrap: wrap; /* Allows content to wrap to the next line on smaller screens */
+  gap: 0.5rem; /* Space between the title and the time */
+}
+.read-next-section .archive-post-list-item h4 {
+  margin: 0; /* Remove default margin from heading to align with flexbox */
+  line-height: 1.2; /* Adjust line height for better appearance */
+  font-size: 1.1em; /* Adjust font size if h4 is too large by default for this context */
+}
+.read-next-section .archive-post-list-item time {
+  font-size: 0.85em; /* Make the time slightly smaller than the title */
+  color: var(--subtext1-color); /* Use a softer color for meta information */
+  font-weight: normal; /* Ensure it's not bold if default h4 styles make it so */
+  white-space: nowrap; /* Prevents the date from breaking onto multiple lines */
+}
+.read-next-section .archive-post-list-item .index-word-count {
+  font-size: 1em; /* Ensure consistency with time's font size */
+  color: inherit; /* Inherit color from the parent time tag */
+}
+.read-next-section .support-line {
+  margin-top: 1rem;
+  font-size: 0.95em;
+  line-height: 1.4;
+  text-align: center;
+}
+.read-next-section .support-line a {
+  color: var(--link-color);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.read-next-section .support-line a:hover {
+  color: var(--link-hover-color);
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
