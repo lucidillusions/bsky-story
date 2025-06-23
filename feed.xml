@@ -4,12 +4,21 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-06-23T10:54:22+05:30</updated>
+  <updated>2025-06-23T19:39:14+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">Through June&apos;s Haze - Monthly Catch-up</title>
+    <link href="https://ss.lucidillusions.in/blog/2025-06-23-june2025/" rel="alternate" type="text/html" title="Through June&apos;s Haze - Monthly Catch-up"/>
+    <published>2025-06-23T11:39:03+05:30</published>
+    <updated>2025-06-23T11:39:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/blog/2025-06-23-june2025/</id><author>
+      <name>Lucid Illusions</name>
+    </author><summary type="html">Last month has been crazy packed, and a lot has happened. If you’d like to revisit last month’s catch-up post, check out How has May shaped up.
+</summary>
+  </entry><entry>
     <title type="html">It&apos;s For Your Future</title>
     <link href="https://ss.lucidillusions.in/blog/2025-06-19-memory_future/" rel="alternate" type="text/html" title="It&apos;s For Your Future"/>
     <published>2025-06-19T14:39:03+05:30</published>
@@ -75,10 +84,4 @@
     <id>https://ss.lucidillusions.in/blog/2025-05-22-may2025/</id><author>
       <name>Lucid Illusions</name>
     </author><summary type="html">We are a little over three weeks in May, and less than a week from my Birthday. It has been a spectrum of weird to interesting month. Weird because after...</summary>
-  </entry><entry>
-    <title type="html">The Shadow Realm</title>
-    <link href="https://ss.lucidillusions.in/bsky/2025/05/19/shadow-realm.html" rel="alternate" type="text/html" title="The Shadow Realm"/>
-    <published>2025-05-19T22:12:03+05:30</published>
-    <updated>2025-05-19T22:12:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/bsky/2025/05/19/shadow-realm.html</id><summary type="html">  The old woman, Willow, traced the faded ink of the first sentence with a trembling finger. “Everyone is in a rush to reach somewhere late.” It had been years...</summary>
   </entry></feed>
