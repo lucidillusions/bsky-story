@@ -1,0 +1,89 @@
+---
+layout: blog
+title:  "Through June's Haze - Monthly Catch-up"
+date:   2025-06-23 11:39:03 +0530
+author: Lucid Illusions
+categories: blog
+comments: false
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lprlax5enk2k
+---
+
+Last month has been crazy packed, and a lot has happened. If you'd like to revisit last month's catch-up post, check out [How has May shaped up](https://ss.lucidillusions.in/blog/2025-05-22-may2025/).
+
+I think I can break this post into three major chunks. The first is about the trip we took just after last month's post. An update on our pet birds, and finally, on how my writing has been going. So, jumping right in.
+
+### Into The Wild
+
+Most friends who've known me have known that I didn't celebrate my birthday as such. I'd change the topic when someone would ask about my birthday, or I might even have been low-key weeks before so people wouldn't suddenly remember it. A lot has changed since I have been with S. Instead of running away from who I am, I've been more accepting of it, and one of the core parts of it has been us celebrating my birthday. Over the last few years, we've been making a trip to one of the jungles from Central India. Last year it was Kanha, with both sets of parents (thanks to which, I definitely don't want to ask my parents to join a trip ever again).
+
+This year we ended up covering Tadoba and Bandhavgarh, with S's parents joining us. I plan to write more detailed travel blog posts covering both trips – there were a lot of new experiences, and I got to see a whole bunch of Lifers (as bird watchers would put it). In the meanwhile, I've been slowly editing some of the pictures and sharing them across [BlueSky](https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/feed/aaaon6txriltu), [PixelFed](https://pixelfed.social/lucidillusions) and [Instagram](https://www.instagram.com/lucidillusions.in/). Feel free to check the platform of your choice for updates.
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3lrxnxiepcs2m" data-bluesky-cid="bafyreihjxpsawh7qpclddvdrsxnrur4gzteijwafhnvxdassd4sbmki7te" data-bluesky-embed-color-mode="light"><p lang="en">A truly rare and mesmerizing sight: the Dhole, or Indian Wild Dog! We got to see them pretty early in the morning.
+
+They were surprisingly playful and not at all shy, giving us an unforgettable show. These pack hunters are endangered and vital to our ecosystems.
+<br><br><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3lrxnxiepcs2m?ref_src=embed">[image or embed]</a></p>&mdash; The Doctor is Looking for Work (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3lrxnxiepcs2m?ref_src=embed">June 19, 2025 at 7:17 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
+Both jungles are different in many ways, and my love for jungles managed by MP Tourism is a tad more than those on this side of the border in Maharashtra. This is based on multiple trips across various jungles, but with each trip, we get to learn a little more about how the businesses associated with and around the jungle change. So the plan for a detailed blog is for it to be used as a quick reference by us, as well as by anyone else looking for something similar.
+
+### Update on our pets
+
+So, halfway through our Bandhavgarh trip, I was at the ticket counter for the next day's safari when I got a call from our pet sitter. She told us our bigger parrot, Apollo, had passed away. It was a surreal conversation, and I can still hear her voice repeating the conversation in my head. I rushed back to the hotel room to tell S. Part of me still doesn't believe we lost him already; I was hoping he'd spend another decade with us.
+
+I could say I wrote about it, but it's just a lot of thoughts, feelings, and grief all coming together. [You can read it here](https://ss.lucidillusions.in/blog/2025-06-10-apollo/). While the doctor felt the change in weather resulted in him getting a seizure, she also asked if we could get our other bird checked. Zeus, our green-cheeked conure, it turns out, had an enlarged liver. So, for the last three weeks, we've been giving him medicine twice a day, and it's been something of an experience. We've been needing to devise new ways to hold him and get him to take the medicine. There has been a lot of biting (my fingers hold many scars) and trying to escape, and one day he even tried to fake a sneeze all morning, hoping he wouldn't be given medicine.
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:36h6ttx2g23zqr4accilbvo7/app.bsky.feed.post/3lrzlsghmck24" data-bluesky-cid="bafyreifmkgfdhsgk6dfd3rl5vtxv6idyciwcpzm6hnxh63xn3j3cdfmbwu" data-bluesky-embed-color-mode="light"><p lang="en">Today Zeus didn&#x27;t want to take his meds, so he decided he should show who&#x27;s the boss with a lot of bites...
+
+Image 1. Art and the Artist
+Image 2. The Artist feeling bad and cozying up to his victim and showing remorse. lol.
+
+🪶 #PetSky<br><br><a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3lrzlsghmck24?ref_src=embed">[image or embed]</a></p>&mdash; The Doctor is Looking for Work (<a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7?ref_src=embed">@lucidillusions.in</a>) <a href="https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3lrzlsghmck24?ref_src=embed">June 20, 2025 at 1:43 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
+
+Currently, he's better than his first diagnosis, but still needs more medication. For his next vet visit, the vet wants to do many more tests on him. I really hope he gets well soon. The tiny baby could use some normalcy. With Apollo gone, if I step out of the room even for a minute, he's vocal about the displeasure of my action.
+
+
+### How's my writing holding up?
+
+I feel I've managed to write a bunch of things, some even during our travel.
+
+Earlier in the month, I came across [Tasavvur's](https://tasavvurnama.com/submissions/) submission for their Summer 2025 issue - and ended up writing a flash (around 1000 words) titled 'Horror Gone Wrong'. I quite enjoyed writing it, and to be honest, I was pleasantly surprised that it was selected for the issue. So I will finally have a published story – one that is not on my website or Patreon, and I'm quite excited to share the link with everyone once it goes live!
+
+I also sent out a pair of Haikus for the [The Triveni Haiku Awards](https://www.trivenihaikai.in/post/the-triveni-haiku-awards-2025); their submission window is still open in case you'd like to participate.
+
+On the other hand, my entry to _Dark n Light Magazine_ did not cut it, but I'm planning to rework <strong>'The Fourth Estate'</strong> and send it out to a few other magazines. It does have some potential, and I could definitely polish it now that I don't have the 2000-word restriction.
+
+So apart from the above stories, that are not available to read yet, here's what all you can check online.
+
+- #### Accessible for members (free) on [Patreon](https://www.patreon.com/collection/1504916?view=expanded):
+1. ['Dear Imprudence'](https://www.patreon.com/posts/131298555): A story about an anxious demon that wants to befriend a human.
+2. ['The Vigilante's Offer - Chapter 1'](https://www.patreon.com/posts/131225789): I started this story with many ideas, and I have a basic structure on how I want to build it. This could definitely reach around 10k words and be a novelette.
+<br>
+
+- #### Accessible on [this website](https://ss.lucidillusions.in/):
+1. ['Guided Dream'](https://ss.lucidillusions.in/dream/2025/05/26/walkies.html)
+2. ['Flying Across'](https://ss.lucidillusions.in/dream/2025/06/17/dream-flight.html)  <br>
+Both of the stories above are inspired by random dreams I had, which I decided to turn them into prompts and build on them.
+3. ['Witchcraft 101'](https://ss.lucidillusions.in/shortstory/2025/06/17/witchcraft101.html) -  Since AI is being stuffed into everything, why not an AI-powered witchcraft app? What could even go wrong? <br>
+I'm considering starting a small series of stories about this app. I have about three ideas brewing in the cauldron for now.
+4. ['Thirty Six Frames'](https://ss.lucidillusions.in/shortstory/2025/06/11/thirtysix.html), which was available on patreon, is now available on the site.
+<br>
+
+- #### Work In Progress - (I'm hoping to finish these stories in the next few weeks)
+1. 'Untitled Story' - Based on a prompt from someone on BlueSky.
+2. 'Lighthouse Keeper'
+3. 'Witchcraft 101 - Black Magic'
+
+If you check the [Blogs](https://ss.lucidillusions.in/blog/) section, you'll see almost a post a week in the last four weeks (including this one), which is not too bad from me.
+
+I think the month has been emotionally a lot, from losing Apollo to keeping an extra eye on Zeus, the energy to put into finding new work has been quite low. So, as a reminder for readers and to help with some SEO keywords, Lucid Illusions is looking for new photography and videography projects based in India. I can work on corporate interviews or even help produce advertisements or short films. If you'd like me to manage social media for you or work on simple static websites, just [drop me a mail](mailto:i@lucidillusions.in). You can also commission me to make posters, or write an eldritch horror story that you can gift someone.
+
+In other news, I’d like to announce that my book, ['The Forgotten Alley (and other short stories)'](https://www.smashwords.com/books/view/1771878), will be available as part of a promotion on Smashwords for the month of July as part of their Annual Summer/Winter Sale! This is a chance to get my book, along with books from many other great authors, at a discount so you can get right to reading.
+
+#### Support me
+If you'd like to pick up the e-book from any other store you prefer - [check here](https://books2read.com/u/mgB2Nq). You can also [support me on Ko-Fi](https://ko-fi.com/lucidillusions). I've updated [Darkroom with new Photo Prints](https://lucidillusions.darkroom.com/). You can also check [RedBubble for Art Merch](https://www.redbubble.com/people/lucidillusions/shop). Every bit helps me make rent and utilities for next month.
+
+<hr />
+
+#### Reading Suggestion
+1. ['Mysterious Rooms'](https://phoebejournal.com/mysterious-rooms/) - [Jaime Gill](https://bsky.app/profile/did:plc:lycmvnrzel2owmm3cples6h7) <br>
+I came across this story recently, and I've already reread it once, and thought about the story as well as the writing quite a few times.
