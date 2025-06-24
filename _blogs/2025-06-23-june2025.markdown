@@ -4,8 +4,8 @@ title:  "Through June's Haze - Monthly Catch-up"
 date:   2025-06-23 11:39:03 +0530
 author: Lucid Illusions
 categories: blog
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lprlax5enk2k
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lscy44g6nc2e
 ---
 
 Last month has been crazy packed, and a lot has happened. If you'd like to revisit last month's catch-up post, check out [How has May shaped up](https://ss.lucidillusions.in/blog/2025-05-22-may2025/).
