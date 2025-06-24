@@ -4,12 +4,18 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-06-24T17:11:22+05:30</updated>
+  <updated>2025-06-24T21:30:37+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">The Lunar Cicada</title>
+    <link href="https://ss.lucidillusions.in/shortstory/2025/06/24/lunar-cicada.html" rel="alternate" type="text/html" title="The Lunar Cicada"/>
+    <published>2025-06-24T21:00:03+05:30</published>
+    <updated>2025-06-24T21:00:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/shortstory/2025/06/24/lunar-cicada.html</id><summary type="html">  Every 17,000 years, a cosmic ballet unfolds in the heavens. It begins with a total solar eclipse, not as an omen of darkness, but as a veil for a...</summary>
+  </entry><entry>
     <title type="html">Through June&apos;s Haze - Monthly Catch-up</title>
     <link href="https://ss.lucidillusions.in/blog/2025-06-23-june2025/" rel="alternate" type="text/html" title="Through June&apos;s Haze - Monthly Catch-up"/>
     <published>2025-06-23T11:39:03+05:30</published>
@@ -76,12 +82,4 @@
     <id>https://ss.lucidillusions.in/blog/2025-05-23-siteupdates/</id><author>
       <name>Lucid Illusions</name>
     </author><summary type="html">I’ve been using this site to compile my stories for a long time, and for just as long I’ve been meaning to learn more of Jekyll to add features and...</summary>
-  </entry><entry>
-    <title type="html">How has May shaped up</title>
-    <link href="https://ss.lucidillusions.in/blog/2025-05-22-may2025/" rel="alternate" type="text/html" title="How has May shaped up"/>
-    <published>2025-05-22T18:39:03+05:30</published>
-    <updated>2025-05-22T18:39:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/blog/2025-05-22-may2025/</id><author>
-      <name>Lucid Illusions</name>
-    </author><summary type="html">We are a little over three weeks in May, and less than a week from my Birthday. It has been a spectrum of weird to interesting month. Weird because after...</summary>
   </entry></feed>
