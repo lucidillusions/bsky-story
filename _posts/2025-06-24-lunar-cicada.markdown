@@ -4,8 +4,8 @@ title:  "The Lunar Cicada"
 date:   2025-06-24 21:00:03 +0530
 categories: ShortStory
 word_count: 476
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lrrhxuacwc2c
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lsehtxura22j
 ---
 
 &nbsp; Every 17,000 years, a cosmic ballet unfolds in the heavens. It begins with a total solar eclipse, not as an omen of darkness, but as a veil for a spectacular rebirth. During such a rare alignment, the Moon, which for millennia has been slowly transforming. It ceases to be merely a celestial body and reveals its true nature: a colossal, cosmic egg.
