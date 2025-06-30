@@ -4,8 +4,8 @@ title:  "The Fall"
 date:   2025-06-30 7:20:03 +0530
 categories: deathclock
 word_count: 748
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lo6ipnddlk2i
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lss77quvak2i
 ---
 
 &nbsp; The flickering neon sign of 'The Bird of Paradise' cast a pretty pink glow on Lauren as she stepped out,  the lingering taste of their home-brewed ale still on her tongue. The night air, usually thick with the scent of smog and rain, held a strange, metallic tang tonight. She barely noticed until a ripple in the alleyway caught her eye. It wasn't a rat scampering around, but a shimmering, almost liquid distortion of reality itself.
@@ -30,7 +30,7 @@ A profound, almost religious ecstasy washed over her as she saw how the entirety
 
 Her legs buckled. Not from a blow, but from the sheer, uncontainable glory of the understanding. She didn't fall to the ground, but into a swirling abyss of silent, shimmering awe. The alleyway, the city, the very concept of 'The Bird of Paradise' vanished, leaving only the endless, star-strewn gaze of her unfathomable opponent, and the echo of a truly magnificent, utterly insignificant battle.
 
-As she floated down the abyss, she heard a guttural sound, "You've been chosen."
+As Lauren floated down the abyss, she heard a guttural sound, "You've been chosen."
 
 ---
 <em>Craving more cosmic dread? Imagine a custom eldritch horror, crafted just for you (or a delightfully terrified friend!). [Reach out](mailto:i@lucidillusions.in) and commission me for your very own eldritch tale.</em>
