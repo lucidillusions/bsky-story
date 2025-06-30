@@ -25,3 +25,6 @@ He had one chance. Conor reached into his pocket and pulled out his Costco membe
 And just like that, Conor ceased to exist. His atoms scattered across dimensions, his consciousness folded into a Möbius strip of despair. The eldritch horrors debated whether to rate his slip on Yelp.
 
 As for the puddle of pee pee, it remained, a testament to the absurdity of existence. Costco management put up a caution sign: “Slippery When Eldritch.” And somewhere in the multiverse, Conor’s ghost muttered, “At least I got my money’s worth.”
+
+---
+<em>Craving more cosmic dread? Imagine a custom eldritch horror, crafted just for you (or a delightfully terrified friend!). [Reach out](mailto:i@lucidillusions.in) and commission me for your very own eldritch tale.</em>

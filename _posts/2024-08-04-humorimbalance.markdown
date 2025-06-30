@@ -21,3 +21,6 @@ Gary, ever the pro, paused for a dramatic beat before announcing, "Well, that's 
 While paramedics whisked Trish away, “I warned you about laughter,” she muttered, as Gertrude shook her head.
 
 The coroner's report would later cite "Acute Humour Imbalance" as the cause of death. It was a medical mystery that would baffle doctors for years to come. And so, Mildred became a legend, the woman who died laughing. Or, as some would say, a victim of her own deeply held beliefs.
+
+---
+<em>Craving more cosmic dread? Imagine a custom eldritch horror, crafted just for you (or a delightfully terrified friend!). [Reach out](mailto:i@lucidillusions.in) and commission me for your very own eldritch tale.</em>

@@ -33,3 +33,6 @@ Soaring through the sky, the clouds whipping past him, adrenaline coursing throu
 The world below shrank, transformed into a patchwork quilt of greens and blues. But as the jet crossed the infamous Bermuda Triangle, something strange happened. The world seemed to shimmer, to distort. A moment of disorientation, and then, nothing.
 
 He fell. Fell through a void of blackness, a space devoid of time and gravity. And as the world spun into oblivion, a final thought crossed his mind: perhaps the universe had not been so generous after all.
+
+---
+<em>Craving more cosmic dread? Imagine a custom eldritch horror, crafted just for you (or a delightfully terrified friend!). [Reach out](mailto:i@lucidillusions.in) and commission me for your very own eldritch tale.</em>

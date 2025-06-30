@@ -27,3 +27,6 @@ And then it sneezed.
 Not just any sneeze. This was a cosmic sneeze, a cataclysmic event that ripped a hole in the fabric of reality. Through this breach, a slimy, tendril-like substance oozed into our world. Tiny at first, it began to grow at an alarming rate, its appetite insatiable.
 
 And so, Gilbertine, the woman who preferred tea to turbulence, became the unwitting harbinger of cosmic doom. It was, in the grand scheme of things, a truly awful way to spend an afternoon.
+
+---
+<em>Craving more cosmic dread? Imagine a custom eldritch horror, crafted just for you (or a delightfully terrified friend!). [Reach out](mailto:i@lucidillusions.in) and commission me for your very own eldritch tale.</em>

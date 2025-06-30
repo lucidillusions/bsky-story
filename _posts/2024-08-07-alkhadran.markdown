@@ -33,3 +33,6 @@ And so, Dr. Hansen, the biologist-turned-buffoon, met his end. His legacy? A cau
 As for Aldo, the giant tortoise? Some say he still roams the island, occasionally pausing to perform a clumsy pirouette. Perhaps he remembers Dr. Hansen —the man who dared to dream of rewilding, even if it meant becoming a clown.
 
 And so, dear reader, the next time you visit Neo-Zurich Island, spare a thought for the lost souls who once squeezed into that ill-fated clown car. Their laughter echoes through the fossil-strewn cliffs, a reminder that even in tragedy, there's a touch of whimsy.
+
+---
+<em>Craving more cosmic dread? Imagine a custom eldritch horror, crafted just for you (or a delightfully terrified friend!). [Reach out](mailto:i@lucidillusions.in) and commission me for your very own eldritch tale.</em>
