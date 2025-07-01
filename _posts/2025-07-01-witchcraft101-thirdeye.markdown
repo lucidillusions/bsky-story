@@ -4,8 +4,8 @@ title:  "Witchcraft 101: The Third Eye"
 date:   2025-07-01 18:00:03 +0530
 categories: ShortStory
 word_count: 514
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lrrhxuacwc2c
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lsvrxv4whk24
 suggested_posts:
   - /2025/06/17/witchcraft101.html
 ---
