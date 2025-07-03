@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>
-    Zeal
+    Publications
   </title>
 
   <link rel="stylesheet" href="/css/main.css">
   <link
     rel="canonical"
-    href="https://ss.lucidillusions.in/fiftyfive/zeal-61497468705/"
+    href="https://ss.lucidillusions.in/category/publication/"
   />
 
    <link rel="stylesheet" href="/assets/node_modules/bluesky-comments/dist/bluesky-comments.css">
@@ -104,52 +104,38 @@
 </header>
 
         <main>
-            <article><article class="fiftyfive-single-post">
-    <div class="back-to-collection">
-        <a href="/fiftyfive/">
-            <i class="fa-solid fa-circle-chevron-left"></i> All Fifty Five Words
-            Stories
-        </a>
+            <article><div class="category-page">
+    <h2 class="category-title">Publications</h2>
+
+    <p class="category-description">
+        This section features stories and articles that have been published online or in print. Explore my published works here!
+    </p>
+    <hr />
+    <div class="posts-list">
+        
+
+        
+        
+            <div class="archive-post-list-item">
+                <h3><a href="/publication/2025/07/02/horror-gone-wrong.html">Horror Gone Wrong</a></h3>
+                <time>
+                    Jul 2, 2025
+                    
+                </time>
+                
+                    <p>  One of my stories got published online! And it’s such an amazing validation.
+</p>
+                
+            </div>
+          
+        
     </div>
-
-    <h2>Zeal</h2>
-    <p class="post-meta">Written on: September 15, 2013</p>
-    <div class="post-content"><p>The time was wrong, so was the place. The wait slowly ebbed the enthusiasm, time pushed them away. The desire never died, they both craved for each other and they both tried. They went around in circles.</p>
-
-<p>He didn’t want to lose her again, her words, her memories fueled his persistence. He kept on trying.</p>
 </div>
-
-    <div class="post-navigation">
-        <div class="prev">
-            
-            <a
-                href="/fiftyfive/breathe-61268845313/"
-                title="Previous: Breathe"
-            >
-                <i class="fa-solid fa-circle-chevron-left"></i>
-                Breathe
-            </a>
-            
-        </div>
-
-        <div class="next">
-            
-            <a
-                href="/fiftyfive/dust-86226509355/"
-                title="Next: Dust"
-            >
-                Dust
-                <i class="fa-solid fa-circle-chevron-right"></i>
-            </a>
-            
-        </div>
-    </div>
-</article>
 </article>
         </main>
 
         <footer>
-    <p>&copy; 2012 - 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
+    <p>&copy; 2023 - 2025 Stories by <a href="https://bsky.app/profile/lucidillusions.in" rel="me">Lucid Illusions</a> | <a href="https://github.com/lucidillusions" rel="me" title="GitHub"><i class="fa-brands fa-github"></i></a> | <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-rss"></i></a> | <a href="https://bsky.app/profile/ss.lucidillusions.in" rel="me" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a></p>
 
     
         <p>2832 souls have been to the Lost Alley.</p>
@@ -177,46 +163,6 @@
             });
         </script>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const menuToggle = document.querySelector(".menu-toggle");
-                const siteNav = document.querySelector(".site-nav");
-
-                if (menuToggle && siteNav) {
-                    menuToggle.addEventListener("click", function () {
-                        const isExpanded =
-                            this.getAttribute("aria-expanded") === "true" ||
-                            false;
-                        this.setAttribute("aria-expanded", !isExpanded);
-                        siteNav.classList.toggle("active");
-                    });
-                }
-
-                // NEW JAVASCRIPT FOR POST TOGGLING
-                const toggleButtons =
-                    document.querySelectorAll(".toggle-button");
-
-                toggleButtons.forEach((button) => {
-                    button.addEventListener("click", function () {
-                        const targetId = this.getAttribute("aria-controls");
-                        const targetElement = document.getElementById(targetId);
-                        const isExpanded =
-                            this.getAttribute("aria-expanded") === "true";
-
-                        if (targetElement) {
-                            if (isExpanded) {
-                                targetElement.style.display = "none";
-                                this.setAttribute("aria-expanded", "false");
-                            } else {
-                                targetElement.style.display = "block";
-                                this.setAttribute("aria-expanded", "true");
-                            }
-                        }
-                    });
-                });
-            });
-        </script>
-        <script src="/assets/js/theme-toggle.js"></script>
         <script src="/js/JekyllWebmentionIO.js" async></script>
 <template style="display:none" id="webmention-bookmarks"><div class="webmentions webmentions--bookmarks">
   {% if webmentions.size > 0 %}
@@ -414,5 +360,7 @@
     <p class="webmentions__not-found">No webmentions were found.</p>
   {% endif %}
 </div></template>
+        <script src="/assets/js/theme-toggle.js"></script>
+        <script src="/assets/js/main.js"></script>
     </body>
 </html>
