@@ -2,7 +2,7 @@
 layout: post
 title:  "Horror Gone Wrong"
 date:   2025-07-02 18:00:03 +0530
-categories: ShortStory
+categories: Publication
 comments: true
 bluesky_post_uri: https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3lsx4eephs226
 ---
