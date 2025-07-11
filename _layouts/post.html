@@ -26,11 +26,14 @@ layout: default
     </div>
     {% endif %}
     <hr />
-    {{ content }}
+    {{ content }} {% if page.show_note %}
+    <div class="blog-post-note">
+        <p>{{ page.show_note }}</p>
+    </div>
+    {% endif %}
 
     <hr />
 
-    <!-- Start Read Next Section -->
     {% assign current_post_categories = page.categories %} {% assign
     suggested_posts_limit = 2 %} {% assign final_displayed_suggestions = "" |
     split: "," %} {% comment %} Build an exclusion list: current post, prev,
@@ -101,10 +104,7 @@ layout: default
         </p>
     </section>
     <hr />
-    {% endif %}
-    <!-- End Read Next Section -->
-
-    {% if page.comments %}
+    {% endif %} {% if page.comments %}
     <section class="post-comments">
         <h3>Online Discussions</h3>
         {% include comments-providers/custom.html %}
