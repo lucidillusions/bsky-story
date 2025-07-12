@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "The First Saturday of Forever"
-date:   2025-07-12 00:00:03 +1030
+date:   2025-07-12 00:00:03 +0530
 categories: bsky
 word_count: 735
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lsvrxv4whk24
+comments: true
+bluesky_post_uri: https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3ltq42v6rwk2y
 show_note: "Inspired by the <a href='https://bsky.app/profile/did:plc:ngskvfckmjjy7cbfmsa7u2io/feed/bsasf'>#BlueSkyArtShow</a>'s July 12th theme: <strong>Summer Daze</strong>, this piece is my contribution."
 ---
 
