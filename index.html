@@ -119,7 +119,9 @@ layout: default
         punch, be sure to explore these bite-sized stories.
     </p>
     <p class="button-container">
-        <a href="https://ss.lucidillusions.in/fiftyfive/" class="button"
+        <a
+            href="{% if jekyll.environment == 'development' %}http://localhost:4000/fiftyfive{% else %}{{ site.url }}/fiftyfive{% endif %}"
+            class="button"
             >Read My Fifty-Word Flash Fiction Now!</a
         >
     </p>
