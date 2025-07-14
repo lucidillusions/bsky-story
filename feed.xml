@@ -4,12 +4,20 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-07-13T20:24:27+05:30</updated>
+  <updated>2025-07-14T11:16:18+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">From Markdown to Manuscript: My Distraction-Free Writing Workflow</title>
+    <link href="https://ss.lucidillusions.in/blog/2025-07-13-shunn/" rel="alternate" type="text/html" title="From Markdown to Manuscript: My Distraction-Free Writing Workflow"/>
+    <published>2025-07-13T11:39:03+05:30</published>
+    <updated>2025-07-13T11:39:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/blog/2025-07-13-shunn/</id><author>
+      <name>Lucid Illusions</name>
+    </author><summary type="html">For years, I’ve chased the idea of writing with minimal distractions, much like I’d enjoy a typewriter – but without the wasted paper or the frustration of typos and reworking...</summary>
+  </entry><entry>
     <title type="html">The First Saturday of Forever</title>
     <link href="https://ss.lucidillusions.in/bsky/2025/07/12/summer-daze.html" rel="alternate" type="text/html" title="The First Saturday of Forever"/>
     <published>2025-07-12T00:00:03+05:30</published>
@@ -69,13 +77,4 @@
     <published>2025-06-17T08:00:03+05:30</published>
     <updated>2025-06-17T08:00:03+05:30</updated>
     <id>https://ss.lucidillusions.in/dream/2025/06/17/dream-flight.html</id><summary type="html">  For millennia, humanity has gazed skyward, tracing the flight of birds and dreaming of wings of our own. From Icarus’s waxen wings to the roaring engines of a jumbo...</summary>
-  </entry><entry>
-    <title type="html">Of Memories and Grief</title>
-    <link href="https://ss.lucidillusions.in/blog/2025-06-10-apollo/" rel="alternate" type="text/html" title="Of Memories and Grief"/>
-    <published>2025-06-15T11:39:03+05:30</published>
-    <updated>2025-06-15T11:39:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/blog/2025-06-10-apollo/</id><author>
-      <name>Lucid Illusions</name>
-    </author><summary type="html">The year hasn’t been the best one for us, and then June hit us with a grief bomb.
-</summary>
   </entry></feed>
