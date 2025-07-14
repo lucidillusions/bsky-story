@@ -1,0 +1,26 @@
+---
+layout: blog
+title:  "From Markdown to Manuscript: My Distraction-Free Writing Workflow"
+date:   2025-07-13 11:39:03 +0530
+author: Lucid Illusions
+categories: blog
+comments: false
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lscy44g6nc2e
+---
+
+For years, I've chased the idea of writing with minimal distractions, much like I'd enjoy a typewriter – but without the wasted paper or the frustration of typos and reworking the prose! My journey began with simple, clean interfaces, starting with tools like [ZenPen](https://zenpen.io/) for quick, short bursts of prose. I even used Google Keep for capturing story ideas and inspirations on the go. Over the past few years, though, my entire workflow has gracefully transitioned to embrace Markdown files: gloriously simple, inherently basic, and utterly liberating.
+
+This shift to Markdown has become my writing sanctuary. In a world brimming with digital distractions and complex software, it allows me to focus purely on the words. After exploring popular options like Notion and Obsidian, I found Logseq, and its open-source nature truly appealed to me. While it has a small, dedicated team and updates might be slower than some commercial alternatives, its stability and core functionality for my writing journey feel incredibly reliable. With this fantastic tool, I can structure my thoughts, link concepts, and draft narratives without any formatting worries. This lets me dive deep into the craft of storytelling, concentrating solely on plot, character, and prose. Not to mention I could develop my own plug-ins to help with analysis of my writing.
+
+My main purpose for using Markdown is its incredible versatility: once my thoughts are fully fleshed out and I'm happy with the raw manuscript, it can effortlessly become a perfectly structured post for my Jekyll website, where I share my stories and blogs with the world.
+
+However, it's only recently, as I've started submitting stories to online literary publications, that the need to convert these files to a .doc, .docx, or other specific format has truly become apparent. As a dedicated Linux user and strong proponent of Free and Open Source Software (FOSS), LibreOffice Writer is my go-to choice for creating these polished documents. Although some previous submissions found their way (one even got accepted!), I found the process of manually restructuring and meticulously checking the manuscript format for each submission to be a significant pain point. Without direct correspondence, it's hard to say definitively, but I suspect some rejections might have even stemmed from subtle formatting issues. This month, preparing stories for submission to prestigious venues like Flash Fiction Online and Apex Magazine, I quickly realized the immense benefit of a ready-made template. Thanks to [William Shunn](https://www.shunn.net/format/story/), we already have a well-established, standardized format for manuscripts. So, creating a Shunn template in LibreOffice Writer wasn't just an option; it became a crucial step.
+
+It's worth noting that easier options for converting Markdown files to other formats certainly exist and are readily found with a quick Google search. But for me, this manual process of moving paragraphs into LibreOffice serves as a final, meticulous check, ensuring the flow is precisely to my liking.
+
+
+If you'd like a copy of the template, just [drop me a mail](mailto:i@lucidillusions.in).
+
+
+#### Support me
+My e-book is available at various stores: [check here](https://books2read.com/u/mgB2Nq) | Consider supporting me on [Ko-Fi](https://ko-fi.com/lucidillusions) | Browse my latest photo prints on [Darkroom](https://lucidillusions.darkroom.com/) | Discover my art merch on [RedBubble](https://www.redbubble.com/people/lucidillusions/shop). | Every bit of support helps with my monthly expenses.
