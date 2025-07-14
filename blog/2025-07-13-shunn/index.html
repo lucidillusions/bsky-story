@@ -115,7 +115,7 @@
 
 <p>My main purpose for using Markdown is its incredible versatility: once my thoughts are fully fleshed out and I’m happy with the raw manuscript, it can effortlessly become a perfectly structured post for my Jekyll website, where I share my stories and blogs with the world.</p>
 
-<p>However, it’s only recently, as I’ve started submitting stories to online literary publications, that the need to convert these files to a .doc, .docx, or other specific format has truly become apparent. As a dedicated Linux user and strong proponent of Free and Open Source Software (FOSS), LibreOffice Writer is my go-to choice for creating these polished documents. Although some previous submissions found their way (one even got accepted!), I found the process of manually restructuring and meticulously checking the manuscript format for each submission to be a significant pain point. Without direct correspondence, it’s hard to say definitively, but I suspect some rejections might have even stemmed from subtle formatting issues. This month, preparing stories for submission to prestigious venues like Flash Fiction Online and Apex Magazine, I quickly realized the immense benefit of a ready-made template. Thanks to <a href="https://www.shunn.net/format/story/">William Shunn</a>, we already have a well-established, standardized format for manuscripts. So, creating a Shunn template in LibreOffice Writer wasn’t just an option; it became a crucial step.</p>
+<p>However, it’s only recently, as I’ve started submitting stories to online literary publications, that the need to convert these files to a .doc, .docx, or other specific format has truly become apparent. As a dedicated Linux user and strong proponent of Free and Open Source Software (FOSS), LibreOffice Writer is my go-to choice for creating these polished documents. Although some previous submissions found their way (<a href="https://tasavvurnama.com/horror-gone-wrong/">one even got accepted!</a>), I found the process of manually restructuring and meticulously checking the manuscript format for each submission to be a significant pain point. Without direct correspondence, it’s hard to say definitively, but I suspect some rejections might have even stemmed from subtle formatting issues. This month, preparing stories for submission to prestigious venues like Flash Fiction Online and Apex Magazine, I quickly realized the immense benefit of a ready-made template. Thanks to <a href="https://www.shunn.net/format/story/">William Shunn</a>, we already have a well-established, standardized format for manuscripts. So, creating a Shunn template in LibreOffice Writer wasn’t just an option; it became a crucial step.</p>
 
 <p>It’s worth noting that easier options for converting Markdown files to other formats certainly exist and are readily found with a quick Google search. But for me, this manual process of moving paragraphs into LibreOffice serves as a final, meticulous check, ensuring the flow is precisely to my liking.</p>
 
@@ -127,6 +127,54 @@
 
     <hr />
 
+    
+    <section class="post-comments">
+        <h3>Online Discussions</h3>
+        <div id="page__comments" style="min-height: 100px">
+    <div id="loading">Loading comments...</div>
+</div>
+
+<script type="module">
+    try {
+        const modules = await Promise.all([
+            // React and ReactDOM are fetched from a CDN (esm.sh)
+            import("https://esm.sh/stable/react@18.2.0/es2022/react.mjs"),
+            import(
+                "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+            ),
+            // bluesky-comments is loaded from your local assets/node_modules
+            import(
+                "/assets/node_modules/bluesky-comments/dist/bluesky-comments.es.js"
+            ),
+        ]);
+
+        const [React, ReactDOM, BlueskyCommentsModule] = modules;
+        const BlueskyComments = BlueskyCommentsModule.BlueskyComments;
+
+        const container = document.getElementById("page__comments");
+        // The URI for the BlueSky post, pulled from your post's front matter
+        const uri = "https://bsky.app/profile/lucidillusions.in/post/3ltvp6np6ps2m";
+
+        if (container) {
+            const root = ReactDOM.createRoot(container);
+            const element = React.createElement(BlueskyComments, {
+                uri,
+                // !!! IMPORTANT: REPLACE YOUR.USERNAME.HERE.bsky.social with your actual BlueSky handle !!!
+                author: "lucidillusions.in",
+                showLogin: true,
+                onLoad: () => document.getElementById("loading")?.remove(),
+            });
+
+            root.render(element);
+        }
+    } catch (error) {
+        console.error("Error loading comments:", error);
+        document.getElementById("page__comments").innerHTML =
+            `<div style="color: red;">Unable to load comments. Please try again later.</div>`;
+    }
+</script>
+
+    </section>
     
 
     <hr />
