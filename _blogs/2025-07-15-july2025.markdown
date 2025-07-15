@@ -1,7 +1,7 @@
 ---
 layout: blog
 title:  "Rains and Ruminations: July's Postcard"
-date:   2025-07-14 11:39:03 +0530
+date:   2025-07-15 19:50:03 +0530
 author: Lucid Illusions
 categories: blog
 comments: false
