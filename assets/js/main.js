@@ -55,37 +55,61 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Image Modal - single image
+// Image Modal - Multiple Images (non carousel)
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the modal
+  // Get the modal (there should only be one modal on the page)
   var modal = document.getElementById("imageModal");
 
-  // Get the image and insert it inside the modal - use its "alt" text as a caption
-  var img = document.querySelector(".blog-post-footer-image img");
-  var modalImg = document.getElementById("modalImage");
-  var captionText = document.getElementById("modalCaption");
+  // Get the image and caption elements inside the modal
+  var modalImage = document.getElementById("modalImage");
+  var modalCaption = document.getElementById("modalCaption");
 
-  if (img && modal && modalImg && captionText) {
+  // Check if the modal and its internal elements exist before proceeding
+  if (!modal || !modalImage || !modalCaption) {
+    console.warn(
+      "Image modal or its elements not found. Modal functionality will not work.",
+    );
+    return; // Exit if critical elements are missing
+  }
+
+  // Get all images that should open the modal
+  // This will return a NodeList of all matching elements
+  var images = document.querySelectorAll(".blog-post-footer-image img");
+
+  // Loop through all found images and add a click event listener to each
+  images.forEach(function (img) {
+    img.style.cursor = "zoom-in"; // Ensure cursor indicates clickability
+
     img.onclick = function () {
-      modal.style.display = "block";
-      modalImg.src = this.getAttribute("data-full-src") || this.src; // Use data-full-src if available
-      captionText.innerHTML = this.alt;
+      modal.style.display = "block"; // Show the modal
+      modalImage.src = this.getAttribute("data-full-src") || this.src; // Use data-full-src if available, fallback to src
+
+      // --- CHANGE IS HERE ---
+      // Now prioritizes 'alt' text. If 'alt' is empty, it falls back to the content of the 'image-caption' p tag.
+      var captionElement = this.closest(
+        ".blog-post-footer-image",
+      ).querySelector(".image-caption");
+      modalCaption.innerHTML =
+        this.alt || (captionElement ? captionElement.innerHTML : "");
+      // --- END CHANGE ---
     };
+  });
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close-button")[0];
+  // Get the <span> element that closes the modal
+  var closeButton = document.getElementsByClassName("close-button")[0];
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
+  // When the user clicks on <span> (x), close the modal
+  if (closeButton) {
+    closeButton.onclick = function () {
       modal.style.display = "none";
     };
-
-    // When the user clicks anywhere outside of the image, close the modal
-    modal.onclick = function (event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    };
   }
+
+  // When the user clicks anywhere outside of the modal content, close it
+  modal.onclick = function (event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  };
 });

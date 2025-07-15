@@ -62,12 +62,6 @@ I know I wrote a lot, and if you've read up to this point, let me give you a pic
   </p>
 </div>
 
-<div id="imageModal" class="modal">
-  <span class="close-button">&times;</span>
-  <img class="modal-content" id="modalImage">
-  <div id="modalCaption" class="caption"></div>
-</div>
-
 
 
 Oh and if you can relate, feel free to buy me a ko-fi or pick something from the [shop](https://ko-fi.com/lucidillusions/shop), or get a print from [Darkroom](https://lucidillusions.darkroom.com/), so I can use the money in the present to make <strong>money for the future!</strong>
