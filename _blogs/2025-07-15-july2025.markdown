@@ -4,8 +4,8 @@ title:  "Rains and Ruminations: July's Postcard"
 date:   2025-07-15 19:50:03 +0530
 author: Lucid Illusions
 categories: blog
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lscy44g6nc2e
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3ltz4igxn4s24
 ---
 
 The monsoon really brings out the Mumbai Spirit to the forefront. The crumbling infrastructure and waterlogging are just part of city life. Not something anyone wishes for, but something everyone battles. The lack of proper government support to fix these issues, year after year, might make you think we're living in some Tier 3 city. Sometimes we're lucky enough not to need to step out every day for work, and sometimes we just hope the rain holds long enough for you to get your errands done somewhat easily.
