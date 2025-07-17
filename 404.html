@@ -4,22 +4,217 @@ layout: default
 ---
 
 <style type="text/css" media="screen">
+    body {
+        background-color: var(
+            --crust-color
+        ); /* A darker base for eldritch mood */
+        font-family:
+            "Times New Roman", serif; /* Classic, slightly eerie font */
+        color: var(--text-color); /* Matches theme text color */
+        overflow: hidden; /* Prevent scrollbars from animation */
+    }
+
     .container {
-        margin: 10px auto;
+        margin: 50px auto;
         max-width: 600px;
         text-align: center;
+        padding: 20px;
+        background-color: var(
+            --mantle-color
+        ); /* Slightly lighter background for the content box */
+        border-radius: 8px;
+        box-shadow: 0 4px 20px var(--overlay0-color-shadow); /* Stronger shadow for depth */
+        position: relative; /* For z-index to bring text above animation if needed */
+        z-index: 10; /* Ensure text is on top */
     }
+
     h1 {
-        margin: 30px 0;
-        font-size: 4em;
+        margin: 30px 0 15px;
+        font-size: 4.5em; /* Slightly larger 404 */
         line-height: 1;
-        letter-spacing: -1px;
+        letter-spacing: -2px;
+        color: var(--maroon); /* A deep, unsettling red */
+        text-shadow: 2px 2px 5px var(--crust-color); /* Adds subtle depth */
+    }
+
+    h2 {
+        font-size: 2em; /* Larger, more impactful heading */
+        margin-bottom: 15px;
+        color: var(--lavender); /* An otherworldly, mystical color */
+        text-shadow: 1px 1px 3px var(--crust-color);
+    }
+
+    /* Add a specific style for bolding within H2 for consistency */
+    h2 strong {
+        font-weight: bold;
+        color: var(
+            --rosewater
+        ); /* A contrasting color for emphasis, or keep var(--lavender) */
+        /* You can adjust this color to be the same as the h2 or something different for accent */
+    }
+
+    p {
+        font-size: 1.2em; /* Larger paragraph text */
+        line-height: 1.6;
+        margin-bottom: 25px;
+        color: var(
+            --subtext0-color
+        ); /* Slightly lighter text for readability */
+    }
+
+    a {
+        color: var(--blue); /* Your theme's blue for links */
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: var(--sapphire); /* Hover state */
+    }
+
+    /* Eldritch Animation Container */
+    .eldritch-abyss {
+        position: fixed; /* Fixed to cover the whole screen */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1; /* Behind the content */
+        pointer-events: none; /* Allows clicks to pass through */
+    }
+
+    /* Individual "tentacle" or "void" elements */
+    .eldritch-void {
+        position: absolute;
+        background: linear-gradient(
+            135deg,
+            var(--crust-color),
+            var(--maroon),
+            var(--crust-color)
+        ); /* Gradient for depth */
+        opacity: 0.6;
+        animation: voidShift 15s infinite alternate ease-in-out;
+        border-radius: 50%; /* Start as circles */
+        filter: blur(20px); /* Soft, hazy appearance */
+    }
+
+    /* Randomize positions and sizes for multiple "void" elements */
+    .eldritch-void:nth-child(1) {
+        width: 150px;
+        height: 150px;
+        top: 10%;
+        left: 10%;
+        animation-delay: 0s;
+    }
+    .eldritch-void:nth-child(2) {
+        width: 200px;
+        height: 200px;
+        top: 60%;
+        left: 70%;
+        animation-delay: 2s;
+        background: linear-gradient(
+            45deg,
+            var(--maroon),
+            var(--peach),
+            var(--maroon)
+        );
+    }
+    .eldritch-void:nth-child(3) {
+        width: 100px;
+        height: 100px;
+        top: 30%;
+        left: 80%;
+        animation-delay: 4s;
+        background: linear-gradient(
+            90deg,
+            var(--rosewater),
+            var(--maroon),
+            var(--rosewater)
+        );
+    }
+    .eldritch-void:nth-child(4) {
+        width: 180px;
+        height: 180px;
+        top: 80%;
+        left: 20%;
+        animation-delay: 6s;
+    }
+    .eldritch-void:nth-child(5) {
+        width: 120px;
+        height: 120px;
+        top: 5%;
+        left: 50%;
+        animation-delay: 8s;
+        background: linear-gradient(
+            225deg,
+            var(--pink),
+            var(--maroon),
+            var(--pink)
+        );
+    }
+    .eldritch-void:nth-child(6) {
+        width: 250px;
+        height: 250px;
+        top: 40%;
+        left: 0%;
+        animation-delay: 10s;
+    }
+
+    /* Keyframes for the "void" shifting and growing */
+    @keyframes voidShift {
+        0% {
+            transform: translate(0, 0) scale(1);
+            border-radius: 50%;
+            opacity: 0.6;
+        }
+        25% {
+            transform: translate(20px, -10px) scale(1.1) rotate(10deg);
+            border-radius: 30% 70% 60% 40% / 70% 30% 70% 30%; /* Irregular shape */
+            opacity: 0.7;
+        }
+        50% {
+            transform: translate(-10px, 15px) scale(0.9) rotate(-15deg);
+            border-radius: 60% 40% 40% 60% / 30% 60% 40% 70%; /* Another irregular shape */
+            opacity: 0.5;
+        }
+        75% {
+            transform: translate(15px, -5px) scale(1.05) rotate(5deg);
+            border-radius: 70% 30% 70% 30% / 40% 70% 30% 60%;
+            opacity: 0.65;
+        }
+        100% {
+            transform: translate(0, 0) scale(1);
+            border-radius: 50%;
+            opacity: 0.6;
+        }
     }
 </style>
 
-<div class="container">
-    <h2><b>Looks like you are lost.</b></h2>
+<div class="eldritch-abyss">
+    <div class="eldritch-void"></div>
+    <div class="eldritch-void"></div>
+    <div class="eldritch-void"></div>
+    <div class="eldritch-void"></div>
+    <div class="eldritch-void"></div>
+    <div class="eldritch-void"></div>
+</div>
 
-    <p><strong>Page not found :(</strong></p>
-    <p>The requested page could not be found.</p>
+<div class="container">
+    <h1>404</h1>
+    <h2>
+        It seems the page you sought has been
+        <strong>Consumed by the Eldritch Void.</strong>
+    </h2>
+
+    <p>
+        Perhaps a forgotten entity from beyond the veil devoured it whole, or it
+        merely slipped into an unfathomable dimension.
+    </p>
+    <p>
+        We advise you to step back from the brink and return to the
+        <a href="/">sanctuary of the homepage</a>, before you gaze too long into
+        the abyss.
+    </p>
 </div>
