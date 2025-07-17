@@ -4,8 +4,8 @@ title:  "Witchcraft 101: System Overload"
 date:   2025-07-17 18:00:03 +0530
 categories: ShortStory
 word_count: 562
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lsvrxv4whk24
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lu626n2vcc2i
 suggested_posts:
   - /2025/06/17/witchcraft101.html
   - /2025/07/01/witchcraft101-thirdeye.html
