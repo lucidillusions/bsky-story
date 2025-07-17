@@ -8,6 +8,7 @@ comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lsvrxv4whk24
 suggested_posts:
   - /2025/06/17/witchcraft101.html
+  - /2025/07/17/wc101-kaalajaadu.html
 ---
 
 &nbsp; Arthur fumbled for his phone, swiping, until the familiar chime of the Witchcraft 101 app finally sounded. "Voice search," he mumbled, his brow furrowing as he tried to tap on the  microphone icon. He heard the beep and began, "How to... uh... how to fix, like, blindness, with really old magic? The kind that doesn't involve eye surgery?"
