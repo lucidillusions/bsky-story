@@ -4,6 +4,14 @@ layout: default
 ---
 
 <style type="text/css" media="screen">
+    /* Ensure html and body take full viewport height for fixed elements */
+    html,
+    body {
+        height: 100%; /* Important for fixed background to cover full screen */
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         background-color: var(
             --crust-color
@@ -11,11 +19,12 @@ layout: default
         font-family:
             "Times New Roman", serif; /* Classic, slightly eerie font */
         color: var(--text-color); /* Matches theme text color */
-        overflow: hidden; /* Prevent scrollbars from animation */
+        overflow-y: auto; /* Allow vertical scrolling when content exceeds viewport */
+        overflow-x: hidden; /* Keep horizontal overflow hidden */
     }
 
     .container {
-        margin: 50px auto;
+        margin: 80px auto; /* Adjusted margin-top to clear the header, measure your header's height and add buffer! */
         max-width: 600px;
         text-align: center;
         padding: 20px;
@@ -26,6 +35,32 @@ layout: default
         box-shadow: 0 4px 20px var(--overlay0-color-shadow); /* Stronger shadow for depth */
         position: relative; /* For z-index to bring text above animation if needed */
         z-index: 10; /* Ensure text is on top */
+    }
+
+    /* Base styles for both logos */
+    .logo-404 {
+        max-width: 250px; /* Adjust as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 20px; /* Space between logo and 404 text */
+        display: block; /* Ensures margin auto works for horizontal centering */
+        margin-left: auto; /* Center the logo */
+        margin-right: auto; /* Center the logo */
+    }
+
+    /* Default state (corresponding to data-theme="latte" or light mode): */
+    .logo-light {
+        display: block;
+    }
+    .logo-dark {
+        display: none;
+    }
+
+    /* Dark mode styles (when html has data-theme="mocha") */
+    html[data-theme="mocha"] .logo-light {
+        display: none;
+    }
+    html[data-theme="mocha"] .logo-dark {
+        display: block;
     }
 
     h1 {
@@ -50,7 +85,6 @@ layout: default
         color: var(
             --rosewater
         ); /* A contrasting color for emphasis, or keep var(--lavender) */
-        /* You can adjust this color to be the same as the h2 or something different for accent */
     }
 
     p {
@@ -80,7 +114,7 @@ layout: default
         left: 0;
         width: 100%;
         height: 100%;
-        overflow: hidden;
+        overflow: hidden; /* Keep hidden here to prevent animation scrollbars */
         z-index: 1; /* Behind the content */
         pointer-events: none; /* Allows clicks to pass through */
     }
@@ -202,6 +236,17 @@ layout: default
 </div>
 
 <div class="container">
+    <img
+        src="/assets/images/header2_black.png"
+        alt="Lucid Illusions Logo"
+        class="logo-404 logo-light"
+    />
+    <img
+        src="/assets/images/header2_white.png"
+        alt="Lucid Illusions Logo"
+        class="logo-404 logo-dark"
+    />
+
     <h1>404</h1>
     <h2>
         It seems the page you sought has been
