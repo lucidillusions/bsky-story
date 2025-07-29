@@ -4,8 +4,8 @@ title:  "Beyond the Stripes: International Tiger Day - 2025"
 date:   2025-07-27 19:50:03 +0530
 author: Lucid Illusions
 categories: blog
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3ltz4igxn4s24
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lv3t7feew22os
 images:
   - src: /assets/images/blog/202507_tiger/SDG_5840.jpg
     caption: "2025, Tadoba, Collarwali Tigress (300mm lens)"
