@@ -4,12 +4,21 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-07-27T22:20:32+05:30</updated>
+  <updated>2025-07-29T15:10:15+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">Beyond the Stripes: International Tiger Day - 2025</title>
+    <link href="https://ss.lucidillusions.in/blog/2025-07-27-tiger/" rel="alternate" type="text/html" title="Beyond the Stripes: International Tiger Day - 2025"/>
+    <published>2025-07-27T19:50:03+05:30</published>
+    <updated>2025-07-27T19:50:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/blog/2025-07-27-tiger/</id><author>
+      <name>Lucid Illusions</name>
+    </author><summary type="html">Roar For Tigers
+</summary>
+  </entry><entry>
     <title type="html">Witchcraft 101: The Curious Case of the Spectral Dentition</title>
     <link href="https://ss.lucidillusions.in/shortstory/2025/07/25/wc101-spectraldentition.html" rel="alternate" type="text/html" title="Witchcraft 101: The Curious Case of the Spectral Dentition"/>
     <published>2025-07-25T18:00:03+05:30</published>
@@ -68,13 +77,4 @@
     <published>2025-06-24T21:00:03+05:30</published>
     <updated>2025-06-24T21:00:03+05:30</updated>
     <id>https://ss.lucidillusions.in/shortstory/2025/06/24/lunar-cicada.html</id><summary type="html">  Every 17,000 years, a cosmic ballet unfolds in the heavens. It begins with a total solar eclipse, not as an omen of darkness, but as a veil for a...</summary>
-  </entry><entry>
-    <title type="html">Through June&apos;s Haze - Monthly Catch-up</title>
-    <link href="https://ss.lucidillusions.in/blog/2025-06-23-june2025/" rel="alternate" type="text/html" title="Through June&apos;s Haze - Monthly Catch-up"/>
-    <published>2025-06-23T11:39:03+05:30</published>
-    <updated>2025-06-23T11:39:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/blog/2025-06-23-june2025/</id><author>
-      <name>Lucid Illusions</name>
-    </author><summary type="html">Last month has been crazy packed, and a lot has happened. If you’d like to revisit last month’s catch-up post, check out How has May shaped up.
-</summary>
   </entry></feed>
