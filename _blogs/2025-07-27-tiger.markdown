@@ -1,0 +1,77 @@
+---
+layout: blog
+title:  "Beyond the Stripes: International Tiger Day - 2025"
+date:   2025-07-27 19:50:03 +0530
+author: Lucid Illusions
+categories: blog
+comments: false
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3ltz4igxn4s24
+images:
+  - src: /assets/images/blog/202507_tiger/SDG_5840.jpg
+    caption: "2025, Tadoba, Collarwali Tigress (300mm lens)"
+  - src: /assets/images/blog/202507_tiger/SDG_6574.jpg
+    caption: "2025, Tadoba, A sub-adult leaping across a water body (300mm, cropped)"
+  - src: /assets/images/blog/202507_tiger/SDG_7735.jpg
+    caption: "2025, Bandhavgarh, Ra tigress stalking her prey (300mm)"
+  - src: /assets/images/blog/202507_tiger/SDG_7909.jpg
+    caption: "2025, Bandhavgarh, A sub-adult sleeping in shade (300mm, cropped)"
+  - src: /assets/images/blog/202507_tiger/IMG_3773.jpg
+    caption: "2025, Panna, P151 Tigress (600mm)"
+  - src: /assets/images/blog/202507_tiger/IMG_3776.jpg
+    caption: "2025, Panna, P151 Tigress (600mm)"
+  - src: /assets/images/blog/202507_tiger/IMG_3244.jpg
+    caption: "2025, Panna, P141 Tigress almost 10 ft away (600mm)"
+  - src: /assets/images/blog/202507_tiger/IMG_3346.jpg
+    caption: "2025, Panna, P141 Tigress (600mm)"
+  - src: /assets/images/blog/202507_tiger/SDG_4492.jpg
+    caption: "2024, Ranthambore, Riddhi tigress on her way to go to her cubs (70mm, cropped)"
+  - src: /assets/images/blog/202507_tiger/SDG_6152.jpg
+    caption: "2024, Kanha, A sub-adult tiger cooling itself (70mm, cropped)"
+  - src: /assets/images/blog/202507_tiger/SDG_1143.jpg
+    caption: "2023, Pench, Trishul Male (70mm, cropped)"
+  - src: /assets/images/blog/202507_tiger/SDG_0743.jpg
+    caption: "2023, Khitauli, The first time I got to see Tigers in the wild (70mm)"
+
+
+
+---
+
+## Roar For Tigers
+
+
+Back in 2010, global wild tiger numbers had dwindled to almost 3.200 individuals, but by the end of 2023, there had been a 74% increase, and we currently have more than 5500 tigers[^1] in the wild. India is home to almost 70% of these tigers. Compared to this, there are almost 10,000 tigers held in captivity in North America[^2]! So today, on the <strong>International Tiger Day</strong>, I felt it was a good time to write down a blog post and share some photographs I've taken in the Indian Jungles.
+
+More than anything, I wish more people would visit the National Parks, not just for the tigers but to enjoy this beautiful resource that we have – a resource that crony capitalists and the government are stealing from us. If people don't visit and experience this beauty themselves, I don't think they can truly relate to what is being stolen from them, or raise their voice to question the government.
+
+
+Back in 1972, the Royal Bengal Tiger was officially declared India's national animal. This decision was also to highlight the need to protect the species from hunting, poaching, and habitat loss. The year after, <strong>Project Tiger</strong> was launched to protect the Bengal tigers - a pioneering initiative that established dedicated tiger reserves and implemented stringent protection measures. This ambitious project, now one of the most successful conservation stories globally, has seen India's tiger population rebound significantly. Yet, this success hasn't been without its challenges. There have been heart-wrenching instances where local tiger populations dwindled to single digits, or even disappeared completely, in some reserves. Places like Sariska Tiger Reserve in Rajasthan and Panna Tiger Reserve in Madhya Pradesh faced such crises, only to witness the incredible triumph of reintroduction programs, where tigers were carefully translocated from other healthy populations, breathing new life into these vital ecosystems.
+
+Since International Tiger Day is meant to help raise awareness and support for tiger conservation, and if you're here reading this, may I suggest taking a quick <a href="https://linktr.ee/savesariska" target="_blank" rel="noopener noreferrer">detour to help #SaveSariska Tigers by sending an email petition by clicking here</a>. We can't let a terrible part of our history repeat itself; we cannot let them take away their habitats.
+
+A part of me is working on different blog posts discussing the different jungles I've been to and how the experience was for me. Hopefully, I can share those soon, with lots of photographs and even some details to help you plan your own trip. So, consider this a general introduction to the series.
+
+It hasn't been that long since I went to a jungle for the first time! In February 2023, we went to Jabalpur for our reception, and afterwards, we went to Bandhavgarh National Park. There were five safaris planned for the trip, and just being in the jungle, surrounded by the trees, was such a beautiful experience. We got to see a pair of sub-adult siblings who were casually sitting at the edge of a mound. This was also a period where the only zoom lens I had on me was a 24-70mm (which is quite great for wide shots as well as some zoom), although the tigers were pretty far. So I managed to capture something which would have been great for r/TinyCatsInBigSpaces (I've shared the photograph below).
+
+It was in the second half of 2024 that I got myself a Tamron 70-300 with a macro mode, which has definitely helped with capturing more detailed photos of the tigers I've encountered in the wild. Earlier this year, I also got to borrow a Canon 600mm lens when we went to Panna, and it was the first time we had a tiger so close to our jeep that the lens worked exactly opposite to my 2023 experience.
+
+To truly appreciate the magic of these places, sometimes words aren't enough. So, here are some of the magnificent tigers I've photographed in the wild!
+
+### Tigers in the Wild!
+{% include carousel.html images=page.images %}
+
+<hr />
+
+
+### Support My Work
+
+If you've enjoyed reading about my jungle adventures and photography, or if my stories have sparked a little awe, perhaps you'd consider supporting my creative journey. Every bit of your support genuinely helps me continue exploring, capturing, and sharing these incredible experiences. You can bring my art home by discovering stunning prints in my [Darkroom print shop](https://lucidillusions.darkroom.com/) or if you're looking for a digital copy of a specific photograph you loved, just [reach out to me directly](mailto:i@lucidillusions.in).
+
+You'll also find unique art merchandise on [RedBubble](https://www.redbubble.com/people/lucidillusions/shop) and high-quality prints at my new [INPRNT shop](https://www.inprnt.com/gallery/lucidillusions/)/ If you'd prefer to make a small direct contribution, you can easily[support me on Ko-Fi](https://ko-fi.com/lucidillusions) or [Buy me a Coffee](https://buymeacoffee.com/lucidillusions).
+
+For exclusive stories and behind-the-scenes content, consider becoming a member of my [Patreon community](https://www.patreon.com/c/lucidillusions). And don't forget, my e-book, The Forgotten Alley, is available on[Amazon](https://www.amazon.com/dp/B0F7HGSGCF) as well as [any other stores that you prefer](https://books2read.com/u/mgB2Nq). Lastly, if you need help with video editing, designing captivating movie posters, or perhaps a custom story as a unique gift, feel free to [drop me a mail](mailto:i@lucidillusions.in) to discuss commissions! Your support helps me cover essential costs like rent and utilities each month, allowing me to keep creating and sharing the magic of the wild with you. Thank you for being a part of this journey!
+
+<hr />
+
+---
+[^1]: [WWF blogpost from Sep 2023](https://www.worldwildlife.org/stories/new-tiger-population-estimate-of-5-574-wild-tigers-announced-by-global-tiger-forum)
+[^2]: [How did America end up with the world’s largest tiger population?](https://www.theguardian.com/world/2021/sep/21/tiger-trafficking-america)

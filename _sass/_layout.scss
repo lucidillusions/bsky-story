@@ -1,3 +1,5 @@
+/* _sass/_layout.scss */
+
 body {
     margin: 0;
     // margin-top: 0.25em; /* Remove this line or adjust it */
@@ -14,6 +16,7 @@ body {
     background-color: var(
         --base-color
     ); // Ensure body background also changes with theme
+    box-sizing: border-box; /* IMPORTANT: Ensures padding/border are included in total width */
 }
 h1,
 h2,
@@ -54,19 +57,6 @@ a:hover {
     color: var(--lavender); /* Updated to generic variable (hover state) */
     text-decoration: underline;
 }
-/*
-header {
-  background-image: url('/assets/images/header.jpeg');
-  background-size: auto;
-  padding: 0px 15px;
-  text-align: center;
-  margin: 30px 0 0;
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-*/
 
 img {
     max-width: 100%; /* Ensure the image doesn't exceed its container */
@@ -78,22 +68,24 @@ h1 {
     margin-top: 10px; /* Adjust the top margin as needed */
 }
 
-/* Media query for smaller screens */
-@media screen and (max-width: 600px) {
-    img {
-        max-width: 80%; /* Adjust for smaller screens */
-    }
-
-    h1 {
-        font-size: 1.5em; /* Adjust the font size for smaller screens */
-    }
-}
-
-main {
-    padding: 0 15px;
-    max-width: 1000px; /* Replaced $content-width with a static value. If you need a variable for this, define --content-width in _colors.scss or a _variables.scss */
+/* Base styles for main content wrappers */
+main,
+.container {
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0 15px; /* Default side padding for desktop */
+    box-sizing: border-box; /* Crucial: Ensures padding is included in the width */
 }
+
+/* Blog specific container - if different than main, otherwise main handles it */
+.blog-post-content {
+    /* Assuming you have a class like this for the actual post content */
+    padding: 0 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 time {
     color: var(--subtext0-color); /* Updated to generic variable */
     font-size: 0.95em;
@@ -101,8 +93,6 @@ time {
     transition: color 0.3s ease; // Smooth transition for theme change
 }
 .container {
-    max-width: 1000px; /* Replaced $content-width with a static value */
-    margin: 0 auto;
     padding-bottom: 50px; /* Add padding at the bottom of the container */
 }
 .contact-content {
@@ -158,7 +148,7 @@ aside {
 
     nav {
         float: left;
-        max-width: 800px;
+        max-width: 800px; /* This is for your nav, which is separate from main content */
         margin: 0 auto;
 
         ul {
@@ -232,3 +222,58 @@ aside {
         }
     }
 }
+
+/* Media queries for overall layout elements */
+@media (max-width: 768px) {
+    // Adjust main content wrapper for smaller screens
+    main,
+    .container,
+    .blog-post-content {
+        /* Target all relevant main content wrappers */
+        max-width: 100%; /* Allow them to take full width */
+        padding-left: 10px; /* Smaller side padding for mobile */
+        padding-right: 10px;
+        margin-left: 0; /* Remove auto margins */
+        margin-right: 0;
+    }
+
+    // Adjust `img` tag specific to `_layout.scss` that might not be carousels
+    img:not(.carousel-image):not(.carousel-filmstrip-thumbnail) {
+        max-width: 100%; /* Ensure all other images are responsive */
+    }
+
+    h1 {
+        font-size: 1.8em; /* Adjust for better hierarchy on smaller screens */
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    // No specific img max-width: 80% here, rely on 100% and parent padding
+}
+
+@media (max-width: 480px) {
+    main,
+    .container,
+    .blog-post-content {
+        /* Target all relevant main content wrappers */
+        padding-left: 5px; /* Even smaller side padding for very narrow screens */
+        padding-right: 5px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+// Remove the standalone img media query, as the new main/container rules and .carousel-image rules handle it
+// @media screen and (max-width: 600px) {
+//     img {
+//         max-width: 80%; /* Adjust for smaller screens */
+//     }
+//     h1 {
+//         font-size: 1.5em; /* Adjust the font size for smaller screens */
+//     }
+// }

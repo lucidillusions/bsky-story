@@ -1,0 +1,43 @@
+<div class="carousel-container">
+    <div class="carousel-track">
+        {% for item in include.images %}
+        <div class="carousel-slide">
+            <img
+                class="carousel-image"
+                src="{{ item.src | relative_url }}"
+                alt="{{ item.caption | default: 'Blog Image' }}"
+            />
+            {% if item.caption %}
+            <div class="carousel-caption-wrapper">
+                <p class="carousel-caption-text">{{ item.caption }}</p>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    <button class="carousel-button carousel-button-prev">&#10094;</button>
+    <button class="carousel-button carousel-button-next">&#10095;</button>
+</div>
+
+<div class="carousel-filmstrip-container">
+    <div class="carousel-filmstrip-track">
+        {% for item in include.images %}
+        <img
+            class="carousel-filmstrip-thumbnail"
+            src="{{ item.src | relative_url }}"
+            alt="Thumbnail {{ forloop.index }}"
+            data-index="{{ forloop.index0 }}"
+        />
+        {% endfor %}
+    </div>
+</div>
+
+<div id="carousel-modal" class="carousel-modal">
+    <span class="carousel-modal-close">&times;</span>
+    <div class="carousel-modal-content">
+        <img src="" alt="" class="carousel-modal-image" />
+        <div class="carousel-modal-caption"></div>
+    </div>
+    <a class="carousel-modal-prev">&#10094;</a>
+    <a class="carousel-modal-next">&#10095;</a>
+</div>
