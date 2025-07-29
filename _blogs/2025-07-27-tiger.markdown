@@ -5,7 +5,7 @@ date:   2025-07-27 19:50:03 +0530
 author: Lucid Illusions
 categories: blog
 comments: true
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lv3t7feew22os
+bluesky_post_uri: https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3lv3t7feew22o
 images:
   - src: /assets/images/blog/202507_tiger/SDG_5840.jpg
     caption: "2025, Tadoba, Collarwali Tigress (300mm lens)"
@@ -66,7 +66,7 @@ To truly appreciate the magic of these places, sometimes words aren't enough. So
 
 If you've enjoyed reading about my jungle adventures and photography, or if my stories have sparked a little awe, perhaps you'd consider supporting my creative journey. Every bit of your support genuinely helps me continue exploring, capturing, and sharing these incredible experiences. You can bring my art home by discovering stunning prints in my [Darkroom print shop](https://lucidillusions.darkroom.com/) or if you're looking for a digital copy of a specific photograph you loved, just [reach out to me directly](mailto:i@lucidillusions.in).
 
-You'll also find unique art merchandise on [RedBubble](https://www.redbubble.com/people/lucidillusions/shop) and high-quality prints at my new [INPRNT shop](https://www.inprnt.com/gallery/lucidillusions/)/ If you'd prefer to make a small direct contribution, you can easily[support me on Ko-Fi](https://ko-fi.com/lucidillusions) or [Buy me a Coffee](https://buymeacoffee.com/lucidillusions).
+You'll also find unique art merchandise on [RedBubble](https://www.redbubble.com/people/lucidillusions/shop) and high-quality prints at my new [INPRNT shop](https://www.inprnt.com/gallery/lucidillusions/) If you'd prefer to make a small direct contribution, you can easily[support me on Ko-Fi](https://ko-fi.com/lucidillusions) or [Buy me a Coffee](https://buymeacoffee.com/lucidillusions).
 
 For exclusive stories and behind-the-scenes content, consider becoming a member of my [Patreon community](https://www.patreon.com/c/lucidillusions). And don't forget, my e-book, The Forgotten Alley, is available on[Amazon](https://www.amazon.com/dp/B0F7HGSGCF) as well as [any other stores that you prefer](https://books2read.com/u/mgB2Nq). Lastly, if you need help with video editing, designing captivating movie posters, or perhaps a custom story as a unique gift, feel free to [drop me a mail](mailto:i@lucidillusions.in) to discuss commissions! Your support helps me cover essential costs like rent and utilities each month, allowing me to keep creating and sharing the magic of the wild with you. Thank you for being a part of this journey!
 
