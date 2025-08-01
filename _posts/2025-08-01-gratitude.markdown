@@ -4,8 +4,8 @@ title:  "Gratitude"
 date:   2025-08-01 00:00:03 +0530
 categories: bsky
 word_count: 820
-comments: false
-bluesky_post_uri: https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3ltq42v6rwk2y
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lvduzlj3tk2c
 show_note: "Inspired by the <a href='https://bsky.app/profile/did:plc:ngskvfckmjjy7cbfmsa7u2io/feed/bsasf'>#BlueSkyArtShow</a>'s August 2nd theme: <strong>Gratitude</strong>, this piece is my contribution."
 suggested_posts:
   - /2025/07/12/summer-daze.html
@@ -23,7 +23,7 @@ The hum didn't stop. It changed. It deepened, broadened, filled the air with a s
 
 Then, a voice. It wasn't a voice in her ears, but a vibration that resonated directly in her soul, a symphony of a million collapsing universes and a million blooming ones.
 
-“FINALLY!” the voice thrummed, and Zara found herself on her knees, not from fear, but from a profound, inexplicable awe. “THE COSMIC RESONANCE ARRAY IS STABILIZED.”
+“FINALLY!” the voice thrummed, and Zara found herself on her knees, not from fear, but from a profound, inexplicable awe. “THE COSMIC RESONANCE ARRAY IS STABILISED.”
 
 Before her, the air shimmered and coalesced, not into a being, but into an idea of a being. Tendrils of pure thought unfurled, eyes like nebulae blinked into momentary existence before dissolving, and a form that was simultaneously everywhere and nowhere solidified just enough for her human mind to grasp its immensity. This was Xylos, the Shaper of Distant Suns, the Weaver of Inevitable Fates, the entity whose misplaced "paperweight" had apparently been causing significant cosmic turbulence.
 
@@ -31,7 +31,7 @@ Before her, the air shimmered and coalesced, not into a being, but into an idea 
 
 Zara, still on her knees, managed a shaky whisper. “You mean… me? I just… pushed a bit?”
 
-“INDEED!” Xylos pulsed with what could only be cosmic relief. “THAT SMALL FRAGMENT, DISLODGED BY A QUARK-FLUCTUATION NEAR WHAT YOU CALL THE ‘TRIASSIC PERIOD,’ HAD CAUSED THIS ONE’S PRIMARY EXISTENTIAL CO-ORDINATOR TO DRIFT. YOUR… ‘PUSHING A BIT’ HAS REALIGNED IT WITH EXQUISITE PERFECTION.”
+“INDEED!” Xylos pulsed with what could only be cosmic relief. “THAT SMALL FRAGMENT, DISLODGED BY A QUARK-FLUCTUATION NEAR WHAT YOU CALL THE ‘TRIASSIC PERIOD,’ HAD CAUSED THIS ONE’S PRIMARY EXISTENTIAL COORDINATOR TO DRIFT. YOUR… ‘PUSHING A BIT’ HAS REALIGNED IT WITH EXQUISITE PERFECTION.”
 
 The cosmic entity shifted, an action that felt like the repositioning of an entire constellation. “WE ARE ETERNALLY GRATEFUL, O MORTAL. ASK. ANYTHING. A GALAXY? IMMORTALITY? THE SECRETS OF THE VOID?”
 
