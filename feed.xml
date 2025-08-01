@@ -4,12 +4,18 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-08-01T14:31:55+05:30</updated>
+  <updated>2025-08-01T18:44:46+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">Gratitude</title>
+    <link href="https://ss.lucidillusions.in/bsky/2025/08/01/gratitude.html" rel="alternate" type="text/html" title="Gratitude"/>
+    <published>2025-08-01T00:00:03+05:30</published>
+    <updated>2025-08-01T00:00:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/bsky/2025/08/01/gratitude.html</id><summary type="html">  The hum had been there for weeks. Not a loud hum, more of a deep, resonant thrum that seemed to vibrate in the very marrow of Zara’s bones. It...</summary>
+  </entry><entry>
     <title type="html">Beyond the Stripes: International Tiger Day - 2025</title>
     <link href="https://ss.lucidillusions.in/blog/2025-07-27-tiger/" rel="alternate" type="text/html" title="Beyond the Stripes: International Tiger Day - 2025"/>
     <published>2025-07-27T19:50:03+05:30</published>
@@ -71,10 +77,4 @@
     <published>2025-06-30T07:20:03+05:30</published>
     <updated>2025-06-30T07:20:03+05:30</updated>
     <id>https://ss.lucidillusions.in/deathclock/2025/06/30/glorious-fall.html</id><summary type="html">  The flickering neon sign of ‘The Bird of Paradise’ cast a pretty pink glow on Lauren as she stepped out, the lingering taste of their home-brewed ale still on...</summary>
-  </entry><entry>
-    <title type="html">The Lunar Cicada</title>
-    <link href="https://ss.lucidillusions.in/shortstory/2025/06/24/lunar-cicada.html" rel="alternate" type="text/html" title="The Lunar Cicada"/>
-    <published>2025-06-24T21:00:03+05:30</published>
-    <updated>2025-06-24T21:00:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/shortstory/2025/06/24/lunar-cicada.html</id><summary type="html">  Every 17,000 years, a cosmic ballet unfolds in the heavens. It begins with a total solar eclipse, not as an omen of darkness, but as a veil for a...</summary>
   </entry></feed>
