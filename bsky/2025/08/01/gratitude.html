@@ -132,7 +132,7 @@
 
 <p>Then, a voice. It wasn’t a voice in her ears, but a vibration that resonated directly in her soul, a symphony of a million collapsing universes and a million blooming ones.</p>
 
-<p>“FINALLY!” the voice thrummed, and Zara found herself on her knees, not from fear, but from a profound, inexplicable awe. “THE COSMIC RESONANCE ARRAY IS STABILIZED.”</p>
+<p>“FINALLY!” the voice thrummed, and Zara found herself on her knees, not from fear, but from a profound, inexplicable awe. “THE COSMIC RESONANCE ARRAY IS STABILISED.”</p>
 
 <p>Before her, the air shimmered and coalesced, not into a being, but into an idea of a being. Tendrils of pure thought unfurled, eyes like nebulae blinked into momentary existence before dissolving, and a form that was simultaneously everywhere and nowhere solidified just enough for her human mind to grasp its immensity. This was Xylos, the Shaper of Distant Suns, the Weaver of Inevitable Fates, the entity whose misplaced “paperweight” had apparently been causing significant cosmic turbulence.</p>
 
@@ -140,7 +140,7 @@
 
 <p>Zara, still on her knees, managed a shaky whisper. “You mean… me? I just… pushed a bit?”</p>
 
-<p>“INDEED!” Xylos pulsed with what could only be cosmic relief. “THAT SMALL FRAGMENT, DISLODGED BY A QUARK-FLUCTUATION NEAR WHAT YOU CALL THE ‘TRIASSIC PERIOD,’ HAD CAUSED THIS ONE’S PRIMARY EXISTENTIAL CO-ORDINATOR TO DRIFT. YOUR… ‘PUSHING A BIT’ HAS REALIGNED IT WITH EXQUISITE PERFECTION.”</p>
+<p>“INDEED!” Xylos pulsed with what could only be cosmic relief. “THAT SMALL FRAGMENT, DISLODGED BY A QUARK-FLUCTUATION NEAR WHAT YOU CALL THE ‘TRIASSIC PERIOD,’ HAD CAUSED THIS ONE’S PRIMARY EXISTENTIAL COORDINATOR TO DRIFT. YOUR… ‘PUSHING A BIT’ HAS REALIGNED IT WITH EXQUISITE PERFECTION.”</p>
 
 <p>The cosmic entity shifted, an action that felt like the repositioning of an entire constellation. “WE ARE ETERNALLY GRATEFUL, O MORTAL. ASK. ANYTHING. A GALAXY? IMMORTALITY? THE SECRETS OF THE VOID?”</p>
 
@@ -222,6 +222,54 @@
     </section>
     <hr />
      
+    <section class="post-comments">
+        <h3>Online Discussions</h3>
+        <div id="page__comments" style="min-height: 100px">
+    <div id="loading">Loading comments...</div>
+</div>
+
+<script type="module">
+    try {
+        const modules = await Promise.all([
+            // React and ReactDOM are fetched from a CDN (esm.sh)
+            import("https://esm.sh/stable/react@18.2.0/es2022/react.mjs"),
+            import(
+                "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+            ),
+            // bluesky-comments is loaded from your local assets/node_modules
+            import(
+                "/assets/node_modules/bluesky-comments/dist/bluesky-comments.es.js"
+            ),
+        ]);
+
+        const [React, ReactDOM, BlueskyCommentsModule] = modules;
+        const BlueskyComments = BlueskyCommentsModule.BlueskyComments;
+
+        const container = document.getElementById("page__comments");
+        // The URI for the BlueSky post, pulled from your post's front matter
+        const uri = "https://bsky.app/profile/lucidillusions.in/post/3lvduzlj3tk2c";
+
+        if (container) {
+            const root = ReactDOM.createRoot(container);
+            const element = React.createElement(BlueskyComments, {
+                uri,
+                // !!! IMPORTANT: REPLACE YOUR.USERNAME.HERE.bsky.social with your actual BlueSky handle !!!
+                author: "lucidillusions.in",
+                showLogin: true,
+                onLoad: () => document.getElementById("loading")?.remove(),
+            });
+
+            root.render(element);
+        }
+    } catch (error) {
+        console.error("Error loading comments:", error);
+        document.getElementById("page__comments").innerHTML =
+            `<div style="color: red;">Unable to load comments. Please try again later.</div>`;
+    }
+</script>
+
+    </section>
+    
 
     <hr />
 
