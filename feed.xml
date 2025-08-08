@@ -4,12 +4,18 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-08-05T21:24:42+05:30</updated>
+  <updated>2025-08-08T10:51:11+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">The Maw of Karluminium</title>
+    <link href="https://ss.lucidillusions.in/bsky/2025/08/08/karluminium.html" rel="alternate" type="text/html" title="The Maw of Karluminium"/>
+    <published>2025-08-08T10:20:03+05:30</published>
+    <updated>2025-08-08T10:20:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/bsky/2025/08/08/karluminium.html</id><summary type="html">  Karl Jackson ran his gloved hand over the cave wall. A wide grin broke through the mud caked on his face. His entire career had been an uphill battle...</summary>
+  </entry><entry>
     <title type="html">Gratitude</title>
     <link href="https://ss.lucidillusions.in/bsky/2025/08/01/gratitude.html" rel="alternate" type="text/html" title="Gratitude"/>
     <published>2025-08-01T00:00:03+05:30</published>
@@ -71,10 +77,4 @@
     <published>2025-07-01T18:00:03+05:30</published>
     <updated>2025-07-01T18:00:03+05:30</updated>
     <id>https://ss.lucidillusions.in/shortstory/2025/07/01/witchcraft101-thirdeye.html</id><summary type="html">  Arthur fumbled for his phone, swiping, until the familiar chime of the Witchcraft 101 app finally sounded. “Voice search,” he mumbled, his brow furrowing as he tried to tap...</summary>
-  </entry><entry>
-    <title type="html">The Fall</title>
-    <link href="https://ss.lucidillusions.in/deathclock/2025/06/30/glorious-fall.html" rel="alternate" type="text/html" title="The Fall"/>
-    <published>2025-06-30T07:20:03+05:30</published>
-    <updated>2025-06-30T07:20:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/deathclock/2025/06/30/glorious-fall.html</id><summary type="html">  The flickering neon sign of ‘The Bird of Paradise’ cast a pretty pink glow on Lauren as she stepped out, the lingering taste of their home-brewed ale still on...</summary>
   </entry></feed>
