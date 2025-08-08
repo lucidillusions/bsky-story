@@ -4,8 +4,8 @@ title:  "The Maw of Karluminium"
 date:   2025-08-08 10:20:03 +0530
 categories: bsky
 word_count: 387
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lvduzlj3tk2c
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lvul537fqs2i
 show_note: "Inspired by the <a href='https://bsky.app/profile/did:plc:ngskvfckmjjy7cbfmsa7u2io/feed/bsasf'>#BlueSkyArtShow</a>'s August 9th theme: <strong>Jagged</strong>, this piece is my contribution."
 suggested_posts:
   - /2025/07/12/summer-daze.html
