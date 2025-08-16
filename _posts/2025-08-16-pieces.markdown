@@ -4,8 +4,8 @@ title:  "The Geometry of Shadows"
 date:   2025-08-16 00:20:03 +0530
 categories: bsky
 word_count: 670
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lvwzrf75bs2k
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lwjnu5zdes2n
 show_note: "Inspired by the <a href='https://bsky.app/profile/did:plc:ngskvfckmjjy7cbfmsa7u2io/feed/bsasf'>#BlueSkyArtShow</a>'s August 16th theme: <strong>Pieces</strong>, this story is my contribution."
 suggested_posts:
   - /2025/07/12/summer-daze.html
