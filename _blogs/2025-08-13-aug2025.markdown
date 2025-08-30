@@ -4,8 +4,8 @@ title:  "Pitter-Patter and Progress: August Catchup"
 date:   2025-08-30 14:50:03 +0530
 author: Lucid Illusions
 categories: blog
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3ltz4igxn4s24
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lxmjajapgk2e
 ---
 
 While my original plan was to share a mid-month update, the last month and a half have been a mixed bag of some great moments and some less-than-great ones. It's been incredibly wet — almost record-breaking rains for the month — but I still managed to cross a few things off my list and even sneak in a few nature walks when the rain let up.
