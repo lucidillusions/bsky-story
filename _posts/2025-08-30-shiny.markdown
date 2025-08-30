@@ -4,8 +4,9 @@ title:  "The Collector"
 date:   2025-08-30 7:20:03 +0530
 categories: bsky
 word_count: 819
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lwyems52e22z
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lxlsdwtn2s27
+show_note: "Inspired by the <a href='https://bsky.app/profile/did:plc:ngskvfckmjjy7cbfmsa7u2io/feed/bsasf'>#BlueSkyArtShow</a>'s August 30th theme: <strong>Shiny</strong>, this piece is my contribution."
 ---
 
 
