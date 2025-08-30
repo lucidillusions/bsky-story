@@ -250,6 +250,54 @@
     <hr />
 
     
+    <section class="post-comments">
+        <h3>Online Discussions</h3>
+        <div id="page__comments" style="min-height: 100px">
+    <div id="loading">Loading comments...</div>
+</div>
+
+<script type="module">
+    try {
+        const modules = await Promise.all([
+            // React and ReactDOM are fetched from a CDN (esm.sh)
+            import("https://esm.sh/stable/react@18.2.0/es2022/react.mjs"),
+            import(
+                "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+            ),
+            // bluesky-comments is loaded from your local assets/node_modules
+            import(
+                "/assets/node_modules/bluesky-comments/dist/bluesky-comments.es.js"
+            ),
+        ]);
+
+        const [React, ReactDOM, BlueskyCommentsModule] = modules;
+        const BlueskyComments = BlueskyCommentsModule.BlueskyComments;
+
+        const container = document.getElementById("page__comments");
+        // The URI for the BlueSky post, pulled from your post's front matter
+        const uri = "https://bsky.app/profile/lucidillusions.in/post/3lxmjajapgk2e";
+
+        if (container) {
+            const root = ReactDOM.createRoot(container);
+            const element = React.createElement(BlueskyComments, {
+                uri,
+                // !!! IMPORTANT: REPLACE YOUR.USERNAME.HERE.bsky.social with your actual BlueSky handle !!!
+                author: "lucidillusions.in",
+                showLogin: true,
+                onLoad: () => document.getElementById("loading")?.remove(),
+            });
+
+            root.render(element);
+        }
+    } catch (error) {
+        console.error("Error loading comments:", error);
+        document.getElementById("page__comments").innerHTML =
+            `<div style="color: red;">Unable to load comments. Please try again later.</div>`;
+    }
+</script>
+
+    </section>
+    
 
     <hr />
 
