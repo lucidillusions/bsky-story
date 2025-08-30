@@ -1,0 +1,151 @@
+---
+layout: blog
+title:  "Pitter-Patter and Progress: August Catchup"
+date:   2025-08-30 14:50:03 +0530
+author: Lucid Illusions
+categories: blog
+comments: false
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3ltz4igxn4s24
+---
+
+While my original plan was to share a mid-month update, the last month and a half have been a mixed bag of some great moments and some less-than-great ones. It's been incredibly wet — almost record-breaking rains for the month — but I still managed to cross a few things off my list and even sneak in a few nature walks when the rain let up.
+
+ I also got to work on some short projects I really enjoyed (although I can't share much about them yet, more on those soon!) and spent my quiet moments reading and writing, which fueled new ideas to explore. I've even been learning some new crafts to improve my current work. A huge thanks to my partner, too, for helping me stay grounded and get through a couple of small panic attacks.
+
+Health-wise, the month was comfortable. A mix of heavy and light workouts, plus a lot of moving around for work shoots and hikes, had a positive effect on my writing. I’m finding myself with more ideas than I can possibly flesh out!
+
+I've also been spending more time with my new photography equipment, getting a better handle on the controls and building muscle memory. Recently, I shot a few interviews for a corporate client, which they'll be using for internal presentations and pitching. I enjoy shooting these, but the NDA means I can only talk about the process, not showcase the work itself. I did have an interesting off-camera conversation, and shared a [reel](https://www.instagram.com/reel/DN2Bl9VWKkA/) about it. TLDW? One thing about being a freelancer is constantly having to remind people you're looking for more assignments. The need to keep reaching out to people before a project is even over, just to keep a steady flow of work coming in.
+
+I've also noticed that 2025 has been a year where people will broach a topic and then go AWOL (I don't like the term "ghosting," but it fits). The amount of energy needed to find new projects just keeps increasing! And that's not even counting the energy you need to appease the "algorithm gods" to appear on everyone's social feeds.
+
+This is my monthly reminder to all you lovely folks (and to help with SEO search results): Lucid Illusions is actively looking for new photography and videography projects in India. I'm available for corporate interviews, advertisements, or short films — just [drop me a line](mailto:i@lucidillusions.in).
+
+Now, to kick things off properly, let's look at how the view from our window has changed since [last month](https://ss.lucidillusions.in/blog/2025-07-15-july2025/), and I’m also excited to share a short poem I wrote, inspired by that very view.
+
+<div class="blog-post-footer-image">
+  <img
+    src="/assets/images/blog/20250815_blog/SDG0060_400.jpg"
+    alt="A photograph showing hills draped in mist and cloud. Green stretch from the foothills to our building."
+    data-full-src="/assets/images/blog/20250815_blog/SDG0060_800.jpg"
+    style="max-width: 400px; height: auto; display: block; margin: 0 auto; cursor: zoom-in;"
+  >
+  <p class="image-caption" style="text-align: left; font-style: italic; font-size: 0.9em; color: #555; max-width: 400px; margin: 0 auto;">
+      The clouds are it again,
+      <br>
+      A heavy blanket, soft and vast.
+      <br>
+      The photos don't do the view justice,
+      <br>
+      As the misty greens fade into cast -
+      <br>
+      Of grey and white, where mountains sleep,
+      <br>
+      A silent watch they seem to keep.
+  </p>
+</div>
+
+
+### Nature Walk and Treks around our place
+
+The last month has been filled with long bouts of rain, but there were a few days when I was able to step out for some walks. Many of these excursions were cut short by drizzles or full-fledged downpours, but I was happy to spend some time at Karnala Bird Sanctuary without any rain while I was in the middle of the forest.
+
+The last time I visited Karnala was back in 2013-14, and our goal then was to reach the fort. This time around, I wanted to focus on the nature trails, and it was a beautiful experience. My favorite part was hearing dozens of birds; everything was so green and dense that I could barely spot them in the jungle! Instead, I came across hundreds of crabs, which was something I wasn't expecting. It was funny to me that while walking in the forest, I would hear something slithering in the overgrown grass and bush. I'd stop and patiently wait, hoping to see a snake or other reptile, but it would always turn out to be a crab. As soon as they saw me, they would quickly turn around and slither back into the undergrowth.
+
+Here's a beautiful, tiny, rotund bird I managed to photograph during one of my walks:
+
+<div class="blog-post-footer-image">
+  <img
+    src="/assets/images/blog/20250815_blog/SDG_8590_400.jpg"
+    alt="A grey prinia with a green vine in its beak. It is perched on a branch and you can see branches around it making a triangle. There is lot of green grass and leaf in the background."
+    data-full-src="/assets/images/blog/20250815_blog/SDG_8590_800.jpg"
+    style="max-width: 400px; height: auto; display: block; margin: 0 auto; cursor: zoom-in;"
+  >
+  <p class="image-caption" style="text-align: center; font-style: italic; font-size: 0.9em; color: #555;">
+      A grey prinia with a green vine in its beak.
+  </p>
+</div>
+
+I also managed to take multiple walks near our building and within a few kilometers of home, carrying my magnifying glass and phone to capture some of the local spiders! I saw almost a dozen different species, and another surprise was the variety of ants I came across.
+
+I wanted to get this blog out early so I could talk about  [#InverteFest](https://www.metrofieldguide.com/invertefest/), which runs from August 25th to the 31st. I encourage all of you to step out and observe these often-ignored creatures. I've always loved photographing invertebrates, and learning about this festival on Bluesky is one of my favorite things. I've been actively sharing my photos on [BlueSky](https://bsky.app/hashtag/InverteFest?author=lucidillusions.in) for each #InverteFest over the last year. A custome ArtBook is also made for each festival, and the August edition just dropped, [you can download it from here](https://drive.google.com/file/d/19wfGgKV8XjhrwxI5vgwnbWTVDmojUNHl/view?usp=drive_link) — and flip through it to see my entry!
+
+
+### Make more Art (even if slowly)
+
+So if you read the [last month's blog post](https://ss.lucidillusions.in/blog/2025-07-15-july2025/), you'll remember I was researching scanners, specifically one that works well with a Linux machine. I narrowed my search down to the [Epson Perfection V39 II](https://amzn.to/45Hfb9B) and a Canon model. After watching multiple videos on how easily a scanner can be installed on Linux, and considering the features and price point, I ended up with the Epson.
+
+The Epson driver was very easy to install — just a few basic files to run — and it’s pretty much plug-and-play with the software. I do plan to test out more free and open-source scanning software and integrate it into my GIMP workflow. I should take some time to write about the experience (and I'm also planning to create a reel, since that’s what people prefer).
+
+I've already scanned some of my artwork and uploaded it to my stores on [INPRNT store](https://www.inprnt.com/gallery/lucidillusions/) and [RedBubble](https://www.redbubble.com/people/lucidillusions/shop)[^1]. Here’s one of the pages I scanned:
+
+<div class="blog-post-footer-image">
+  <img
+    src="/assets/images/blog/20250815_blog/sketchbook_lighthouse_400.png"
+    alt="(L) An orange slice, monstera leaf, and a small hut in front of a mountain (R) Lighthouse and a stormy sea."
+    data-full-src="/assets/images/blog/20250815_blog/sketchbook_lighthouse_800.png"
+    style="max-width: 400px; height: auto; display: block; margin: 0 auto; cursor: zoom-in;"
+  >
+  <p class="image-caption" style="text-align: center; font-style: italic; font-size: 0.9em; color: #555;">
+    Scan of one of my sketchbook - with some quick art practice.
+  </p>
+</div>
+
+If you want to check out some of my original art for sale, you can visit my [DM2Buy shop if you're in India](https://lucidillusions.dm2buy.com/), or my [Ko-Fi Store for the rest of the World](https://gridsky.app/art.lucidillusions.in). You can also message me directly through any of my social media channels.
+
+As I mentioned last month, I haven't been able to dedicate a lot of time to art, but this month's #InverteFest pushed me to create a new piece for the art book. I drew a Porpita porpita (Blue Button)—something I photographed for the first time this year and totally fell in love with. If you'd like to see the process video for the artwork, check out this [reel on instagram](https://www.instagram.com/reel/DNkHxN5BmbJ/). And unlike my previous workaround for traditional artworks, which I would photograph and then edit, the scanner offers a great result!
+
+This week, I uploaded a few new images to [Darkroom](https://lucidillusions.darkroom.com/) where there’s a store-wide 15% discount with the coupon <strong>BSky15</strong>. I also added new Phone Wallpaper packs for [Owl Appreciation Day](https://ko-fi.com/s/e55940cdd6) and [World Lizard Day](https://ko-fi.com/s/47d9448ec7) to my Ko-fi store.
+
+I've been working on editing some of the pictures from my backlog and sharing them online. You can follow me on [BlueSky](https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/feed/aaaon6txriltu), [PixelFed](https://pixelfed.social/lucidillusions), and/or [Instagram](https://www.instagram.com/lucidillusions.in/) to see them.
+
+OOh, and just a quick note: I've been actively looking for photography contests and submitting my work. If you come across any, please let me know!
+
+
+### On the Page: Writing Updates
+
+I've definitely found a certain solace in writing this month, though it's been mixed with a good deal of Impostor Syndrome and a lot of self-doubt. The month was filled with writing short stories, but not nearly enough blog posts, and I wonder if that's what fuels the self-doubt. It feels like something I should blog about; it might help me make sense of what’s happening in my head.
+
+This month, I've also been attending screenwriting classes, and wow! When you learn how not to do things, you start seeing a lot of those habits in your older writing. Before I go down a rabbit hole, I should just talk about the positives for the month!
+
+I've shared a whole range of more than 10 stories and feel great about them. I've also submitted a total of eight stories to online magazines based on their calls for submissions, and I'm currently waiting for the results. In addition to the submissions, I've been working on multiple short stories and ideas for longer pieces. I even managed to write three short film scripts and I'm hoping to shoot one of them in September! The first drafts of these scripts already apply some of the techniques I've learned in class. I've also been trying to spot these techniques in the movies and shows I watch to understand the nuances of why I enjoy or don’t enjoy certain parts of a scene.
+
+I'm also sharing a list of stories I've written that are available online this month.
+
+- #### Accessible for members on [Patreon](https://www.patreon.com/collection/1504916?view=expanded):
+1. ['The Dreamweaver’s Fun Park'](https://www.patreon.com/posts/136210196): A man chasing an Eldritch God to save his family.
+2. ['The Button'](https://www.patreon.com/posts/136530742): What does an Eldritch God do when he's bored? And what happens when the entertainment backfires? Do you think they feel some Regret?  <br>
+
+- #### Accessible on [this website](https://ss.lucidillusions.in/):
+1. ['Witchcraft 101: System Overload'](https://ss.lucidillusions.in/shortstory/2025/07/17/wc101-kaalajaadu.html): A data-driven scientist, plagued by bad luck she believes is black magic, downloads a "Witchcraft 101" app.
+2. ['Witchcraft 101: The Curious Case of the Spectral Dentition'](https://ss.lucidillusions.in/shortstory/2025/07/25/wc101-spectraldentition.html): A skeptic uses a magical app to research if ghosts have teeth, only to accidentally summon a ghost with dental issues.
+3. ['Gratitude'](https://ss.lucidillusions.in/bsky/2025/08/01/gratitude.html): A simple repair job in a dusty archive leads to cosmic consequences and a wish that could change a universe.
+4. ['The Maw of Karluminium'](https://ss.lucidillusions.in/bsky/2025/08/08/karluminium.html): When a geologist discovers a new compound with impossibly perfect geometry, he believes it will be the discovery of a lifetime.
+5. ['A World of Jagged Spires'](https://ss.lucidillusions.in/bsky/2025/08/09/fungi.html): A photographer, a strange mushroom, and a world that defies logic.
+6. [The Geometry of Shadows](https://ss.lucidillusions.in/bsky/2025/08/16/pieces.html): An art collector's curated pieces seem to possess a life of their own, but she soon discovers they are not what they appear.
+7. [ISO Production Assistant](https://ss.lucidillusions.in/shortstory/2025/08/22/van.html): A freelance production assistant with a van and a ladder takes a gig from two "performance artists", and it was not what she was expecting.
+8. [The Serpent's Embrace](https://ss.lucidillusions.in/bsky/2025/08/29/serpentsembrace.html): A dismissive anthropologist travels to a remote jungle to study a tribe's "primitive fetish".
+9. [The Collector](https://ss.lucidillusions.in/bsky/2025/08/30/shiny.html): A Crow that is collecting shiny trinkets for his friend!
+
+
+And just a reminder a whole bunch of magazines have a submission window in the first half of September, so keep an eye out on [The Submission Grinder](https://thegrinder.diabolicalplots.com/).
+
+
+
+### Support Me
+If you'd like to pick up The Forgotten Alley e-book, you can check [Amazon](https://www.amazon.com/dp/B0F7HGSGCF) or any [other store](https://books2read.com/u/mgB2Nq) that you prefer. You can also [support me on Ko-Fi](https://ko-fi.com/lucidillusions). Check out [Darkroom with new photo prints](https://lucidillusions.darkroom.com/), [INPRNT for art prints](https://www.inprnt.com/gallery/lucidillusions/), and [RedBubble for moore art merch options](https://www.redbubble.com/people/lucidillusions/shop). Want to commission me to design movie posters, or write stories that you can gift someone? Just [drop me a mail](mailto:i@lucidillusions.in). Every bit helps me make rent and cover utilities for next month.
+
+<hr />
+
+### Reading Suggestion
+
+I haven't been able to spend too much time reading short stories this month, but here are some stories that stayed with me, and you should give them a read.
+1. [A Rare and Exceptional Delicacy](https://www.apexbookcompany.com/a/blog/apex-magazine/post/a-rare-and-exceptional-delicacy)
+2. [No Laughter in a Vacuum](https://www.flashfictiononline.com/article/no-laughter-in-a-vacuum/)
+3. [The Eight-Thousanders](https://www.apexbookcompany.com/a/blog/apex-magazine/post/the-eight-thousanders)
+4. [My flesh, my beating heart, a willing meal that refuses to remember the danger of being eaten](https://www.flashfictiononline.com/article/my-flesh-my-beating-heart-a-willing-meal-that-refuses-to-remember-the-danger-of-being-eaten/)
+5. [The Harrowing of Hell (Third Circle, Sausage Counter, Contracts Office)](https://www.flashfictiononline.com/article/the-harrowing-of-hell-third-circle-sausage-counter-contracts-office/)
+
+
+---
+
+[^1]: RedBubble has actively been spiralling down a money grabbing hole, and now with their new excess markup fee, I am re-evaluating my presence on the platform and may be pausing new uploads.
