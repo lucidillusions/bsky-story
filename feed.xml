@@ -4,12 +4,26 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-09-11T00:47:03+05:30</updated>
+  <updated>2025-09-11T16:33:10+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">Creative Journey of Story Telling</title>
+    <link href="https://ss.lucidillusions.in/blog/2025-09-11-journey/" rel="alternate" type="text/html" title="Creative Journey of Story Telling"/>
+    <published>2025-09-11T11:50:03+05:30</published>
+    <updated>2025-09-11T11:50:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/blog/2025-09-11-journey/</id><author>
+      <name>Lucid Illusions</name>
+    </author><summary type="html">I’ve often mentioned my long history of (attempt at) writing, so I thought I’d share one of my first poems. I still have access to it, and it was inspired...</summary>
+  </entry><entry>
+    <title type="html">Sown in Light</title>
+    <link href="https://ss.lucidillusions.in/bsky/2025/09/06/summer.html" rel="alternate" type="text/html" title="Sown in Light"/>
+    <published>2025-09-06T07:20:03+05:30</published>
+    <updated>2025-09-06T07:20:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/bsky/2025/09/06/summer.html</id><summary type="html">The sun was a warm weight on the back of my neck, the kind of heat that promises a summer spent in a haze of salt air and slow afternoons....</summary>
+  </entry><entry>
     <title type="html">Writing with my Impostor Syndrome</title>
     <link href="https://ss.lucidillusions.in/blog/2025-09-02-IS/" rel="alternate" type="text/html" title="Writing with my Impostor Syndrome"/>
     <published>2025-09-02T14:50:03+05:30</published>
@@ -61,19 +75,4 @@
     <published>2025-08-08T10:20:03+05:30</published>
     <updated>2025-08-08T10:20:03+05:30</updated>
     <id>https://ss.lucidillusions.in/bsky/2025/08/08/karluminium.html</id><summary type="html">  Karl Jackson ran his gloved hand over the cave wall. A wide grin broke through the mud caked on his face. His entire career had been an uphill battle...</summary>
-  </entry><entry>
-    <title type="html">Gratitude</title>
-    <link href="https://ss.lucidillusions.in/bsky/2025/08/01/gratitude.html" rel="alternate" type="text/html" title="Gratitude"/>
-    <published>2025-08-01T00:00:03+05:30</published>
-    <updated>2025-08-01T00:00:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/bsky/2025/08/01/gratitude.html</id><summary type="html">  The hum had been there for weeks. Not a loud hum, more of a deep, resonant thrum that seemed to vibrate in the very marrow of Zara’s bones. It...</summary>
-  </entry><entry>
-    <title type="html">Beyond the Stripes: International Tiger Day - 2025</title>
-    <link href="https://ss.lucidillusions.in/blog/2025-07-27-tiger/" rel="alternate" type="text/html" title="Beyond the Stripes: International Tiger Day - 2025"/>
-    <published>2025-07-27T19:50:03+05:30</published>
-    <updated>2025-07-27T19:50:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/blog/2025-07-27-tiger/</id><author>
-      <name>Lucid Illusions</name>
-    </author><summary type="html">Roar For Tigers
-</summary>
   </entry></feed>
