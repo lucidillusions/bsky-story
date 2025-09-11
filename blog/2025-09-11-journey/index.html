@@ -180,7 +180,7 @@ Far away deer call.<br />
 
 <p>I’ve also learned pretty early that sometimes it’s best to hold something back. When I first edited this video of me getting my tattoo, I was pretty impressed that I could shoot the whole thing (handheld) while getting the tattoo done on my left arm. So, I felt like I wanted to add more and more of the visuals. I also ended up finding a Bowie track cover that I could use for free, and the loop made it seem interesting to me back then. But when I revisit the video now, I feel like I want to redo it and cut it to be more sleek and fast.</p>
 
-<p>One of the videos I was very proud to edit was a short film, “Ajay (2018),” which went to a few festivals and also won some awards. It’s also the only project that got me a mention on <a href="https://www.imdb.com/name/nm10575867/bio/">IMDB</a>, and that’s a high I often think about. I definitely want to work on creating more stories that can travel to festivals, not just as an editor, but hopefully by writing and directing as well. So if you are looking to create something for festivals, you can reach out to me.</p>
+<p>One of my work that I was very proud to be part of was a short film, “Ajay (2018),” which went to a few festivals and also won some awards. It’s also the only project that got me a mention on <a href="https://www.imdb.com/name/nm10575867/bio/">IMDB</a>, and that’s a high I often think about. I definitely want to work on creating more stories that can travel to festivals, not just as an editor, but hopefully by writing and directing as well. So if you are looking to create something for festivals, you can reach out to me.</p>
 
 <p>Over the years, I have managed to shoot and edit a lot of events (<a href="https://www.youtube.com/playlist?list=PLm-fNHehh3CBC4XIOQyTQrgmMo07cL-dy">and you can watch it on youtube</a>). The most important takeaway has always been how to tell a story most effectively. While working with clients, you also have to help bring out their vision above what you want to tell, and that’s a part of storytelling I’m still getting used to.</p>
 
@@ -209,6 +209,54 @@ I recently watched and felt very inspired to focus on writing some stories that 
 
     <hr />
 
+    
+    <section class="post-comments">
+        <h3>Online Discussions</h3>
+        <div id="page__comments" style="min-height: 100px">
+    <div id="loading">Loading comments...</div>
+</div>
+
+<script type="module">
+    try {
+        const modules = await Promise.all([
+            // React and ReactDOM are fetched from a CDN (esm.sh)
+            import("https://esm.sh/stable/react@18.2.0/es2022/react.mjs"),
+            import(
+                "https://esm.sh/stable/react-dom@18.2.0/es2022/react-dom.mjs"
+            ),
+            // bluesky-comments is loaded from your local assets/node_modules
+            import(
+                "/assets/node_modules/bluesky-comments/dist/bluesky-comments.es.js"
+            ),
+        ]);
+
+        const [React, ReactDOM, BlueskyCommentsModule] = modules;
+        const BlueskyComments = BlueskyCommentsModule.BlueskyComments;
+
+        const container = document.getElementById("page__comments");
+        // The URI for the BlueSky post, pulled from your post's front matter
+        const uri = "https://bsky.app/profile/lucidillusions.in/post/3lyknbevarc2x";
+
+        if (container) {
+            const root = ReactDOM.createRoot(container);
+            const element = React.createElement(BlueskyComments, {
+                uri,
+                // !!! IMPORTANT: REPLACE YOUR.USERNAME.HERE.bsky.social with your actual BlueSky handle !!!
+                author: "lucidillusions.in",
+                showLogin: true,
+                onLoad: () => document.getElementById("loading")?.remove(),
+            });
+
+            root.render(element);
+        }
+    } catch (error) {
+        console.error("Error loading comments:", error);
+        document.getElementById("page__comments").innerHTML =
+            `<div style="color: red;">Unable to load comments. Please try again later.</div>`;
+    }
+</script>
+
+    </section>
     
 
     <hr />
