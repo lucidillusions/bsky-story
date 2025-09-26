@@ -2,7 +2,7 @@
 layout: post
 title:  "Witchcraft 101: Soul Binder"
 date:   2025-09-12 7:20:03 +0530
-categories: bsky
+categories: ShortStory
 word_count: 507
 comments: true
 bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3lyml3myrx22m
