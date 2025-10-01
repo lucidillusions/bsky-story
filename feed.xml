@@ -4,12 +4,20 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-10-01T15:15:18+05:30</updated>
+  <updated>2025-10-01T17:16:47+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">Through the September Curse: Monthly update</title>
+    <link href="https://ss.lucidillusions.in/blog/2025-09-29-sept2025/" rel="alternate" type="text/html" title="Through the September Curse: Monthly update"/>
+    <published>2025-09-29T12:50:03+05:30</published>
+    <updated>2025-09-29T12:50:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/blog/2025-09-29-sept2025/</id><author>
+      <name>Lucid Illusions</name>
+    </author><summary type="html">September has been a true mixed bag of a month. For a few years now, I’ve felt that September, in general, has been somewhat of a cursed month for me....</summary>
+  </entry><entry>
     <title type="html">Disappointment</title>
     <link href="https://ss.lucidillusions.in/blog/2025-09-19-disappointment/" rel="alternate" type="text/html" title="Disappointment"/>
     <published>2025-09-19T11:50:03+05:30</published>
@@ -71,10 +79,4 @@
     <published>2025-08-29T07:20:03+05:30</published>
     <updated>2025-08-29T07:20:03+05:30</updated>
     <id>https://ss.lucidillusions.in/bsky/2025/08/29/serpentsembrace.html</id><summary type="html">Dr. Brian Vause arrived in Aurea with the certainty of a man mapping not just terrain, but minds. His boots crunched on the damp forest floor, a stark contrast to...</summary>
-  </entry><entry>
-    <title type="html">ISO Production Assistant</title>
-    <link href="https://ss.lucidillusions.in/shortstory/2025/08/22/van.html" rel="alternate" type="text/html" title="ISO Production Assistant"/>
-    <published>2025-08-22T07:20:03+05:30</published>
-    <updated>2025-08-22T07:20:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/shortstory/2025/08/22/van.html</id><summary type="html">Ava scrolled through her Instagram stories, a sigh escaping her lips. The little clock icon in the top right corner of her screen mocked her; a whole day of nothing....</summary>
   </entry></feed>
