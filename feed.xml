@@ -4,12 +4,18 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2025-10-09T19:23:24+05:30</updated>
+  <updated>2025-10-10T13:16:35+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">Party Trick</title>
+    <link href="https://ss.lucidillusions.in/shortstory/2025/10/03/wc101-partytrick.html" rel="alternate" type="text/html" title="Party Trick"/>
+    <published>2025-10-03T07:20:03+05:30</published>
+    <updated>2025-10-03T07:20:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/shortstory/2025/10/03/wc101-partytrick.html</id><summary type="html">The fluorescent glow of their phones cast an eerie light on the faces of Liam, Chloe, Maya, and Noah. Their apartment, usually a chaotic mess of textbooks and instant ramen,...</summary>
+  </entry><entry>
     <title type="html">Through the September Curse: Monthly update</title>
     <link href="https://ss.lucidillusions.in/blog/2025-09-29-sept2025/" rel="alternate" type="text/html" title="Through the September Curse: Monthly update"/>
     <published>2025-09-30T23:50:03+05:30</published>
@@ -73,10 +79,4 @@
     <published>2025-08-30T07:20:03+05:30</published>
     <updated>2025-08-30T07:20:03+05:30</updated>
     <id>https://ss.lucidillusions.in/bsky/2025/08/30/shiny.html</id><summary type="html">Kakao was not a simple crow. He was a curator, and a connoisseur of all things that gleamed. His current hoard, tucked into the gnarled hollow of an old olive...</summary>
-  </entry><entry>
-    <title type="html">The Serpent&apos;s Embrace</title>
-    <link href="https://ss.lucidillusions.in/bsky/2025/08/29/serpentsembrace.html" rel="alternate" type="text/html" title="The Serpent&apos;s Embrace"/>
-    <published>2025-08-29T07:20:03+05:30</published>
-    <updated>2025-08-29T07:20:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/bsky/2025/08/29/serpentsembrace.html</id><summary type="html">Dr. Brian Vause arrived in Aurea with the certainty of a man mapping not just terrain, but minds. His boots crunched on the damp forest floor, a stark contrast to...</summary>
   </entry></feed>
