@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Party Trick"
+title:  "Witchcraft 101: Party Trick"
 date:   2025-10-03 7:20:03 +0530
 categories: ShortStory
 word_count: 838
