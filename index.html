@@ -5,13 +5,13 @@ layout: default
 {% include status_lucid.html %}
 
 <div class="archive-section">
-    <h2 class="archive-year-heading" id="heading-2025">
-        Stories from 2025
+    <h2 class="archive-year-heading" id="heading-2026">
+        Stories from 2026
 
         <button
             class="toggle-button"
             aria-expanded="true"
-            aria-controls="posts-2025"
+            aria-controls="posts-2026"
         >
             <span class="plus-icon">+</span>
 
@@ -19,7 +19,7 @@ layout: default
         </button>
     </h2>
 
-    <div id="posts-2025" class="post-year-group">
+    <div id="posts-2026" class="post-year-group">
         {% assign current_year_string = "now" | date: "%Y" %} {% for post in
         site.posts %} {% assign post_year_string = post.date | date: "%Y" %} {%
         if post_year_string == current_year_string %}
@@ -37,6 +37,41 @@ layout: default
             {% if post.excerpt %}
             <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
             {% endif %}
+        </div>
+        {% endif %} {% endfor %}
+    </div>
+</div>
+
+<div class="archive-section">
+    <h2 class="archive-year-heading" id="heading-2025">
+        Stories from 2025
+
+        <button
+            class="toggle-button"
+            aria-expanded="false"
+            aria-controls="posts-2025"
+        >
+            <span class="plus-icon">+</span>
+
+            <span class="minus-icon">-</span>
+        </button>
+    </h2>
+
+    <div id="posts-2025" class="post-year-group" style="display: none">
+        {% for post in site.posts %} {% assign post_year_string = post.date |
+        date: "%Y" %} {% if post_year_string == "2025" %}
+        <div class="archive-post-list-item">
+            <h3>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            <time>
+                {{ post.date | date: "%b %-d, %Y" }} {% if post.word_count %}
+                <span class="index-word-count">
+                    • Word Count: <strong>{{ post.word_count }}</strong></span
+                >
+                {% endif %}
+            </time>
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
         </div>
         {% endif %} {% endfor %}
     </div>
