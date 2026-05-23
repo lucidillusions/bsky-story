@@ -116,7 +116,7 @@ permalink: /category/publication/
 
             <a href="https://beyondthestarspress.substack.com/p/the-garden-of-unfinished-stories" target="_blank" class="linktree-btn">
                 <span class="linktree-title">The Garden Of Unfinished Stories</span>
-                <span class="linktree-subtitle">Pre-order The Anthropocene on Kickstarter (Late Pledge)</span>
+                <span class="linktree-subtitle">The Anthropocene Epic on Kickstarter</span>
             </a>
 
             <a href="https://www.indiegogo.com/en/projects/horrific-scribblings/extremely-weird-splatter" target="_blank" class="linktree-btn">
