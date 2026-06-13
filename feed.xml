@@ -4,12 +4,19 @@
   <title>Short Stories by Lucid Illusions</title>
   <link href="https://ss.lucidillusions.in/feed.xml" rel="self"/>
   <link href="https://ss.lucidillusions.in/" rel="alternate" type="text/html"/>
-  <updated>2026-06-13T18:01:26+05:30</updated>
+  <updated>2026-06-13T18:17:16+05:30</updated>
   <id>https://ss.lucidillusions.in/feed.xml</id>
   <author>
     <name>Short Stories by Lucid Illusions</name>
   </author>
   <subtitle>This website is a collection of my short stories.</subtitle><entry>
+    <title type="html">A Gnawing Silence of my Sleep Demon</title>
+    <link href="https://ss.lucidillusions.in/publication/2026/06/12/gnawing-silence.html" rel="alternate" type="text/html" title="A Gnawing Silence of my Sleep Demon"/>
+    <published>2026-06-12T18:00:03+05:30</published>
+    <updated>2026-06-12T18:00:03+05:30</updated>
+    <id>https://ss.lucidillusions.in/publication/2026/06/12/gnawing-silence.html</id><summary type="html">Here’s a short excerpt from my story.
+</summary>
+  </entry><entry>
     <title type="html">The Universal Conquest</title>
     <link href="https://ss.lucidillusions.in/shortstory/2026/01/16/universalconquest.html" rel="alternate" type="text/html" title="The Universal Conquest"/>
     <published>2026-01-16T07:20:03+05:30</published>
@@ -69,10 +76,4 @@
     <id>https://ss.lucidillusions.in/blog/2025-09-11-journey/</id><author>
       <name>Lucid Illusions</name>
     </author><summary type="html">I’ve often mentioned my long history of (attempt at) writing, so I thought I’d share one of my first poems. I still have access to it, and it was inspired...</summary>
-  </entry><entry>
-    <title type="html">Sown in Light</title>
-    <link href="https://ss.lucidillusions.in/bsky/2025/09/06/summer.html" rel="alternate" type="text/html" title="Sown in Light"/>
-    <published>2025-09-06T07:20:03+05:30</published>
-    <updated>2025-09-06T07:20:03+05:30</updated>
-    <id>https://ss.lucidillusions.in/bsky/2025/09/06/summer.html</id><summary type="html">The sun was a warm weight on the back of my neck, the kind of heat that promises a summer spent in a haze of salt air and slow afternoons....</summary>
   </entry></feed>
