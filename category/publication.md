@@ -118,11 +118,16 @@ permalink: /category/publication/
             <span class="linktree-subtitle">HEXFILED</span>
         </a>
 
+        <a href="https://www.patreon.com/NandNNarrative/posts/june-newsletter-160856586" target="_blank" class="linktree-btn">
+            <span class="linktree-title">A Gnawing Silence of my Sleep Demon</span>
+            <span class="linktree-subtitle">HEXFILED</span>
+        </a>
+
         <h3 class="linktree-heading" style="margin-top: 35px;">ORDER / PRE-ORDER / BACK PROJECTS</h3>
 
-        <a href="https://beyondthestarspress.substack.com/p/the-garden-of-unfinished-stories" target="_blank" class="linktree-btn">
+        <a href="https://www.amazon.in/Anthropocene-Epic-Sera-Amoroso-ebook/dp/B0H1F8921P" target="_blank" class="linktree-btn">
             <span class="linktree-title">The Garden Of Unfinished Stories</span>
-            <span class="linktree-subtitle">The Anthropocene Epic on Kickstarter</span>
+            <span class="linktree-subtitle">The Anthropocene Epic on Kindle</span>
         </a>
 
         <a href="https://www.indiegogo.com/en/projects/horrific-scribblings/extremely-weird-splatter" target="_blank" class="linktree-btn">
