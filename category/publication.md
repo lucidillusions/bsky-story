@@ -120,7 +120,7 @@ permalink: /category/publication/
 
         <a href="https://www.patreon.com/NandNNarrative/posts/june-newsletter-160856586" target="_blank" class="linktree-btn">
             <span class="linktree-title">A Gnawing Silence of my Sleep Demon</span>
-            <span class="linktree-subtitle">HEXFILED</span>
+            <span class="linktree-subtitle">N&N Narrative</span>
         </a>
 
         <h3 class="linktree-heading" style="margin-top: 35px;">ORDER / PRE-ORDER / BACK PROJECTS</h3>
