@@ -4,8 +4,8 @@ title:  "Ground Control To Major Thorne"
 date:   2026-06-14 15:50:03 +0530
 author: Lucid Illusions
 categories: blog
-comments: false
-bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3m24ypdvcrs2n
+comments: true
+bluesky_post_uri: https://bsky.app/profile/lucidillusions.in/post/3moamxulxmc2k
 ---
 
 If you are a millennial, some of the most formative years of your life on the internet were likely spent in chat rooms and forums. This also means you probably made a whole lot of online friends who, one day, simply stopped logging on. I often wonder about them. Every now and then, I'll see a familiar handle on social media and wonder if it's the same person from back in the day. Usually, it isn't. Finding an old internet friend is like looking for a needle—not just in a haystack, but in a barn full of them.
