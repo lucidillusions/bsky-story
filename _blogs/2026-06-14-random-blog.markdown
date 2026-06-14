@@ -32,7 +32,7 @@ p.s. This post is a work of fiction, mostly a jab at LLMs using Elias Thorne in 
 <hr />
 
 ### Publications
-Between the last blog post on this site and now I've gotten few of my stories that got published, you can read them here:
+Since my last post, a few of my stories have been published. You can read them here:
 1. [The Leviathan’s Mercy](https://theberlinliteraryreview.com/dr-suvajeet-duttagupta-the-leviathans-mercy/) was published by The Berlin Literary Review (Nov 2025)
 2. [Break in the Routine](https://effyliterary.art/2026/03/27/break-in-the-routine/) was published by Effy: A Literary Art Magazine (Mar 2026)
 3. [The Digital Familiar](https://www.brownhoundpress.com/stories/suvajeet-duttagupta-the-digital-familiar) was published by Brown Hound Press (Apr 2026)
