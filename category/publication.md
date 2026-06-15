@@ -113,6 +113,11 @@ permalink: /category/publication/
             <span class="linktree-subtitle">Twisted Tongue Press</span>
         </a>
 
+        <a href="https://saimihanma.com/invertefest/#anthology" target="_blank" class="linktree-btn">
+            <span class="linktree-title">The Aria of the Painted Lady</span>
+            <span class="linktree-subtitle">InverteFest Anthology #1</span>
+        </a>
+
         <a href="https://hexfiled.com/weaver" target="_blank" class="linktree-btn">
             <span class="linktree-title">The Weaver's Thicket</span>
             <span class="linktree-subtitle">HEXFILED</span>
@@ -121,6 +126,16 @@ permalink: /category/publication/
         <a href="https://www.patreon.com/NandNNarrative/posts/june-newsletter-160856586" target="_blank" class="linktree-btn">
             <span class="linktree-title">A Gnawing Silence of my Sleep Demon</span>
             <span class="linktree-subtitle">N&N Narrative</span>
+        </a>
+
+        <a href="https://www.metastellar.com/fiction/flash-fiction/kiss-to-forget/" target="_blank" class="linktree-btn">
+            <span class="linktree-title">Kiss to Forget</span>
+            <span class="linktree-subtitle">MetaStellar</span>
+        </a>
+
+        <a href="" target="_blank" class="linktree-btn">
+            <span class="linktree-title">Hallowed Be Thy Beans</span>
+            <span class="linktree-subtitle">Available On 22nd June</span>
         </a>
 
         <h3 class="linktree-heading" style="margin-top: 35px;">ORDER / PRE-ORDER / BACK PROJECTS</h3>
