@@ -171,7 +171,7 @@ permalink: /category/publication/
             <span class="linktree-title">Beyond Abzu</span>
             <span class="linktree-subtitle">Flame Tree Publishing</span>
         </a>
-
+        <h3 class="linktree-heading" style="margin-top: 35px;">SOCIALS & SUPPORT</h3>
     </div>
 
     <div class="social-strip">
@@ -187,8 +187,23 @@ permalink: /category/publication/
         <a href="https://www.threads.net/@lucidillusions.in" target="_blank" class="social-link" title="Threads">
             <i class="fa-brands fa-threads"></i>
         </a>
+        <a href="https://mastodon.social/@lucidillusions" target="_blank" class="social-link" title="Mastodon">
+            <i class="fa-brands fa-mastodon"></i>
+        </a>
+        <a href="https://lucidillusions.darkroom.com/" target="_blank" class="social-link" title="Photo Prints on Darkroom">
+            <i class="fa-solid fa-camera"></i>
+        </a>
+        <a href="https://www.inprnt.com/gallery/lucidillusions/" target="_blank" class="social-link" title="Art Prints on Inprnt">
+            <i class="fa-solid fa-paintbrush"></i>
+        </a>
         <a href="https://ko-fi.com/lucidillusions" target="_blank" class="social-link" title="Ko-Fi">
             <i class="fa-solid fa-mug-hot"></i>
+        </a>
+        <a href="https://www.paypal.com/paypalme/lucidillusions" target="_blank" class="social-link" title="PayPal">
+            <i class="fa-brands fa-paypal"></i>
+        </a>
+        <a href="https://buymeacoffee.com/lucidillusions" target="_blank" class="social-link" title="Buy Me A Coffee">
+            <i class="fa-solid fa-mug-saucer"></i>
         </a>
     </div>
     <hr />
