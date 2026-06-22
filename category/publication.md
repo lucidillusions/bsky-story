@@ -54,26 +54,39 @@ permalink: /category/publication/
         opacity: 0.9;
     }
 
-    /* Repositioned Social Strip Styling */
-    .social-strip {
+    /* Container for the entire hardcoded social block area */
+    .social-strip-container {
+        max-width: 600px;
+        margin: 20px auto 25px auto; /* Perfectly spaces the rows beneath the layout header */
+        text-align: center;
+    }
+
+    /* Individual row styling elements */
+    .social-row {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 28px;
-        margin: 25px auto 20px auto; /* Centered between Linktree and the HR divider */
-        padding: 10px 0;
-        max-width: 600px;
+        gap: 32px; /* Generous horizontal spacing between your icons */
     }
+
+    /* Specific space separator layout between row 1 and row 2 */
+    .row-top {
+        margin-bottom: 20px;
+    }
+
+    /* Clean styling for your Font Awesome anchors */
     .social-link {
-        color: inherit !important;
+        color: inherit !important; /* Respects both light & dark browser profiles naturally */
         text-decoration: none !important;
-        font-size: 26px;
+        font-size: 26px; /* Balanced icon display scale */
         transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
         display: inline-flex;
     }
+
+    /* Interactive accent lift actions */
     .social-link:hover {
-        color: #d16281 !important;
-        transform: translateY(-2px);
+        color: #d16281 !important; /* Soft rose highlight tint */
+        transform: translateY(-2px); /* Smooth hover lift effect */
     }
 </style>
 
@@ -133,9 +146,9 @@ permalink: /category/publication/
             <span class="linktree-subtitle">MetaStellar</span>
         </a>
 
-        <a href="" target="_blank" class="linktree-btn">
+        <a href="https://www.fictionontheweb.co.uk/2026/06/hallowed-be-thy-beans-by-dr-suvajeet.html" target="_blank" class="linktree-btn">
             <span class="linktree-title">Hallowed Be Thy Beans</span>
-            <span class="linktree-subtitle">Available On 22nd June</span>
+            <span class="linktree-subtitle">Fiction On The Web</span>
         </a>
 
         <h3 class="linktree-heading" style="margin-top: 35px;">ORDER / PRE-ORDER / BACK PROJECTS</h3>
@@ -171,40 +184,48 @@ permalink: /category/publication/
             <span class="linktree-title">Beyond Abzu</span>
             <span class="linktree-subtitle">Flame Tree Publishing</span>
         </a>
+
         <h3 class="linktree-heading" style="margin-top: 35px;">SOCIALS & SUPPORT</h3>
     </div>
 
-    <div class="social-strip">
-        <a href="https://patreon.lucidillusions.in/" target="_blank" class="social-link" title="Patreon">
-            <i class="fa-brands fa-patreon"></i>
-        </a>
-        <a href="https://bsky.app/profile/lucidillusions.in" target="_blank" class="social-link" title="Bluesky">
-            <i class="fa-brands fa-bluesky"></i>
-        </a>
-        <a href="https://www.instagram.com/lucidillusions.in/" target="_blank" class="social-link" title="Instagram">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.threads.net/@lucidillusions.in" target="_blank" class="social-link" title="Threads">
-            <i class="fa-brands fa-threads"></i>
-        </a>
-        <a href="https://mastodon.social/@lucidillusions" target="_blank" class="social-link" title="Mastodon">
-            <i class="fa-brands fa-mastodon"></i>
-        </a>
-        <a href="https://lucidillusions.darkroom.com/" target="_blank" class="social-link" title="Photo Prints on Darkroom">
-            <i class="fa-solid fa-camera"></i>
-        </a>
-        <a href="https://www.inprnt.com/gallery/lucidillusions/" target="_blank" class="social-link" title="Art Prints on Inprnt">
-            <i class="fa-solid fa-paintbrush"></i>
-        </a>
-        <a href="https://ko-fi.com/lucidillusions" target="_blank" class="social-link" title="Ko-Fi">
-            <i class="fa-solid fa-mug-hot"></i>
-        </a>
-        <a href="https://www.paypal.com/paypalme/lucidillusions" target="_blank" class="social-link" title="PayPal">
-            <i class="fa-brands fa-paypal"></i>
-        </a>
-        <a href="https://buymeacoffee.com/lucidillusions" target="_blank" class="social-link" title="Buy Me A Coffee">
-            <i class="fa-solid fa-mug-saucer"></i>
-        </a>
+    <div class="social-strip-container">
+
+        <div class="social-row row-top">
+            <a href="https://patreon.lucidillusions.in/" target="_blank" class="social-link" title="Patreon">
+                <i class="fa-brands fa-patreon"></i>
+            </a>
+            <a href="https://bsky.app/profile/lucidillusions.in" target="_blank" class="social-link" title="Bluesky">
+                <i class="fa-brands fa-bluesky"></i>
+            </a>
+            <a href="https://www.instagram.com/lucidillusions.in/" target="_blank" class="social-link" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.threads.net/@lucidillusions.in" target="_blank" class="social-link" title="Threads">
+                <i class="fa-brands fa-threads"></i>
+            </a>
+            <a href="https://mastodon.social/@lucidillusions" target="_blank" class="social-link" title="Mastodon">
+                <i class="fa-brands fa-mastodon"></i>
+            </a>
+        </div>
+
+        <div class="social-row">
+            <a href="https://lucidillusions.darkroom.com/" target="_blank" class="social-link" title="Photo Prints on Darkroom">
+                <i class="fa-solid fa-camera"></i>
+            </a>
+            <a href="https://www.inprnt.com/gallery/lucidillusions/" target="_blank" class="social-link" title="Art Prints on Inprnt">
+                <i class="fa-solid fa-paintbrush"></i>
+            </a>
+            <a href="https://ko-fi.com/lucidillusions" target="_blank" class="social-link" title="Ko-Fi">
+                <i class="fa-solid fa-mug-hot"></i>
+            </a>
+            <a href="https://www.paypal.com/paypalme/lucidillusions" target="_blank" class="social-link" title="PayPal">
+                <i class="fa-brands fa-paypal"></i>
+            </a>
+            <a href="https://buymeacoffee.com/lucidillusions" target="_blank" class="social-link" title="Buy Me A Coffee">
+                <i class="fa-solid fa-mug-saucer"></i>
+            </a>
+        </div>
+
     </div>
     <hr />
 

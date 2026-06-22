@@ -7,8 +7,6 @@ comments: true
 bluesky_post_uri: https://bsky.app/profile/did:plc:36h6ttx2g23zqr4accilbvo7/post/3mo4427emjs2a
 ---
 
-Here's a short excerpt from my story.
-
 >“It soon brought back the paralysis. It wasn’t just the heaviness during sleep; it was a granite weight pressing on his chest, pinning him to the mattress. He would wake into a world that was almost exactly like his own, yet wrong in its stillness. In the past, he saw only darkness, but now, he saw movement.”
 
 <hr />
